@@ -1,0 +1,87 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_strikecruiser_mesh"
+		file = "gfx/models/ships/swfo_01/SCR/swfo_01_strikecruiser.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "LightsShape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Hull2.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Hull2_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_s04_Hull.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Dominator_LightsShape"
+			index = 0
+			texture_diffuse = "Empire_Interdictor_Star_Destroyer_Plateau.dds"
+			texture_normal = "Empire_Interdictor_Star_Destroyer_Plateau_B.dds"
+			texture_specular = "Empire_Interdictor_Star_Destroyer_Plateau_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "objGravity_WellsShape"
+			index = 0
+			texture_diffuse = "Empire_Interdictor_Gravity_Wells_Diff.dds"
+			texture_normal = "Empire_Interdictor_Gravity_Wells_Nom.dds"
+			texture_specular = "Empire_Interdictor_Gravity_Wells_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "objSuper_StructureShape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Super_Structure.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Super_Structure_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Super_s05_Structure.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "objArmorShape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "objHullShape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Hull.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Hull_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_s04_Hull.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "objEnginesShape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Engine.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Engine_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_S02_Engine.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HangerShape"
+			index = 0
+			texture_diffuse = "Hanger_Diff.dds"
+			texture_normal = "Hanger_Nom.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Engine_ExhaustShape"
+			index = 0
+			texture_diffuse = "Engine_Exhaust2_Diff.dds"
+			texture_normal = "Engine_Exhaust2_Nom.dds"
+			texture_specular = "Engine_Exhaust2_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

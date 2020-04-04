@@ -1,0 +1,39 @@
+objectTypes = {
+	pdxmesh = {
+		name = "supermacy_1_mesh"
+		file = "gfx/models/ships/supermacy/supermacy_1.mesh"
+		scale = 3.0
+
+		animation = {
+			id = open
+			type = supermacy_1_open_animation
+		}
+
+		meshsettings = {
+			name = "Hull_RightShape"
+			index = 0
+			texture_diffuse = "First_Order_Supremacy.dds"
+			texture_normal = "First_Order_Supremacy_B.dds"
+			texture_specular = "First_Order_Supremacy_S.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_LeftShape"
+			index = 0
+			texture_diffuse = "First_Order_Supremacy.dds"
+			texture_normal = "First_Order_Supremacy_B.dds"
+			texture_specular = "First_Order_Supremacy_S.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "LightsShape"
+			index = 0
+			texture_diffuse = "First_Order_Supremacy.dds"
+			texture_normal = "First_Order_Supremacy_B.dds"
+			texture_specular = "First_Order_Supremacy_S.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

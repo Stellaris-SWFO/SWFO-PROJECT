@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_explorationship_mesh"
+		file = "gfx/models/ships/swfo_01/exploreship/swfo_01_explorationship.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "CorvetteShape"
+			index = 0
+			texture_diffuse = "Empire_Custom_Corvette.dds"
+			texture_normal = "Empire_Custom_Corvette_B.dds"
+			texture_specular = "Empire_Custom_Corvette_01.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

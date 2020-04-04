@@ -1,0 +1,34 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_corvette_mesh"
+		file = "gfx/models/ships/swfo_01/covvete/swfo_01_corvette.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "LightsShape"
+			index = 0
+			texture_diffuse = "Empire_Vigil_Corvette2.dds"
+			texture_normal = "Empire_Vigil_Corvette2_B.dds"
+			texture_specular = "Empire_Vigil_Corvette2_01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Empire_Vigil_Corvette.dds"
+			texture_normal = "Empire_Vigil_Corvette_B.dds"
+			texture_specular = "Empire_Vigil_Corvette_01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ATurretShape"
+			index = 0
+			texture_diffuse = "Empire_Allegiance_Star_Destroyer_Hull.dds"
+			texture_normal = "D:\Desktop\新建文件夹 (6)\Empire_Imperial_Star_Destroyer_Hull_B.dds"
+			texture_specular = "Empire_Allegiance_Star_Destroyer_HullSPEC.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+#Megastructure
+entity = {
+	name = "starkillerbase_megastructure_entity"
+	cull_radius = 500.0
+	locator = { name = "starkillerbase_rotation" position = { 0 0 0 } rotation = { -50 0 0 }}
+	attach = { "starkillerbase_rotation" = "starkillerbase_megastructure_TEMPORARY_entity"}
+}
+
+entity = {
+	name = "starkillerbase_megastructure_TEMPORARY_entity"
+	locator = { name = "root"	position = { 0 0 0 } rotation = { 0 0 0 } }
+	attach = { root = "starkillerbase_entity" }
+	attach = { root = "starkillerbase2_entity" }
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_planet_class" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_planet_class_02" } }
+	}
+	scale = 2.0
+}
+
+###################################################
+entity = {
+	name = "starkillerbase_entity"
+	pdxmesh = "starkillerbase_mesh"
+}
+
+entity = {
+	name = "starkillerbase2_entity"
+	pdxmesh = "starkillerbase2_mesh"
+}

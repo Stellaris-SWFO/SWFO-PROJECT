@@ -1,0 +1,34 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_destroyer_mesh"
+		file = "gfx/models/ships/swfo_01/DESTROYER/swfo_01_destroyer.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "FBXASC229FBXASC175FBXASC185FBXASC232FBXASC177FBXASC161001Shape"
+			index = 0
+			texture_diffuse = "Empire_Interdictor_Gravity_Wells_Diff.dds"
+			texture_normal = "Empire_Interdictor_Gravity_Wells_Nom.dds"
+			texture_specular = "Empire_Interdictor_Gravity_Wells_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ImmobilizerShape"
+			index = 0
+			texture_diffuse = "Empire_Vindicator_Diff.dds"
+			texture_normal = "Empire_Vindicator_Nom.dds"
+			texture_specular = "Empire_Vindicator_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Lights1Shape"
+			index = 0
+			texture_diffuse = "Empire_Vindicator2_Diff.dds"
+			texture_normal = "Empire_Vindicator2_Nom.dds"
+			texture_specular = "Empire_Vindicator2_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,340 @@
+﻿l_simp_chinese:
+ FLAG_CATEGORY_firstorder:0 "第一秩序"
+ 
+ name_list_swfo_name_list:0 "第一秩序"
+ 
+ starkiller_base_NAME:0 "未知星域"
+ starkiller_base_DESC:0 "开始于弑星者基地,威力巨大的超级武器。"
+ 
+ thermal_oscillator:0 "B热振荡器"
+ thermal_oscillator_desc:0 "这个组件位于弑星者基地的表面，储存和储存从它所环绕的恒星收集的暗能量。这不仅为基地本身提供了足够的能量，也为物理学研究提供了动力。"
+ 
+ fostarkiller_base:0 "R毁灭性超级武器"
+ fostarkiller_base_desc:0 "在未知星域的深处，第一秩序建造了一种超级武器，它使用整个星球作为武器平台。作为第一秩序在这个空间内的一个据点，这颗经过改造的可移动严寒行星上聚集了大批士兵、军官和科学家，他们在这个星球上巡逻和操作武器。它还配备了一个行星护盾发生器，以抵御轨道轰击。"
+ 
+ kyber_crystals:0 "M富含凯伯晶体"
+ kyber_crystals_desc: "凯伯晶体，简称为凯伯，是一种罕见的，力调谐晶体，生长在自然界中，并发现在分散在银河系各大行星上。通常被绝地和西斯用来制造光剑。它可以集中巨大的能量，使它们成为制造涡轮激光武器的理想选择。"
+ 
+ civic_first_order_military:0 "复活计划"
+ civic_first_order_military_desc:0 "由第一秩序命令支持的一项秘密行动，重点是绑架过来的儿童训练成为士兵和尖端技术加强陆军和海军的数量。"
+ 
+ START_SCREEN_firstorder:0 "第一秩序是已经灭亡的银河帝国的继承国。作为一个军事政府，第一秩序试图以最高领导人斯努克的名义再次统治银河系。虽然没有帝国那么多，但第一秩序在技术上优于他们的前任，并完全决心以任何必要手段恢复帝国昔日的辉煌。"
+
+ weapon_testing_labs:0 "武器试验室"
+ weapon_testing_labs_desc:0 "这种可移动的武器库包含了许多绝密研究和武器设施，提供最新的研究技术。"
+ 
+ mobile_capital:0 "移动首都"
+ mobile_capital_desc:0 "作为一个指挥中心，移动超级武器，和训练设施，弑星者基地被认为是一个最高效的设施，拥有与大多数移动世界相媲美的补给系统。"
+
+ mobile_training_facility:0 "船上训练设施"
+ mobile_training_facility_desc:0 "这种巨大的武器还包括一个全面运作的训练中心和兵营，为整个第一秩序提供陆军军团。"
+ 
+ #################### - - - - ####################
+ #                   Policies                    #
+ #################### - - - - ####################
+
+ ####################
+ # Foreign Policy
+ ####################
+
+ policy_foreign_policy_rotfo:0 "外交政策"
+ policy_foreign_policy_rotfo_desc:0 "外交政策，或称外交策略，是指国家为维护国家利益和在星际关系环境中实现目标而选择的利己战略。"
+ isolationism_fp:0 "孤立主义"
+ isolationism_fp_desc:0 "与别国的事务保持距离，最有利于各国的利益。无论是为了避免卷入危险的冲突，还是仅仅为了确保文化的纯洁，这一信条都试图把所有的努力都集中在我们自己的进步上，\n\n§这一政策有利于以牺牲与其他银河实体的关系为代价的防御和自我完善的重点。"
+ balanced_foreign_policy_fp:0 "平等的外交政策"
+ balanced_foreign_policy_fp_desc:0 "只有保持对外关系的平衡，我们的国家才能继续为伟大而奋斗。我们必须开放地与银河系中的其他人互动，同时也要确保我们自己的成功不被忽视。\n\n§这是大多数政府采取的平衡方法。"
+ globalism_fp:0 "星际商业"
+ globalism_fp_desc:0 "当我们进一步探索群星的时候，我们必须与那些存在在无尽的虚空中的其他种族合作。只有将我们周围数不清的星际观点、产品、思想和其他方面的文化融为一体，我们才能实现繁荣，\n\n§E这一政策促进了我们与银河系其他许多实体的友好关系。"
+ 
+ ####################
+ # Trade Policy
+ ####################
+
+ policy_trade_policy_rotfo:0 "贸易法"
+ policy_trade_policy_rotfo_desc:0 "贸易政策是国家对自由贸易的立场。"
+ protectionism_tp:0 "贸易保护"
+ protectionism_tp_desc:0 "贸易保护是政府对外国进口商品征税和严查的政策。"
+ balanced_trade_tp:0 "平等贸易"
+ balanced_trade_tp_desc:0 "平等贸易是一项政策，为自由贸易提供了更为中间的途径。虽然贸易并非完全自由流动，但它也没有将外国产品限制在贸易保护议程的范围内。"
+ free_trade_tp:0 "自由贸易"
+ free_trade_tp_desc:0 "自由贸易是一项明确的政策，旨在允许货物自由跨境流动，而不受政府官员、法律或税收的不当干预。"
+
+ ####################
+ # Market Policy
+ ####################
+
+ policy_market_policy_rotfo:0 "市场规律"
+ policy_market_policy_rotfo_desc:0 "市场政策决定了你们国家的经济管理体制。"
+ laissez_faire_mp:0 "不干预"
+ laissez_faire_mp_desc:0 "一种不干涉政府政策，它将市场视为进步的最终工具，并认为市场自发地组织人们活动。"
+ interventionism_mp:0 "政府干预"
+ interventionism_mp_desc:0 "市场是一个有用的增长工具，但它需要政府偶尔的帮助才能成功。"
+ mixed_economy_mp:0 "混合经济"
+ mixed_economy_mp_desc:0 "混合经济是一种公私结合的经济体制。"
+ state_capitalism_fp:0 "国家资本主义制度"
+ state_capitalism_fp_desc:0 "国家资本主义要求国家控制经济的主要方面，但让市场来处理不那么重要的事情。"
+ planned_economy_mp:0 "计划经济"
+ planned_economy_mp_desc:0 "计划经济，又称中央计划经济，把所有经济资源的控制权社会化交给国家。所有的经济决策都是由国家作出的，市场在有关国家中不起作用。"
+
+ ####################
+ # Religious Policy
+ ####################
+
+ policy_religious_policy_rotfo:0 "宗教政策"
+ policy_religious_policy_rotfo_desc:0 "宗教政策决定了你对宗教的国家立场。这代表了贵国政府对宗教的态度，无论是在广义上还是在国家宗教的范围内。"
+ atheism_rp:0 "无神论"
+ atheism_rp_desc:0 "无神论是道德主义的反面。无神论并没有把一个宗教当作一个真正的词，而是积极地抨击所有宗教都是非法的。"
+ secularized_rp:0 "世俗化"
+ secularized_rp_desc:0 "世俗主义是政府在宗教中没有地位的立场，应该避免任何形式的宗教事务。"
+ pluralism_rp:0 "多元论"
+ pluralism_rp_desc:0 "这项政策认为，每个公民都有权持有自己的宗教观点，而宗教多数派（如果有的话）无权侵犯这一自由做法。"
+ moralism_rp:0 "道德主义"
+ moralism_rp_desc:0 "道德主义提倡一种宗教高于一切宗教，并积极寻求将国家宗教传播给宗教少数群体。"
+
+ ####################
+ # Media Rights
+ ####################
+
+ policy_media_policy_rotfo:0 "媒体权限"
+ policy_media_policy_rotfo_desc:0 "一个国家的媒体权限决定了谁控制着通讯和信息的手段。"
+ state_media_mr:0 "官方媒体"
+ state_media_mr_desc:0 "选择将媒体仅限于国营或国家认可的机构，允许政府几乎完全控制信息。"
+ censored_media_mr:0 "受审媒体"
+ censored_media_mr_desc:0 "选择允许某种程度上的自由媒体，但政府保留审查其认为有冒犯性或与目标对立的材料从而阻止的权利。"
+ free_media_mr:0 "自由媒体"
+ free_media_mr_desc:0 "这种选择解放了政府对媒体的控制。信息自由流动，人们自由决定。" 
+ 
+ ####################################
+ # Buildings
+ ####################################
+ 
+ building_swfo_training_facilities:0 "冲锋队训练设施"
+ building_swfo_training_facilities_desc:0 "这些建筑包括全面运作的训练中心和士兵军团的营房。像激励他们克隆人战争中的克隆人士兵一样，第一秩序冲锋队的士兵从一出生就接受训练，用字母数字代替名字，并接受多年的心理训练，以确保绝对忠诚。"
+ 
+ tech_building_swfo_training_facilities:0 "冲锋队训练设施"
+ tech_building_swfo_training_facilities_desc:0 "这些建筑包括全面运作的训练中心和士兵军团的营房。像激励他们克隆人战争中的克隆人士兵一样，第一秩序冲锋队的士兵从一出生就接受训练，用字母数字代替名字，并接受多年的心理训练，以确保绝对忠诚。"
+ 
+ 
+ building_swfo_atat_factory:0 "AT-M6 步行机制造业综合体"
+ building_swfo_atat_factory_desc:0 "用来制造AT-M6这种钢铁巨兽保护他们不断扩张的领土的世界。"
+ 
+ tech_building_swfo_atat_factory:0 "AT-M6 步行机制造业综合体"
+ tech_building_swfo_atat_factory_desc:0 "用来制造AT-M6这种钢铁巨兽保护他们不断扩张的领土的世界。"
+ ####################################
+ # Armys
+ ####################################
+ tech_swfo_stormtrooper_legion:0 "第一秩序冲锋队"
+ tech_swfo_stormtrooper_legion_desc:0 "第一秩序冲锋队的士兵从出生起就接受训练，用字母数字代替名字，并接受多年的心理训练，以确保绝对忠诚。"
+ 
+ swfo_stormtrooper_legion:0 "第一秩序冲锋队"
+ swfo_stormtrooper_legion_desc:0 "第一秩序冲锋队的士兵从出生起就接受训练，用字母数字代替名字，并接受多年的心理训练，以确保绝对忠诚。"
+ 
+ 
+ swfo_atatm6_walker:0 "AT-M6 步行机"
+ swfo_atatm6_walker_desc:0 "这种笨重的装甲巨兽是最第一秩序新一代的步行机，这些巨大的运输工具可以帮助第一秩序保护他们不断扩张的领土上的世界。"
+ 
+ tech_swfo_atatm6_walker:0 "AT-M6 步行机"
+ tech_swfo_atatm6_walker_desc:0 "这种笨重的装甲巨兽是最第一秩序新一代的步行机，这些巨大的运输工具可以帮助第一秩序保护他们不断扩张的领土上的世界。"
+ ####################################
+ # Ship Sizes
+ ####################################
+ firstorder_ship_resurgent:0 "复兴级无畏舰"
+ firstorder_ship_resurgent_plural:0 "复兴级无畏舰"
+ 
+ firstorder_ship_supremacy:0 "宏大级旗舰" 
+ firstorder_ship_supremacy_plural:0 "宏大级旗舰"
+ 
+ ####################################
+ # Section Designs
+ ####################################
+ ST_RESURGENT_BOW:0 "舰首"
+ ST_RESURGENT_MID1:0 "舰船装甲"
+ ST_RESURGENT_MID2:0 "舰船核心"
+ ST_RESURGENT_STERN:0 "舰尾"
+ 
+ supermacy_BOW:0 "舰首"
+ supermacy_MID1:0 "舰船装甲"
+ supermacy_MID2:0 "舰船功能区"
+ supermacy_MID3:0 "舰船核心"
+ supermacy_STERN:0 "舰尾"
+ 
+ ####################################
+ # Ship Components
+ ####################################
+ 
+ ##############Combat computers##############
+ ST_RESURGENT_01_COMBAT_COMPUTER_1:0 "基本作战计算机"
+ ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "中级作战计算机"
+ ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "高级作战计算机"
+ ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "感知作战计算机"
+ ST_RESURGENT_01_COMBAT_COMPUTER_5:0 "预感接口"
+ 
+ ##############Hyper Space Tracker############## 
+ supremacy_hyperspacetracker_component:0 "超空间追踪系统"
+ supremacy_hyperspacetracker_component_DESC:0 "至高无上号使用了先进的超空间追踪系统，这允许它通过超空间追踪目标。机器周围产生的静态超空间场将它们的处理能力提高到前所未有的水平。一个目标最后已知的轨迹产生了数万亿个潜在的目的地，但系统可以以可怕的速度计算这些地点。这也使得船可以跨越更远的距离。"
+ 
+ 
+ #################Resurgent#################
+ RESURGENT_SJFS_REACTOR:0 "SJFS III-A1A 型反应堆"
+ RESURGENT_SJFS_REACTOR_DESC:0 "复兴级歼星舰由一个大型的 SJFS III-A1A 反应堆, 位于船底的圆顶形反应堆安全壳内. 反应堆由一个加固的反应堆上部结构和船体底盘支撑。"
+ 
+ tech_RESURGENTREACTOR1:0 "SJFS III-A1A 型反应堆"
+ tech_RESURGENTREACTOR1_desc:0 "复兴级歼星舰由一个大型的 SJFS III-A1A 反应堆, 位于船底的圆顶形反应堆安全壳内. 反应堆由一个加固的反应堆上部结构和船体底盘支撑。"
+ 
+ RESURGENT_GEMON8_THRUSTER:0 "Gemon 8 型等离子引擎"
+ RESURGENT_GEMON8_THRUSTER_DESC:0 "Gemon-8 是一个大型的离子推进器模块，第一秩序将这些使用在他们的复兴级歼星舰上。"
+ 
+ tech_RESURGENTTHRUSTER1:0 "Gemon 8 型等离子引擎"
+ tech_RESURGENTTHRUSTER1_desc:0 "Gemon-8 是一个大型的离子推进器模块，第一秩序将这些使用在他们的复兴级歼星舰上。"
+ 
+ #################Supremacy#################
+ tech_SUPREMACYREACTOR1:0 "无畏舰反应堆"
+ tech_SUPREMACYREACTOR1_desc:0 "巨大的无畏舰由一个大型超物质湮灭反应堆提供动力。"
+ 
+ SUPREMACY_MCSD_REACTOR:0 "无畏舰反应堆"
+ SUPREMACY_MCSD_REACTOR_DESC:0 "巨大的无畏舰由一个大型超物质湮灭反应堆提供动力。"
+ 
+ SUPREMACY_THRUSTER:0 "无畏舰引擎系统"
+ SUPREMACY_THRUSTER_DESC:0 "无畏舰的亚光速引擎，这是对两颗死星的亚光速引擎系统的改进的成果。"
+ 
+ tech_SUPREMACYTHRUSTER1:0 "至高无上旗舰引擎系统"
+ tech_SUPREMACYTHRUSTER1_desc:0 "至高无上旗舰大约有32个亚光引擎，这是对两颗死星的亚光速引擎系统的改进的成果。"
+ 
+ tech_supremacyhyperspacetracker:0 "超空间追踪系统"
+ tech_supremacyhyperspacetracker_desc:0 "至高无上号使用了先进的超空间追踪系统，这允许它通过超空间追踪目标。机器周围产生的静态超空间场将它们的处理能力提高到前所未有的水平。一个目标最后已知的轨迹产生了数万亿个潜在的目的地，但系统可以以可怕的速度计算这些地点。这也使得船可以跨越更远的距离。"
+ 
+ SHIP_SUPREMACY_HYPERSPACE_TRACKER:0 "超空间追踪系统"
+ SHIP_SUPREMACY_HYPERSPACE_TRACKER_DESC:0 "至高无上号使用了先进的超空间追踪系统，这允许它通过超空间追踪目标。机器周围产生的静态超空间场将它们的处理能力提高到前所未有的水平。一个目标最后已知的轨迹产生了数万亿个潜在的目的地，但系统可以以可怕的速度计算这些地点。这也使得船可以跨越更远的距离。"
+ 
+ #################Orbital Canon#################
+ SHIP_MANDATOR_ORBITAL_CANON:0 "委托者IV无畏舰火炮"
+ SHIP_MANDATOR_ORBITAL_CANON_DESC:0 "委托者IV级无畏舰装备了两个轨道自动发射炮，可以在需要补给前连续发射两轮齐射。"
+ 
+ ####################################
+ # Starbase Building (Shipyard)
+ ####################################
+ stardestroyer_yards_desc_modifier:0 "船坞: R歼星舰建造启用！"
+ 
+ sm_stardestroyer_yards:0 "复兴级建造船坞"
+ sm_stardestroyer_yards_desc:0 "作为一个重要的海军综合体，复兴级歼星舰造船厂是唯一一个有足够能力制造这样一艘复杂船只的造船厂。围绕行星运行的造船厂被用于基本的船舶修理、制造和机密技术的开发。"
+ 
+ tech_starbasebuilding_stardestroyer:0 "复兴级建造船坞"
+ tech_starbasebuilding_stardestroyer_desc:0 "作为一个重要的海军综合体，复兴级歼星舰造船厂是唯一一个有足够能力制造这样一艘复杂船只的造船厂。围绕行星运行的造船厂被用于基本的船舶修理、制造和机密技术的开发。"
+
+ ####################################
+ # Resurgent Class (Ship)
+ ####################################
+ TECH_UNLOCK_DESTROYER_CONSTRUCTION_TITLE:0 "§H解锁舰船类型:§! 复兴级歼星舰"
+ TECH_UNLOCK_DESTROYER_CONSTRUCTION_DESC:0 "§H歼星舰§!\n它是为先进的舰对舰作战能力而设计的，它是第一秩序力量的象征，激发了敌人对第一秩序的敬畏和第一秩序军中的自豪感。"
+ 
+ tech_RESURGENTCLASS:0 "复兴级歼星舰r"
+ tech_RESURGENTCLASS_desc:0 "D它是为先进的舰对舰作战能力而设计的，它是第一秩序力量的象征，激发了敌人对第一秩序的敬畏和第一秩序军中的自豪感。"
+ 
+ ####################################
+ # Mandator IV Class (Ship)
+ ####################################
+ firstorder_ship_mandator:0 "委托者IV级无畏舰"
+ firstorder_ship_mandator_plural:0 "委托者IV级无畏舰"
+ tech_MANDATORCLASS:0 "委托者IV级无畏舰"
+ tech_MANDATORCLASS_desc:0 "委托者IV级无畏舰 委托者IV级无畏舰是复兴级歼星舰的两倍半长，7669.71米。它有53000名军官，140000名士兵和22000名冲锋队员。"
+ Manator_ship_BOW:0 "舰首"
+ Manator_ship_MID1:0 "舰船核心"
+ Manator_ship_MID2:0 "舰船装甲"
+ Manator_ship_MID3:0 "舰尾"
+
+ ####################################
+ # Supremacy Class (Ship)
+ ####################################
+ tech_SUPREMACYCLASS:0 "宏大级旗舰"
+ tech_SUPREMACYCLASS_desc:0 "至高无上号是一艘宏大级超级无畏舰，作为最高领袖史努克的旗舰和第一秩序的移动总部。"
+ ####################################
+ # Eclipse (Ship)
+ ####################################
+ tech_ECLIPSECLASS:0 "日蚀级超级歼星舰"
+ tech_ECLIPSECLASS_desc:0 "日蚀级无畏号，也被称为日蚀级超级歼击舰，是一种帝国级超级歼击舰，由夸特动力船坞制造，主要在恩多战役后6年左右使用。像主权阶级一样，他们被视为新一代超级歼星舰。第一秩序很快就认识到了她的优越性，建造了一个没有摧毁行星能力，但有足够能力摧毁整艘主力舰的原型。"
+ 
+ firstorder_ship_eclipse:0 "日蚀级超级歼星舰"
+ firstorder_ship_eclipse_plural:0 "日蚀级超级歼星舰"
+ firstorder_ship_eclipse_BOW:0 "舰首"
+ firstorder_ship_eclipse_MID1:0 "舰体装甲"
+ firstorder_ship_eclipse_MID2:0 "舰体功能"
+ firstorder_ship_eclipse_MID3:0 "舰体核心"
+ firstorder_ship_eclipse_STERN:0 "舰尾n"
+ 
+ #Eclipse Superlaser
+ EDY_SUPERLASER:0 "日蚀级超级激光炮"
+ EDY_SUPERLASER_DESC:0 "日蚀级超级歼星舰携带的最致命的武器是一个轴向超级激光，与死星的超级激光中使用的一种光束，但其强度明显低于后者。这种超级激光是帝国舰队毁灭性武器的顶峰。"
+ 
+ #Mandator Superlaser
+ EDY_sithlaser:0 "委托者IV无畏舰火炮"
+ EDY_sithlaser_desc:0 "委托者IV级无畏舰装备了两个轨道自动发射炮，可以在需要补给前连续发射两轮齐射。"
+ 
+ #TIE/fo
+ SWFO_TIE_FIGHTER:0 "TIE/FO 战斗机"
+ SWFO_TIE_FIGHTER_DESC:0 "TIE/FO 战斗机 俗称第一秩序TIE战斗机，是第一秩序使用的星际战斗机。TIE/FO是西纳舰队系统的一个产品，它的前身TIE/LN太空优势星际战斗机的外观是TIE/FO，它的内部改进为它提供了更强大的防御能力。"
+ 
+ tech_strike_craft_tiefo:0 "TIE/FO 战斗机"
+ tech_strike_craft_tiefo_desc:0 "TIE/FO 战斗机 俗称第一秩序TIE战斗机，是第一秩序使用的星际战斗机。TIE/FO是西纳舰队系统的一个产品，它的前身TIE/LN太空优势星际战斗机的外观是TIE/FO，它的内部改进为它提供了更强大的防御能力。"
+ 
+ #TIE Silencer
+ 
+ SWFO_TIE_SILENCER:0 "TIE/VN 沉默者"
+ SWFO_TIE_SILENCER_DESC:0 "空间优势战斗机，正式名称为TIE-宿怨空间优势战斗机，也被称为TIE沉默者，是第一秩序使用的TIE-LINE星际战斗机的角度变体。西纳舰队系统的产品，其侵略性的设计和同样令人印象深刻的火力，是专门为第一秩序最优秀的成员而设计的。"
+ 
+ tech_strike_craft_tiesilencer:0 "TIE/VN 沉默者"
+ tech_strike_craft_tiesilencer_desc:0 "空间优势战斗机，正式名称为TIE-宿怨空间优势战斗机，也被称为TIE沉默者，是第一秩序使用的TIE-LINE星际战斗机的角度变体。西纳舰队系统的产品，其侵略性的设计和同样令人印象深刻的火力，是专门为第一秩序最优秀的成员而设计的。"
+ 
+  ####################################
+ # Starkiller Base (Megastructure)
+ #################################### 
+ #Under Construction
+ swfo_starkillerbase_0:0 "启动弑星者基地工程"
+ swfo_starkillerbase_0_DESC:0 "是时候建筑我们的超级武器了"
+ 
+ swfo_starkillerbase_0_1:0 "弑星者基地工程一期"
+ swfo_starkillerbase_0_1_DESC:0 "我们需要在这颗行星上进行大规模的采矿作业，以开采行星上的凯伯晶体矿床，供我们的战争机器使用，在完成足够的挖掘后，我们将这颗行星改造成一座巨大的移动武器平台，巨大的超光束阵列嵌入行星外壳的巨大壕沟中。由于壕沟多年前就被帝国挖出来了，所以将这颗行星转换成超级武器要容易得多。"
+ 
+ swfo_starkillerbase_0_2:0 "弑星者基地工程二期"
+ swfo_starkillerbase_0_2_DESC:0 "热振荡器是一种存在于各种载具和机器中的部件。 它是我们的弑星者基地超级武器所需要的，用来防止行星因内部能量而变得不稳定。弑星者基地利用恒星的能量收集暗能量，然后用于摧毁遥远的恒星系统。为了储存这种能量，热振荡器产生一个振荡的封闭场，这使得装置在容纳它运行所需的大量暗能量时比正常情况下消耗的能量要少得多。"
+ 
+ #Completed
+ swfo_starkillerbase_1:0 "弑星者基地"
+ swfo_starkillerbase_1_DESC:0 "一个完整的可操作的弑星者基地。它能够将恒星的能量聚焦成一束高能光束，从而摧毁整个行星。"
+ swfo_starkillerbase_2:0 "开火！"
+ swfo_starkillerbase_2_DESC:0 "开火！"
+ 
+ #Target Marker
+ starkiller_planet_target_marker_0:0 "锁定行星坐标"
+ starkiller_planet_target_marker_0_DESC:0 "这颗行星已被标记"
+ starkiller_planet_target_marker_0_MEGASTRUCTURE_DETAILS:0 "标记一颗行星并向其发射毁灭性光束" 
+ 
+ starkiller_planet_target_marker_1:0 "空间裂缝"
+ starkiller_planet_target_marker_1_DESC:0 "弑星者基地恐怖的能量光束正在通过这个裂缝"
+ starkiller_planet_target_marker_2:0 "空间裂缝"
+ starkiller_planet_target_marker_2_DESC:0 "来自弑星者基地的恐怖光束正在通过这个裂缝"
+ swfo_starkillerbase_a:0 "启动武器"
+ swfo_starkillerbase_a_DESC:0 "我们现在准备好向指定的目标行星发射我们的武器"
+ swfo_sun_drain:0 "充能中"
+ swfo_sun_drain_DESC:0 "充能中"
+ contingency_jams_target:"不能攻击肃正星球"
+ 
+ ################
+ #EXEGOL
+ ################
+ sith_fortress:0 "西斯堡垒"
+ sith_fortress_desc:0 "一座古老的西斯神庙，位于埃克塞戈隐藏的西斯世界，是西斯永恒崇拜和西斯王座的所在。城堡本身是一个巨大的地下堡垒，表面有一个巨大的倒金字塔结构，由黑石构成。"
+ opinion_starkillerbase_broke_our_system_planet:0 "他们疯了!"
+ opinion_in_starkillerbase_fire_control:0 "该死，他们拥有了超级武器"
+ #################################
+ swfo_01: "First Oder"
+ PLANET_KILLER_JUMP:"超级激光"
+ EDY_PLANET_DESTROYER_WEAPON:"超级激光"
+ EDY_PLANET_DESTROYER_WEAPON_DESC:"死星携带的最致命的武器是一个轴向超级激光，这种超级激光是帝国舰队毁灭性武器的顶峰。"
+ PLANET_KILLER_JUMP_DESC:"死星携带的最致命的武器是一个轴向超级激光，与死星的超级激光中使用的一种光束，但其强度明显低于后者。这种超级激光是帝国舰队毁灭性武器的顶峰。"
+ PLANET_KILLER_JUMP_ACTION:"世界爆破"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_JUMP:0 "准备毁灭行星 $PLANET|Y$"
+ MESSAGE_DESC_FOR_PLANET_KILLER_JUMP:"已被摧毁，执行者是"
+origin_tooltip_first_order_military_effects:"我们将会掌控整个宇宙"
+origin_first_order_military:"重生"
+origin_first_order_military_desc:0 "我们的未来寄托于此，我们的存在依靠于此，我们将会恢复银河秩序，无人能阻挡我们,现在，我们就是秩序"
+need_stardestroyershipyard:"需要复兴级建造基地"

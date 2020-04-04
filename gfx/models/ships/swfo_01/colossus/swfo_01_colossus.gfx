@@ -1,0 +1,49 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_colossus_mesh"
+		file = "gfx/models/ships/swfo_01/colossus/swfo_01_colossus.mesh"
+		scale = 1.5
+		
+		animation = { id = "idle"			type = "swfo_01_colossus_idle_animation" }
+		animation = { id = "open"			type = "swfo_01_colossus_open_animation" }
+		animation = { id = "opening"		type = "swfo_01_colossus_opening_animation" }
+		animation = { id = "clossing"		type = "swfo_01_colossus_clossing_animation" }
+		animation = { id = "closs"		type = "swfo_01_colossus_closs_animation" }
+
+		meshsettings = {
+			name = "DishShape"
+			index = 0
+			texture_diffuse = "Empire_Death_Star_Dish.dds"
+			texture_normal = "Empire_Death_Star_Dish_B.dds"
+			texture_specular = "Empire_Death_Star_Dish_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "TrenchShape"
+			index = 0
+			texture_diffuse = "Empire_Death_Star_Trench.dds"
+			texture_normal = "Empire_Death_Star_Trench_B.dds"
+			texture_specular = "Empire_Death_Star_Trench_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SuperstructureShape"
+			index = 0
+			texture_diffuse = "Empire_Death_Star_Superstructure.dds"
+			texture_normal = "Empire_Death_Star_Superstructure_B.dds"
+			texture_specular = "Empire_Death_Star_Superstructure_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "BodyShape"
+			index = 0
+			texture_diffuse = "Empire_Death_Star_Hull.dds"
+			texture_normal = "Empire_Death_Star_Hull_B.dds"
+			texture_specular = "Empire_Death_Star_Hull_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_titan_1_mesh"
+		file = "gfx/models/ships/swfo_01/titan/swfo_01_titan_1.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "objBridgeShape"
+			index = 0
+			texture_diffuse = "Empire_Allegiance_Star_Destroyer_Bridge.dds"
+			texture_normal = "Empire_Allegiance_Star_Destroyer_Bridge_B.dds"
+			texture_specular = "Empire_Allegiance_Star_Destroyer_BridgeSPEC.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

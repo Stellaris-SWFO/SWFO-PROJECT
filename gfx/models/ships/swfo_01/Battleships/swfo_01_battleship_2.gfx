@@ -1,0 +1,33 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_battleship_2_mesh"
+		file = "gfx/models/ships/swfo_01/Battleships/swfo_01_battleship_2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "objHullShape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Hull.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Hull_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_s04_Hull.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret4Shape"
+			index = 0
+			texture_diffuse = "W_XX_91.dds"
+			texture_normal = "W_XX_91_01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "TTurret010Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Dual_Ion_Cannon.dds"
+			texture_normal = "Empire_Imperial_Dual_Ion_Cannon_B.dds"
+			texture_specular = "Empire_Imperial_Dual_S01_Ion_Cannon.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

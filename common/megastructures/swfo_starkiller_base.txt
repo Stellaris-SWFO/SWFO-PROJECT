@@ -1,0 +1,348 @@
+swfo_starkillerbase_0 = {
+
+entity = "construction_platform_entity"
+construction_entity = "construction_platform_entity"
+portrait = "GFX_megastructure_starkiller_background1"
+construction_blocks_others = yes
+
+	potential = {
+		always = no
+	}
+	ai_weight = {
+		factor = 0
+		modifier = {
+			factor = 0
+			has_any_megastructure_in_empire = yes
+		}
+	}
+}
+swfo_starkillerbase_0_1 = {
+
+entity = "starkillerbase_megastructure_entity"
+construction_entity = "starkillerbase_megastructure_entity"
+portrait = "GFX_megastructure_starkiller_background2"
+construction_blocks_others = yes
+	upgrade_from = {
+		swfo_starkillerbase_0
+	}
+build_time = 3600
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 15000
+			influence = 500
+			minerals = 20000
+		}
+		upkeep = {
+			energy = 15
+		}
+	}
+	ai_weight = {
+		factor = 0
+		
+	}
+}
+swfo_starkillerbase_0_2 = {
+
+entity = "starkillerbase_megastructure_entity"
+construction_entity = "starkillerbase_megastructure_entity"
+portrait = "GFX_megastructure_starkiller_background3"
+construction_blocks_others = yes
+	upgrade_from = {
+		swfo_starkillerbase_0_1
+	}
+	build_time = 10800
+
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 30000
+		}
+		
+		upkeep = {
+			energy = 25
+		}
+	}
+
+	ai_weight = {
+		factor = 0
+	}
+}
+swfo_starkillerbase_1 = {
+
+	entity = "starkillerbase_megastructure_entity"
+	construction_entity = "starkillerbase_megastructure_entity"
+	portrait = "GFX_megastructure_starkiller_background4"
+	construction_blocks_others = no
+	upgrade_from = {
+		swfo_starkillerbase_0_2
+	}
+	build_time = 5400
+	
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 35000
+		}
+		
+		upkeep = {
+			energy = 150
+		}
+	}
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+		from = { 
+        country_event = { id = starkiller.0 }
+        }	
+	}	
+}
+
+swfo_starkillerbase_2 = {
+
+	entity = "starkillerbase_firing_entity"
+	construction_entity = "starkillerbase_megastructure_entity"
+	portrait = "GFX_megastructure_construction_background"
+	construction_blocks_others = no
+	upgrade_desc = hide
+	
+	upgrade_from = {
+		swfo_starkillerbase_1
+	}
+	build_time = 1
+	resources = {
+		category = megastructures
+		cost = {
+			energy = 50000
+		}	
+	}
+	potential = {
+	}
+	possible = {
+		custom_tooltip = {
+			fail_text = "Requires Planetary target"
+			owner = {	
+				any_megastructure = { is_megastructure_type = starkiller_planet_target_marker_0 }
+			}
+		}
+	}	
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+		set_star_flag = rebuild_soon
+		from = { 
+			country_event = { id = starkiller.1 }
+		}
+		fromfrom.planet = {
+			set_planet_flag = buildingsoon
+		}	
+	}
+}
+swfo_starkillerbase_a = {
+
+	entity = "starkillerbase_megastructure_entity"
+	construction_entity = "starkillerbase_megastructure_entity"
+	portrait = "GFX_megastructure_construction_background"
+	construction_blocks_others = no
+	build_time = 0
+	potential = {
+		always = no
+	}
+	possible = {
+	}
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {	
+	}	
+}
+##############Target Marker - PLANET############
+starkiller_planet_target_marker_0 = {
+	entity = ""
+	construction_entity = ""
+	portrait = "GFX_megastructure_construction_background"
+	construction_blocks_others = no
+	entity_offset = { x = 0 y = 0 }
+	build_time = 0
+	resources = {
+		category = megastructures
+		cost = {
+			energy = 10000
+			influence = 200
+		}
+	}
+	
+	potential = {
+		owner = {	
+			any_owned_megastructure = { is_megastructure_type = swfo_starkillerbase_1 }
+		}
+	}
+	
+	possible = {
+		custom_tooltip = {
+			fail_text = "Can´t have six Targets"
+			event_target:starkillerbase_location01 = {
+				check_variable = { 
+					which = num_targets
+					value < 5
+				}
+			}	
+		}
+	}
+	
+	placement_rules = {
+		planet_possible = {
+			custom_tooltip = {
+				fail_text = "contingency_jams_target"
+				NOT = { is_planet_class = pc_ai }
+			}
+			custom_tooltip = {
+				fail_text = "Can´t Target Arctic Planet"
+				NOT = { is_planet_class = pc_arctic }
+			}
+			custom_tooltip = {
+				fail_text = "Requires habitable Planet"
+				OR = {
+					is_planet_class = pc_machine
+					is_planet_class = pc_frozen
+					is_planet_class = pc_barren
+					is_planet_class = pc_barren_cold
+					is_planet_class = pc_desert
+					is_planet_class = pc_arid
+					is_planet_class = pc_tundra
+					is_planet_class = pc_continental
+					is_planet_class = pc_tropical
+					is_planet_class = pc_ocean
+					is_planet_class = pc_alpine
+					is_planet_class = pc_savannah
+					is_planet_class = pc_nuked
+					is_planet_class = pc_infested
+					is_planet_class = pc_shielded
+					is_planet_class = pc_gaia
+					is_planet_class = pc_relic
+					is_planet_class = pc_city
+					is_planet_class = pc_aquatic
+					is_planet_class = pc_aquatichot
+					is_planet_class = pc_aquaticcold
+					is_planet_class = pc_aquaticcity
+					is_planet_class = pc_ecocity
+					is_planet_class = pc_bioforge
+					is_planet_class = pc_machine_factory
+					is_planet_class = pc_methane
+					is_planet_class = pc_ammonia
+					is_planet_class = pc_ash
+					is_planet_class = pc_irradiated
+					is_planet_class = pc_gghab
+					is_planet_class = pc_tmhab
+					is_planet_class = pc_tmhab2
+					is_planet_class = pc_mmhab
+					is_planet_class = pc_mmhab2
+					is_planet_class = pc_bhab
+					is_planet_class = pc_bchab
+					is_planet_class = pc_mhab
+					is_planet_class = pc_fhab
+					is_planet_class = pc_prairie
+					is_planet_class = pc_antarctic
+					is_planet_class = pc_snow
+					is_planet_class = pc_glacial
+					is_planet_class = pc_frozen_desert
+					is_planet_class = pc_steppe
+					is_planet_class = pc_hadesert
+					is_planet_class = pc_boreal
+					is_planet_class = pc_sandsea
+					is_planet_class = pc_subarctic
+					is_planet_class = pc_cascadian		
+					is_planet_class = pc_swamp
+					is_planet_class = pc_mangrove
+					is_planet_class = pc_desertislands
+					is_planet_class = pc_mesa
+					is_planet_class = pc_oasis
+					is_planet_class = pc_hajungle
+					is_planet_class = pc_mushroom
+					is_planet_class = pc_retinal
+					is_planet_class = pc_forest
+					is_planet_class = pc_med
+					is_planet_class = pc_primal
+					is_planet_class = pc_karst
+					is_planet_class = pc_superhabitable
+					is_planet_class = pc_tidallylocked
+					is_planet_class = pc_geothermal
+					is_planet_class = pc_biolumen
+					is_planet_class = pc_crystal
+					is_planet_class = pc_floating
+					is_planet_class = pc_graveyard
+					is_planet_class = pc_technoorganic
+					is_planet_class = pc_archive
+					is_planet_class = pc_shenhai
+					is_planet_class = pc_ringworld_habitable_sh
+					is_planet_class = pc_wsg_port
+				}
+			}
+			custom_tooltip = {
+				fail_text = "Can�t target a star"
+				is_star = no
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 0
+	}
+	
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+		event_target:starkillerbase_location01 = {
+			change_variable = {
+				which = num_targets
+				value = 1
+				}
+			}
+		fromfrom.planet = {
+			set_planet_flag = built_target
+		}
+	}
+}
+
+#######################################Wormhole over planet
+starkiller_planet_target_marker_1 = {
+	entity = "starkillerbase_target_portal_entity"
+	construction_entity = " "					
+	portrait = "GFX_megastructure_construction_background"
+	construction_blocks_others = no
+	entity_offset = { x = 0 y = 0 }
+	build_time = 0
+	upgrade_desc = hide
+	upgrade_from = {
+		starkiller_planet_target_marker_0
+	}
+	potential = {
+		always = no
+	}
+	possible = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+	}
+}
+#######################################Starkiller fire in planet
+starkiller_planet_target_marker_2 = {
+	entity = "starkillerbsae_target_portal_beam_entity"
+	construction_entity = ""
+	portrait = "GFX_megastructure_construction_background"
+	entity_offset = { x = 0 y = 0 }
+	build_time = 0
+	upgrade_from = {
+		starkiller_planet_target_marker_1
+	}
+	
+	upgrade_desc = hide
+	potential = {
+		always = no
+	}
+	on_build_complete = {
+	}
+}

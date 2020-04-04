@@ -1,0 +1,34 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_battlecruiser_2_mesh"
+		file = "gfx/models/ships/swfo_01/Battlecrusier/swfo_01_battlecruiser_2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Barrel007Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "DTurret008Shape"
+			index = 0
+			texture_diffuse = "W_XX_9.dds"
+			texture_normal = "W_XX_9_B.dds"
+			texture_specular = "W_XX_9_01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "AntennaShape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_s03_Armor.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

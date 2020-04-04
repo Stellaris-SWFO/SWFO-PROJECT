@@ -1,0 +1,34 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_cruiser_mesh"
+		file = "gfx/models/ships/swfo_01/CRUSIER/swfo_01_cruiser.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "SuperstructureShape"
+			index = 0
+			texture_diffuse = "Empire_Victory_Star_Destroyer_Super_Structure_Diff.dds"
+			texture_normal = "Empire_Victory_Star_Destroyer_Super_Structure_Nom.dds"
+			texture_specular = "Empire_Victory_Star_Destroyer_Super_Structure_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Empire_Victory_Star_Destroyer_Hull_Diff.dds"
+			texture_normal = "Empire_Victory_Star_Destroyer_Hull_Nom.dds"
+			texture_specular = "Empire_Victory_Star_Destroyer_Hull_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "BarrelShape"
+			index = 0
+			texture_diffuse = "Empire_Annihilator_Turrets_Diff.dds"
+			texture_normal = "Empire_Annihilator_Turrets_Nom.dds"
+			texture_specular = "Empire_Annihilator_Turrets_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

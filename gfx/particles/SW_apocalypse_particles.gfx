@@ -1,0 +1,8 @@
+
+	
+	pdxparticle = {
+		name = "SW_shatter_planet_laser_hit_effect"
+		type = "SW_shatter_planet_laser_hit_effect"
+		
+		scale = 1.0
+	}

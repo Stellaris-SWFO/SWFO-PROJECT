@@ -1,0 +1,1026 @@
+@supremacy_section_cost = 5000
+
+#Bow
+ship_section_template = {
+	key = "supermacy_BOW_1"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = bow
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_bow"
+	prerequisites = { "tech_superclass" }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_strike_craft"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_strike_craft"
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "large_strike_craft"
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "large_strike_craft"
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L012"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "medium_missile_turret"
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "medium_missile_turret"
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "medium_missile_turret"
+		locatorname = "L015"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "medium_missile_turret"
+		locatorname = "L016"
+	}
+	component_slot = {
+		name = "LARGE_GUN_17"
+		template = "large_strike_craft"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_18"
+		template = "large_strike_craft"
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_19"
+		template = "large_strike_craft"
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_20"
+		template = "large_strike_craft"
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "L02"
+	}
+
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Mid1
+ship_section_template = {
+	key = "supermacy_MID1_1"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid1
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { "tech_superclass" }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "TITANIC_04"
+		template = "invisible_titanic_fixed"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "TITANIC_05"
+		template = "invisible_titanic_fixed"
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "TITANIC_06"
+		template = "invisible_titanic_fixed"
+		locatorname = "L012"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "large_turret"
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "large_turret"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "large_turret"
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "large_turret"
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "large_turret"
+		locatorname = "L012"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "large_turret"
+		locatorname = "L011"
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Mid2
+ship_section_template = {
+	key = "supermacy_MID2_1"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid2
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { "tech_superclass" }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "L015"
+	}
+	component_slot = {
+		name = "TITANIC_04"
+		template = "invisible_titanic_fixed"
+		locatorname = "L016"
+	}
+	component_slot = {
+		name = "TITANIC_05"
+		template = "invisible_titanic_fixed"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "TITANIC_06"
+		template = "invisible_titanic_fixed"
+		locatorname = "L018"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "L018"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L020"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L021"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L022"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "large_turret"
+		locatorname = "L024"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "large_turret"
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "large_turret"
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "large_turret"
+		locatorname = "L024"
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+
+#Mid3
+ship_section_template = {
+	key = "supermacy_MID3_1"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid3
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { "tech_superclass" }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "L020"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "L021"
+	}
+	component_slot = {
+		name = "TITANIC_04"
+		template = "invisible_titanic_fixed"
+		locatorname = "L022"
+	}
+	component_slot = {
+		name = "TITANIC_05"
+		template = "invisible_titanic_fixed"
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "TITANIC_06"
+		template = "invisible_titanic_fixed"
+		locatorname = "L024"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "large_turret"
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "large_turret"
+		locatorname = "L014"
+	}	
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "large_turret"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "large_turret"
+		locatorname = "L015"
+	}	
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Stern
+ship_section_template = {
+	key = "supermacy_STERN_1"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = stern
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_stern"
+	prerequisites = { "tech_superclass" }
+
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "TITANIC_04"
+		template = "invisible_titanic_fixed"
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "TITANIC_05"
+		template = "invisible_titanic_fixed"
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "TITANIC_06"
+		template = "invisible_titanic_fixed"
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "large_turret"
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "large_turret"
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "large_turret"
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "large_turret"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "medium_missile_turret"
+		locatorname = "L018"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "medium_missile_turret"
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "medium_missile_turret"
+		locatorname = "L020"
+	}	
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "medium_missile_turret"
+		locatorname = "L021"
+	}	
+	
+	aux_utility_slots = 4
+	large_utility_slots = 8
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+
+#################################################
+
+
+
+
+######################################################
+#Bow
+ship_section_template = {
+	key = "supermacy_BOW"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = bow
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_strike_craft"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_strike_craft"
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "large_turret"
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "large_turret"
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "large_strike_craft"
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "large_strike_craft"
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "large_turret"
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "large_turret"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L012"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "medium_missile_turret"
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "medium_missile_turret"
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "medium_missile_turret"
+		locatorname = "L015"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "medium_missile_turret"
+		locatorname = "L016"
+	}
+	component_slot = {
+		name = "LARGE_GUN_17"
+		template = "large_strike_craft"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_18"
+		template = "large_strike_craft"
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_19"
+		template = "large_strike_craft"
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_20"
+		template = "large_strike_craft"
+		locatorname = "L06"
+	}
+
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Mid1
+ship_section_template = {
+	key = "supermacy_MID1"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid1
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "large_turret"
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "large_turret"
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "large_turret"
+		locatorname = "L012"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "large_turret"
+		locatorname = "L011"
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Mid2
+ship_section_template = {
+	key = "supermacy_MID2"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid2
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L015"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "L016"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "L018"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L020"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L021"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L022"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "large_turret"
+		locatorname = "L024"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "large_turret"
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "large_turret"
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "large_turret"
+		locatorname = "L024"
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+
+#Mid3
+ship_section_template = {
+	key = "supermacy_MID3"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid3
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "invisible_extra_large_fixed"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "large_turret"
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "large_turret"
+		locatorname = "L014"
+	}	
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "large_turret"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "large_turret"
+		locatorname = "L015"
+	}	
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Stern
+ship_section_template = {
+	key = "supermacy_STERN"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = stern
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "large_turret"
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "large_turret"
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "large_turret"
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "large_turret"
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "large_turret"
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "large_turret"
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "large_turret"
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "large_turret"
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "large_turret"
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "large_turret"
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "medium_missile_turret"
+		locatorname = "L018"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "medium_missile_turret"
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "medium_missile_turret"
+		locatorname = "L020"
+	}	
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "medium_missile_turret"
+		locatorname = "L021"
+	}	
+	
+	aux_utility_slots = 4
+	large_utility_slots = 8
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}

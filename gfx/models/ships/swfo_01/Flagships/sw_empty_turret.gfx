@@ -1,0 +1,7 @@
+objectTypes = {
+	pdxmesh = {
+		name = "sw_empty_turret_mesh"
+		file = "gfx/models/ships/swfo_01/Flagships/sw_empty_turret.mesh"
+		scale = 1.0
+	}
+}

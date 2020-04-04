@@ -1,0 +1,34 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_transport_mesh"
+		file = "gfx/models/ships/swfo_01/transport/swfo_01_transport.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Lights_SparseShape"
+			index = 0
+			texture_diffuse = "Neutral_Acclamator_Assault_Ship.dds"
+			texture_normal = "Neutral_Acclamator_Assault_Ship2_B.dds"
+			texture_specular = "Neutral_Acclamator_Assault_Ship_01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Engine_ExhaustShape"
+			index = 0
+			texture_diffuse = "Engine_Exhaust2_Diff.dds"
+			texture_normal = "Engine_Exhaust2_Nom.dds"
+			texture_specular = "Engine_Exhaust2_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Neutral_Acclamator_Assault_Ship.dds"
+			texture_normal = "Neutral_Acclamator_Assault_Ship_B.dds"
+			texture_specular = "Neutral_Acclamator_Assault_Ship_01.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

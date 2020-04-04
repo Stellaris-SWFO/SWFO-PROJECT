@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_flagship_4_mesh"
+		file = "gfx/models/ships/swfo_01/Flagships/swfo_01_flagship_4.mesh"
+		scale = 0.7
+
+		meshsettings = {
+			name = "NEWHULL01Shape"
+			index = 0
+			texture_diffuse = "Empire_Annihilator_Diff.dds"
+			texture_normal = "Empire_Annihilator_Nom.dds"
+			texture_specular = "Empire_Annihilator_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
