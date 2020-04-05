@@ -740,12 +740,12 @@ weight_modifier = {
 ####################
 
 tech_strike_craft_tiefo = {
-	cost = @tier2cost3
+	cost = @tier4cost1
 	area = engineering
-	tier = 2
+	tier = 4
 	ai_update_type = military
 	category = { voidcraft }	
-	weight = @tier2weight3
+	weight = @tier4weight1
 		
 	#unlock TIE/fo
 	
@@ -771,13 +771,13 @@ tech_strike_craft_tiefo = {
 }
 
 tech_strike_craft_tiesilencer = {
-	cost = @tier3cost3
+	cost = @tier4cost2
 	area = engineering
-	tier = 3
+	tier = 4
 	ai_update_type = military
 	category = { voidcraft }	
 	prerequisites = { "tech_strike_craft_tiefo" }
-	weight = @tier3weight3
+	weight = @tier4weight2
 	
 	potential = {
 		OR = {
