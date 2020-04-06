@@ -11,7 +11,7 @@ song = {
 }
 
 song = {
-	name = "Empire_Battle_Theme_4"
+	name = "Empire Battle Theme 4"
 }
 
 song = {

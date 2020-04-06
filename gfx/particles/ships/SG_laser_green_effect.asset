@@ -37,7 +37,7 @@ particle={
 		emission=15.0
 		size=2.0
 		particle_yaw=90.000
-		particle_pitch={ 0.000 30.000 45.000 60.000 90.000 180.000 }
+		particle_pitch={ 0.000 180.000 }
 		rotation=90.000
 	}
 	subsystem={
@@ -77,7 +77,7 @@ particle={
 		emission=15.0
 		size=2.0
 		particle_yaw=90.000
-		particle_pitch={ 30.000 45.000 60.000 90.000 180.000 }
+		particle_pitch={ 30.000 180.000 }
 		rotation=90.000
 	}	
 	animation={

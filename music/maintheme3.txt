@@ -1,6 +1,3 @@
 song = {
 	name = "maintheme3"
-	chance = {
-		factor = 0
-	}
 }
