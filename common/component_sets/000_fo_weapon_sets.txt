@@ -7,7 +7,7 @@ component_set = {
 component_set = {
 	key = "EDY_sithlaser"
 	
-	icon = "GFX_ship_part_sw_sithlaser"
+	icon = "GFX_ship_part_mandator_laser"
 	icon_frame = 1	
 }
 

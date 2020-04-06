@@ -31,7 +31,7 @@ particle={
 		life={ 0.500 }
 		emission=8000.0
 		size={ 0.05 0.200 }
-		rotation={ 0 90.000 180.000 }
+		rotation={ 0 180.000 }
 	}
 	subsystem={
 		name="base_smoke"
@@ -64,7 +64,7 @@ particle={
 		life=0.500
 		emission=50.000
 		size=3,shrink
-		rotation={ 0 90.000 180.000 }
+		rotation={ 0 180.000 }
 	}
 	animation={
 		name="alpha_fade"
