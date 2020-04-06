@@ -16,16 +16,18 @@
 		name_list = "swfo_name_list"
 		trait = "trait_strong"
 		trait = "trait_resilient"
-		trait = "trait_rapid_breeders"
+		trait = "trait_intelligent"
 		trait = "trait_decadent"
 		trait = "trait_quarrelsome"
 	}
 	
 	
-	civics={
+	civics = {
 		"civic_first_order_military"
 	}
-	origin = "origin_first_order_military"
+
+	origin = "origin_first_order_new_order"
+	
 	room = "first_order_2_room"
 	
 	
@@ -38,7 +40,7 @@
 	
 	#System
 	planet_name = "Starkiller Base"
-	planet_class = "pc_arctic"
+	planet_class = "pc_continental"
 	system_name = "Starkiller Base"
 	
 	#Designs
@@ -51,11 +53,11 @@
 			category = "firstorder"
 			file = "ftor1.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
-		colors={
+		colors = {
 			"red"
 			"black"
 			"null"
