@@ -1,0 +1,83 @@
+[img]https://i.imgur.com/fVVaDCS.gif[/img]
+
+[h1]If you fire the Starkiller Base - please change your gamespeed to normal for the best experience[/h1]
+
+This update includes:
+- You can build Deathstar and have it weapon and effect
+- Other empires now hate you if you fire Starkiller Base
+- Now,supermacy can build ship
+- New supermacy model
+- New origin------reborn
+
+[b][u] Important: [/u] The Starkiller Base can only be built if you select the First Order starting Race!
+ To Fire it, go into the system with the planet you wish to destroy, click on the yellow construction ship button on the bottom left of your screen and select the megastructure tab on the ship (the button that looks like a dyson sphere) and select "Planetery Target Marker" once you selected it left click on your desired planet it will be set as a target.
+
+You can only destroy planets for now.[/b]
+
+More update news: The Animated First Order Portraits mod will be INTEGRATED soon into this mod - so you can look forward to new portrait models soon.
+
+[u] Please Note: [/u] The First Order ships can only be built if you select the Star Wars Emire ships design - the First Order ship design currently has NO ships in it, just ignore it.
+
+NSC Season 4 is not needed - just use it if you want more Star Wars ships
+
+[h1]Requirements[/h1]
+- (-NSC2 Season 4-)
+- UI Overhaul Dynamic
+
+[h1]Known Issues[/h1]
+[list]  
+ [*]The Resurgent Class SD currently has NO TURRETS - as there is no Star Wars turret mod available compatible with 2.5.1
+
+[/list]
+
+[h1]Compatibility[/h1]
+
+[b]Modified Vanilla files:[/b]
+- All maintheme files
+- All music files
+- frontend_background
+- apocalypse_frontend
+
+[h1]Current Features[/h1]
+[code]- Functioning Starkiller Base Weapon (Megastructure)
+- Functioning Mandator IV-class Siege Dreadnought (Ship)
+- Mandator IV-class Firing Effect & Sound (Sounds buggy sometimes)
+- Functioning Resurgent Class SDS
+- Functioning Supremacy Mega-class Dreadnought
+- Functioning Eclipse Class (With weapon fire effect)
+- TIE/fo fighter Hangar Component
+- TIE/vn fighter Hangar Component
+- Star Killer Base Planet
+- First Order Starting Race
+- 100+ handpicked ingame music tracks (Completely replaces Vanilla music)
+- Custom Loading Screen
+- Custom Menu Music
+- Custom Technologys
+- Custom Pops and Leaders
+- Custom Buildings- Custom loading screens
+- Custom Ship name list
+- First Order Army Types
+- Custom Menu Design
+- Custom Policy's
+[/code]
+
+[h1]Planned Features[/h1]
+[code]- Make the Supremacy a Juggernaut- after Federation DLC release
+- More Technologys
+- More Loading Screens
+- Better custom Menu Design
+- More Custom Buildings
+- More Custom Policy's
+[/code]
+
+[h1]Credits[/h1]
+[code]BIG thanks to EDDY for creating the Supremacy and the Eclipse Model 
+虚空雪狐 驱逐 and EDDY for helping me with the models
+Nomada for letting me use the Mandator IV Model
+force728 for letting me use his Portrait .dds files.
+Frstwlf for letting me use his Resurgent Class Model
+Warb Null and Jeroenimo for letting me use the Starkiller Base model and skin
+SeanMungo for creating the policiesElowiny for allowing me to use his nicoll dyson beam firing method
+[/code]
+
+I was and am new to modding. Besides that, I am not a game developer. I build this mod from scratch with the help of some other mods.
