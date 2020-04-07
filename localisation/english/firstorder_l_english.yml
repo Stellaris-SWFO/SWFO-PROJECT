@@ -337,9 +337,9 @@
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_JUMP:"ready to destroy planet $PLANET|Y$"
  MESSAGE_DESC_FOR_PLANET_KILLER_JUMP:"The planet is destroyed, the executor is "
 
- origin_tooltip_first_order_military_effects:"We must conquer the entire galaxy"
- origin_first_order_new_order:"New Order"
- origin_first_order_new_order_desc:"Our future rests on this and our existence depends on it. We will restore the galactic order. Now we are the order!"
+ origin_tooltip_first_order_military_effects:"We must conquer the entire galaxy."
+ origin_first_order_military:0 "New Order"
+ origin_first_order_military_desc:0 "Our future rests on this and our existence depends on it. We will restore the galactic order. Now we are the order!"
 
  need_stardestroyershipyard:"Need Resurgent class Shipyards"
  mandator_orbital_autocannon:"mandator gun"
@@ -348,6 +348,6 @@
  mod_shipsize_firstorder_ship_resurgent_build_speed_mult:"Resurgent class build speed"
  mod_shipsize_firstorder_ship_mandator_build_speed_mult:"Mandator IV class build speed"
  civic_final_order:"Final order"
- civic_final_order_desc:"We have been recuperating for so long, in this chaotic era, it is our stage, we will establish the final galactic order, everyone will submit to the first order"
-tech_superclass:"404 NOT FIND"
-tech_superclass_desc:"Impossible"
+ civic_final_order_desc:"We have been recuperating for too long, in this chaotic era, it is our time, we will establish the final Galactic order, everyone will submit to the First Order!"
+ tech_superclass:"404 NOT FIND"
+ tech_superclass_desc:"Impossible"

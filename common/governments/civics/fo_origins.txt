@@ -1,4 +1,4 @@
-origin_first_order_new_order = {
+origin_first_order_military = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_first_order_military.dds"
 	picture = GFX_origin_first_order_military

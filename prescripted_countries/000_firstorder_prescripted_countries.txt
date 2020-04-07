@@ -27,7 +27,7 @@
 		"civic_first_order_military"
 	}
 
-	origin = "origin_first_order_new_order"
+	origin = "origin_first_order_military"
 	
 	room = "first_order_2_room"
 	
@@ -41,7 +41,7 @@
 	
 	#System
 	planet_name = "Starkiller Base"
-	planet_class = "pc_continental"
+	planet_class = "pc_arctic"
 	system_name = "Starkiller Base"
 	
 	#Designs
