@@ -19,7 +19,8 @@ tech_RESURGENTCLASS = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 
@@ -72,7 +73,8 @@ tech_ECLIPSECLASS = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -129,7 +131,8 @@ tech_MANDATORCLASS = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 
@@ -181,7 +184,8 @@ tech_SUPREMACYCLASS = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 
@@ -235,7 +239,8 @@ tech_RESURGENTTHRUSTER1 = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -286,7 +291,8 @@ tech_SUPREMACYTHRUSTER1 = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -342,7 +348,8 @@ tech_RESURGENTREACTOR1 = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -394,7 +401,8 @@ tech_SUPREMACYREACTOR1 = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -448,7 +456,8 @@ tech_starbasebuilding_stardestroyer = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -503,7 +512,8 @@ tech_supremacyhyperspacetracker = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -556,7 +566,8 @@ tech_building_swfo_training_facilities = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -602,7 +613,8 @@ tech_building_swfo_atat_factory = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -653,7 +665,8 @@ tech_swfo_stormtrooper_legion = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -702,7 +715,8 @@ tech_swfo_atatm6_walker = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -751,7 +765,8 @@ tech_strike_craft_tiefo = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 	
@@ -781,7 +796,8 @@ tech_strike_craft_tiesilencer = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 		
@@ -818,7 +834,8 @@ tech_superclass = {
 	
 	potential = {
 		OR = {
-			has_valid_civic = civic_first_order_military			
+			has_valid_civic = civic_first_order_military
+			has_valid_civic = civic_final_order			
 		}
 	}
 

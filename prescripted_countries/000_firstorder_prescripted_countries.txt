@@ -16,16 +16,19 @@
 		name_list = "swfo_name_list"
 		trait = "trait_strong"
 		trait = "trait_resilient"
-		trait = "trait_rapid_breeders"
+		trait = "trait_intelligent"
 		trait = "trait_decadent"
 		trait = "trait_quarrelsome"
 	}
 	
 	
-	civics={
+	civics = {
+		"civic_final_order"
 		"civic_first_order_military"
 	}
+
 	origin = "origin_first_order_military"
+	
 	room = "first_order_2_room"
 	
 	
@@ -51,11 +54,11 @@
 			category = "firstorder"
 			file = "ftor1.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
-		colors={
+		colors = {
 			"red"
 			"black"
 			"null"

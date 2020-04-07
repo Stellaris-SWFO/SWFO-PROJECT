@@ -11,7 +11,6 @@ civic_first_order_military = {
 	}
 	random_weight = { base = -1 }
 	modifier = {
-		pop_government_ethic_attraction = 0.20
 		army_starting_experience_add = 100
 		army_damage_mult = 0.10
 		armies_upkeep_mult = -0.10
@@ -21,13 +20,8 @@ civic_first_order_military = {
 	}
 }
 
-origin_first_order_military = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_first_order_military.dds"
-	picture = GFX_origin_first_order_military
-	potential = {
-		always = yes
-	}
+civic_final_order = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
 	possible = {
 		ethics = {
 			NOT = {
@@ -36,21 +30,13 @@ origin_first_order_military = {
 				value = ethic_fanatic_pacifist
 			}
 		}
-		civics = {
-			value = civic_first_order_military
-		}
 	}
-	flags = { origin_first_order_military_flag }
-	modifier={
-		country_naval_cap_mult = 0.10
-		starbase_shipyard_capacity_add = 3
-	}
-
-	description = "origin_tooltip_first_order_military_effects"
-
-	advanced_start = yes
-
-	random_weight = {
-		base = 0
+	random_weight = { base = 0 }
+	modifier = {
+		shipsize_battleship_build_speed_mult = 0.5
+		shipsize_firstorder_ship_eclipse_build_speed_mult = 1.0
+		shipsize_firstorder_ship_supremacy_build_speed_mult = 1.0
+		shipsize_firstorder_ship_resurgent_build_speed_mult = 0.5
+		shipsize_firstorder_ship_mandator_build_speed_mult = 0.7
 	}
 }
