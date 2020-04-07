@@ -23,6 +23,7 @@
 	
 	
 	civics = {
+		"civic_final_order"
 		"civic_first_order_military"
 	}
 

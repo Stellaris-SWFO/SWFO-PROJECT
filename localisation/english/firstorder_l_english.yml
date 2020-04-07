@@ -343,3 +343,11 @@
 
  need_stardestroyershipyard:"Need Resurgent class Shipyards"
  mandator_orbital_autocannon:"mandator gun"
+ mod_shipsize_firstorder_ship_eclipse_build_speed_mult:"Eclipse class build speed"
+ mod_shipsize_firstorder_ship_supremacy_build_speed_mult:"Mega class build speed"
+ mod_shipsize_firstorder_ship_resurgent_build_speed_mult:"Resurgent class build speed"
+ mod_shipsize_firstorder_ship_mandator_build_speed_mult:"Mandator IV class build speed"
+ civic_final_order:"Final order"
+ civic_final_order_desc:"We have been recuperating for so long, in this chaotic era, it is our stage, we will establish the final galactic order, everyone will submit to the first order"
+tech_superclass:"404 NOT FIND"
+tech_superclass_desc:"Impossible"

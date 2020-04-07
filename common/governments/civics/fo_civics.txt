@@ -19,3 +19,24 @@ civic_first_order_military = {
 		ship_weapon_damage = 0.10
 	}
 }
+
+civic_final_order = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		ethics = {
+			NOT = {
+				text = civic_tooltip_not_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		shipsize_battleship_build_speed_mult = 0.5
+		shipsize_firstorder_ship_eclipse_build_speed_mult = 1.0
+		shipsize_firstorder_ship_supremacy_build_speed_mult = 1.0
+		shipsize_firstorder_ship_resurgent_build_speed_mult = 0.5
+		shipsize_firstorder_ship_mandator_build_speed_mult = 0.7
+	}
+}
