@@ -187,7 +187,7 @@ portraits = {
 					leader_class = admiral
 				}
 				portraits = {
-					firstorder_portrait_kylo_2
+					firstorder_male_01_admiral
 					}
 				}
 			add = {
@@ -196,7 +196,7 @@ portraits = {
 					leader_class = admiral
 				}
 				portraits = {
-					firstorder_portrait_kylo_2
+					firstorder_female_01_admiral
 				}
 			}
 		}
@@ -211,7 +211,7 @@ portraits = {
 					leader_class = general
 				}
 				portraits = {
-					firstorder_portrait_kylo_2
+					fostormtrooper_male_02
 					}
 				}
 			add = {
@@ -220,7 +220,7 @@ portraits = {
 					leader_class = general
 				}
 				portraits = {
-					firstorder_portrait_kylo_2
+					fostormtrooper_male_02
 				}
 			}
 		}
