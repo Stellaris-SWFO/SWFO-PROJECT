@@ -22,8 +22,8 @@ origin_first_order_military = {
 	}
 	flags = { origin_first_order_military_flag }
 	modifier={
-		country_naval_cap_mult = 0.33
-		starbase_shipyard_capacity_add = 5
+		country_naval_cap_mult = 0.40
+		country_starbase_capacity_add = 5
 		pop_government_ethic_attraction = 0.20
 	}
 
