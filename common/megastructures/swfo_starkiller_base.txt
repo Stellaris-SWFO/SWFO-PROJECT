@@ -15,6 +15,11 @@ construction_blocks_others = yes
 			has_any_megastructure_in_empire = yes
 		}
 	}
+
+	station_modifier = {
+		starbase_shipyard_capacity_add = 2
+	}
+	
 }
 swfo_starkillerbase_0_1 = {
 
@@ -39,7 +44,10 @@ build_time = 3600
 	}
 	ai_weight = {
 		factor = 0
-		
+	}
+
+	station_modifier = {
+		starbase_shipyard_capacity_add = 4
 	}
 }
 swfo_starkillerbase_0_2 = {
@@ -67,6 +75,10 @@ construction_blocks_others = yes
 	ai_weight = {
 		factor = 0
 	}
+
+	station_modifier = {
+		starbase_shipyard_capacity_add = 6
+	}
 }
 swfo_starkillerbase_1 = {
 
@@ -89,6 +101,11 @@ swfo_starkillerbase_1 = {
 			energy = 150
 		}
 	}
+
+	station_modifier = {
+		starbase_shipyard_capacity_add = 8
+	}
+	
 	on_build_start = {}
 	on_build_cancel = {}
 	on_build_complete = {
