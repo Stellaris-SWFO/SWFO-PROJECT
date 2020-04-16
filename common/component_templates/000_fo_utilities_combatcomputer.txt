@@ -75,7 +75,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase }
-	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator" }
+	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
 	component_set = "combat_computers"
 	ship_behavior = "SW_offense_bc"
 	prerequisites = { "tech_combat_computers_2" }
@@ -103,7 +103,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase }
-	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator"}
+	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
 	component_set = "combat_computers"
 	ship_behavior = "SW_offense_bc"
 	prerequisites = { "tech_combat_computers_3" }
@@ -131,7 +131,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase }
-	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator"}
+	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
 	component_set = "combat_computers"
 	ship_behavior = "SW_balance_bc"
 	prerequisites = { "tech_precognition_interface" }

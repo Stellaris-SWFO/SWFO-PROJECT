@@ -1,0 +1,10 @@
+objectTypes = {
+	pdxmesh = {
+		name = "xyston_frame_mesh"
+		file = "gfx/models/ships/XY/xyston_frame.mesh"
+		scale = 1.0
+
+		animation = { id = "open" type = "xyston_frame_open_animation" }
+		animation = { id = "clossing" type = "xyston_frame_clossing_animation" }
+	}
+}

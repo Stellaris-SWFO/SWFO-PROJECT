@@ -112,8 +112,8 @@ firstorder_ship_mandator = {
 	}
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 150000
-	size_multiplier = 100
-	fleet_slot_size = 80
+	size_multiplier = 25
+	fleet_slot_size = 25
 	section_slots = { "main" = { locator = "part1" } "bow" = { locator = "part2" } "mid" = { locator = "part3" } "stern" = { locator = "part4" } } 
 	num_target_locators = 4
 	is_space_station = no
@@ -202,8 +202,8 @@ firstorder_ship_mandator = {
 	}
 	
 	empire_limit = {
-		base = 3
-		max = 3
+		base = 20
+		max = 20
 	}
 }
 ##################################################Eclipse class Dreadnought##################################################
@@ -218,8 +218,8 @@ firstorder_ship_eclipse = {
 		ship_shield_add = 300000
 	}
 	max_hitpoints = 300000
-	size_multiplier = 100
-	fleet_slot_size = 80
+	size_multiplier = 50
+	fleet_slot_size = 50
 	section_slots = {
 		"mid" = { locator = "part1" }
 		"bow" = { locator = "part2" }
@@ -333,8 +333,8 @@ firstorder_ship_supremacy = {
 	}
 	entity = "st_empire_02_supermacy_entity"
 	max_hitpoints = 300000
-	size_multiplier = 180
-	fleet_slot_size = 120
+	size_multiplier = 100
+	fleet_slot_size = 100
 	section_slots = { "bow" = { locator = "part1" } "mid1" = { locator = "part2" } "mid2" = { locator = "part3" } "mid3" = { locator = "part4" } "stern" = { locator = "part5" } }
 	num_target_locators = 4
 	is_space_station = no
@@ -423,5 +423,112 @@ firstorder_ship_supremacy = {
 	}
 	min_upgrade_cost = {
 		alloys = 50
+	}
+}
+
+######################################Xyston##################################################
+xyston = {
+	formation_priority = @titan_formation_priority
+	max_speed = @speed_slow
+	acceleration = 0.15
+	rotation_speed = 0.1
+	collision_radius = @titan_collision_radius
+	modifier = {
+		ship_armor_add = 200000
+	}
+	max_hitpoints = 200000
+	size_multiplier = 25
+	fleet_slot_size = 25
+	section_slots = {
+		"bow" = { locator = "part1" }
+		"mid" = { locator = "part2" }
+		"mid2" = { locator = "part3" }
+		"mid3" = { locator = "part4" }
+		"stern" = { locator = "part5" }
+	}
+	num_target_locators = 8
+	is_space_station = no
+	icon_frame = 6
+	base_buildtime = 1000
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_ECLIPSECLASS" }
+	
+	combat_disengage_chance = 1.25
+	default_behavior = SW_defense_titan
+	
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+	potential_construction = {
+		OR = {
+			AND = {
+				is_scope_type = starbase
+			}
+			AND = {
+				is_scope_type = megastructure
+				OR = {
+					is_megastructure_type = mega_shipyard_3
+					is_megastructure_type = mega_shipyard_restored
+				}
+			}
+		}
+	}
+
+	possible_construction = {
+		custom_tooltip = {
+			fail_text = starbase_citadel_trigger
+			OR = {
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+				AND = {
+					is_scope_type = starbase
+					has_starbase_size >= starbase_citadel
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = need_stardestroyershipyard
+			OR = {
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+				AND = {
+					is_scope_type = starbase
+					has_starbase_building = stardestroyer_yards
+				}
+			}
+		}
+	}
+	
+	empire_limit = {
+		base = 10
+		max = 10
+	}
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 10000
+		}
+		upkeep = {
+			energy = 200
+			alloys = 20
+		}
 	}
 }

@@ -12,6 +12,13 @@ component_set = {
 }
 
 component_set = {
+	key = "EDY_sithlaser_XYSTON"
+	
+	icon = "GFX_ship_part_mandator_laser"
+	icon_frame = 1	
+}
+
+component_set = {
 	key = "EDY_PLANET_DESTROYER_WEAPON"
 
 	icon = "GFX_ship_part_sw_superlaser"

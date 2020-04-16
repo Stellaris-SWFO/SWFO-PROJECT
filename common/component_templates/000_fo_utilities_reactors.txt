@@ -76,7 +76,7 @@ utility_component_template = {
 	
 	prerequisites = { tech_SUPREMACYREACTOR1 }
 	component_set = "power_core"
-	size_restriction = { "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator"}
+	size_restriction = { "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
 	#upgrades_to = "GFX_resurgent_ship_part_reactor_2"
 	
 	ai_weight = {
