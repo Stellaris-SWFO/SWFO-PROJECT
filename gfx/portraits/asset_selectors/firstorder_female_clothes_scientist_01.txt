@@ -1,3 +1,0 @@
-firstorder_female_clothes_scientist_01 = {
-	default = "gfx/models/portraits/firstorder/firstorder_female_clothes_scientist_01.dds"
-}

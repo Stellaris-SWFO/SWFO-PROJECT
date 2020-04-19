@@ -9,7 +9,7 @@
 	
 	species = {
 		class = "First Order"
-		portrait = "firstorder"		#firstorder_portrait_snoke
+		portrait = "first"		#firstorder_portrait_snoke
 		name = "First Order"
 		plural = "First Order"
 		adjective = "First Order"
@@ -72,9 +72,9 @@
 		ruler_title_female = "Supreme Leader"
 		heir_title = "Supreme Leader"
 		heir_title_female = "Supreme Leader"
-		name = "Snoke"
+		name = "Kylo Ren"
 		gender = male
-		portrait = "firstorder_portrait_snoke"
+		portrait = "maskedkylo_male_01"
 		texture = 0
 		clothes = 0
 		leader_class = ruler

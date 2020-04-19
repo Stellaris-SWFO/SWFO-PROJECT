@@ -1,0 +1,17 @@
+room_selector = {
+	#default = "d_room"	#point to textures that end with "_room.dds" but remove the file ending
+
+	default = "default_room"	#point to textures that end with "_room.dds" but remove the file ending
+
+	#will run with a limited country scope. species and government is set but the country does not actually exist
+	game_setup = {
+		"first_order_1_room" = {}
+		"first_order_2_room" = {}
+		"first_order_3_room" = {}
+		"first_order_4_room" = {}
+		"first_order_5_room" = {}
+		"first_order_6_room" = {}
+		"first_order_7_room" = {}
+	}
+}
+	
