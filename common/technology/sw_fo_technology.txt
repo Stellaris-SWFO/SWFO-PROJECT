@@ -462,7 +462,7 @@ tech_starbasebuilding_stardestroyer = {
 	}
 	
 	
-weight_modifier = {
+	weight_modifier = {
 		modifier = {
 			factor = 0.1
 			NOT = { years_passed > 100 }
