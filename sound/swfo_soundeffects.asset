@@ -8,7 +8,7 @@ soundeffect = {
 	max_audible = 3
 	max_audible_behaviour = fail
 	delay_random_offset = { 0.0 0.0 }
-	volume = 1.0
+	volume = 0.5
 }
 
 soundeffect = {
@@ -22,7 +22,7 @@ soundeffect = {
 	max_audible = 3
 	max_audible_behaviour = fail
 	delay_random_offset = { 0.0 0.0 }
-	volume = 1.5
+	volume = 0.8
 }
 
 soundeffect = {
@@ -36,7 +36,7 @@ soundeffect = {
 	max_audible = 3
 	max_audible_behaviour = fail
 	delay_random_offset = { 0.0 0.0 }
-	volume = 1.4
+	volume = 0.7
 }
 ################################Starkillerbase CHARGE#############
 soundeffect = {
