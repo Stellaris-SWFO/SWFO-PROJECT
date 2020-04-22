@@ -306,7 +306,7 @@ firstorder_ship_eclipse = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 200000
+			alloys = 20000
 		}
 		upkeep = {
 			energy = 2000

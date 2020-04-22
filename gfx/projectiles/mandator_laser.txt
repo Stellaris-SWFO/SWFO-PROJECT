@@ -5,10 +5,9 @@ projectile_gfx_beam = {
 	hit_entity = "sw_Superlaser_hit_entity"
 	shield_hit_entity = "sw_Superlaser_shield_hit_entity"
 	muzzle_flash_entity = "sw_Superlaser_muzzle_entity"
-	windup_entity = "sw_Superlaser_windup"
 	
 	#beam specific data
-	width = 5.5
+	width = 5.0
 	texture_scroll_speed = 1.5
 	texture_tiling = 5.5
 	

@@ -9,7 +9,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_sw_superlaser"
 	icon_frame = 1
 	
-	damage = { min = 50000 max = 100000 }
+	damage = { min = 100000 max = 200000 }
 	windup = { min = 45.0 max = 135.0 }
 	total_fire_time = 90
 	range = 400.0
@@ -27,7 +27,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 800
+			alloys = 10000
 		}
 	}
 	
@@ -90,7 +90,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_mandator_laser"
 	icon_frame = 1
 	
-	damage = { min = 50000 max = 1000000 }
+	damage = { min = 50000 max = 100000 }
 	windup = { min = 45.0 max = 135.0 }
 	total_fire_time = 30
 	range = 400.0
@@ -110,7 +110,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50000
+			alloys = 10000
 		}
 	}
 	

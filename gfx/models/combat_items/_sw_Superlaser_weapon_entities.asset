@@ -134,6 +134,7 @@ entity = {
 entity = {
 	name = "sw_Superlaser_hit_entity"
 	cull_radius = 1.0
+	scale = 3.0
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 2 looping = no
@@ -149,6 +150,7 @@ entity = {
 entity = {
 	name = "sw_Superlaser_shield_hit_entity"
 	cull_radius = 1.0
+	scale = 3.0
 	
 	default_state = "idle"
 	state = { name = "idle" 
