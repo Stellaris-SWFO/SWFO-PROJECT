@@ -7,6 +7,10 @@
 			NOT = { 
 				value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE 
 			} 
+		}
+		civics = {
+			value = civic_final_order
+			value = civic_first_order_military
 		} 
 	}
 	
