@@ -433,10 +433,7 @@ xyston = {
 	acceleration = 0.15
 	rotation_speed = 0.1
 	collision_radius = @titan_collision_radius
-	modifier = {
-		ship_armor_add = 200000
-	}
-	max_hitpoints = 200000
+	max_hitpoints = 60000
 	size_multiplier = 25
 	fleet_slot_size = 25
 	section_slots = {
@@ -524,11 +521,11 @@ xyston = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 10000
+			alloys = 5000
 		}
 		upkeep = {
-			energy = 200
-			alloys = 20
+			energy = 50
+			alloys = 10
 		}
 	}
 }
