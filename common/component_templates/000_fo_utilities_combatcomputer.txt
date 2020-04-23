@@ -118,6 +118,7 @@ utility_component_template = {
 		weight = 0	
 	}	
 }
+
 utility_component_template = {
 	key = "ST_RESURGENT_01_COMBAT_COMPUTER_5"
 	size = small
