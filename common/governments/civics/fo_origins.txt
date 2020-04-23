@@ -7,7 +7,7 @@ origin_first_order_military = {
 	}
 	possible = {
 		ethics = {
-			NOT = {
+			NOR = {
 				#text = civic_tooltip_not_pacifist
 				#text = civic_tooltip_not_xenophile
 				value = ethic_pacifist
