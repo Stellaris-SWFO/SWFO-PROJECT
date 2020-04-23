@@ -48,7 +48,7 @@ utility_component_template = {
 	class_restriction = { shipclass_military shipclass_starbase }
 	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator"}
 	component_set = "combat_computers"
-	ship_behavior = "SW_defense"
+	ship_behavior = "artillery"
 	prerequisites = { "tech_combat_computers_1" }
 	upgrades_to = "ST_RESURGENT_01_COMBAT_COMPUTER_3"
 	
@@ -77,7 +77,7 @@ utility_component_template = {
 	class_restriction = { shipclass_military shipclass_starbase }
 	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
 	component_set = "combat_computers"
-	ship_behavior = "SW_offense_bc"
+	ship_behavior = "artillery"
 	prerequisites = { "tech_combat_computers_2" }
 	upgrades_to = "ST_RESURGENT_01_COMBAT_COMPUTER_4"
 
@@ -105,7 +105,7 @@ utility_component_template = {
 	class_restriction = { shipclass_military shipclass_starbase }
 	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
 	component_set = "combat_computers"
-	ship_behavior = "SW_offense_bc"
+	ship_behavior = "artillery"
 	prerequisites = { "tech_combat_computers_3" }
 	upgrades_to = "ST_RESURGENT_01_COMBAT_COMPUTER_5"
 	
@@ -131,9 +131,9 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase }
-	size_restriction = { "firstorder_ship_resurgent" "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
+	size_restriction = { "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
 	component_set = "combat_computers"
-	ship_behavior = "SW_balance_bc"
+	ship_behavior = "SW_flagship"
 	prerequisites = { "tech_precognition_interface" }
 
 	ship_modifier = {

@@ -42,17 +42,6 @@ starkiller_base = {
 		type = icy_asteroid_belt
 		radius = 265
 	}
-
-	init_effect = {
-		every_neighbor_system = {
-			set_star_flag = empire_cluster
-			every_neighbor_system = {
-				set_star_flag = empire_cluster
-			}
-		}
-		generate_home_system_resources = yes
-		spawn_megastructure = { type = "swfo_starkillerbase_0" location = event_target:starkillerbase_location01}
-		}	
 	#Sun
 	planet = {
 		name = "Deep Space"
@@ -83,8 +72,6 @@ starkiller_base = {
 				entity = "nuked_planet_01_entity"
 				picture = pc_exegol
 			}
-		}
-		init_effect = {
 			add_modifier = {
 				modifier = "sith_fortress"
 				days = -1
@@ -94,9 +81,6 @@ starkiller_base = {
 
 	#Starkiller Base
 	planet = {
-		init_effect = {
-			save_global_event_target_as = starkillerbase_location01
-		}
 		count = 1
 		name = "Starkiller Base"
 		class = pc_arctic
@@ -107,53 +91,53 @@ starkiller_base = {
 		size = 35
 		has_ring = no
 		
-	#Modifiers
+		#Modifiers
 		init_effect = {
+			save_global_event_target_as = starkillerbase_location01
 			prevent_anomaly = yes
 			change_pc = "pc_arctic"
 			set_planet_entity = { 
 				entity = "pc_arctic" 
 				picture = pc_starkiller
 			}
-		}
-
-		init_effect = {
 			add_modifier = {
 				modifier = "mobile_capital"
 				days = -1
 			}
-		}
-		init_effect = {
 			add_modifier = {
 				modifier = "mobile_training_facility"
 				days = -1
 			}
-		}
-		init_effect = {
 			add_modifier = {
 				modifier = "weapon_testing_labs"
 				days = -1
 			}
-		}
-		init_effect = {
 			add_modifier = {
 				modifier = "fostarkiller_base"
 				days = -1
 			}
-		}
-		
-		init_effect = {
 			add_modifier = {
 				modifier = "thermal_oscillator"
 				days = -1
 			}
-		}
-		
-		init_effect = {
 			add_modifier = {
 				modifier = "kyber_crystals"
 				days = -1
 			}
 		}
-	}		
+	}
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+		spawn_megastructure = { 
+			type = "swfo_starkillerbase_0" 
+			location = event_target:starkillerbase_location01 
+		}
+	}
 }

@@ -13,7 +13,7 @@ entity = {
  
 	scale = 1.0
 	game_data = {
-		size = @transport_scale
+		size = 15
 		emissive_recolor_crunch = 5.0
 	}
 }
@@ -48,18 +48,5 @@ entity = {
 		event = { time = 3.26 node = "transport_explosion_locator4" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
 		event = { time = 3.9 node = "transport_explosion_locator5" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
 		event = { time = 4.1 node = "transport_explosion_locator6" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
-	}
-	
-	game_data = {
-		trail_locators = {
-			"engine_large_01_1" = 		{ width = @small_trail_W 	lenght = @medium_trail_L   	}
-			"engine_large_01_2" = 		{ width = @small_trail_W 	lenght = @medium_trail_L   	}
-			"engine_large_02_1" = 		{ width = @small_trail_W 	lenght = @medium_trail_L   	}
-			"engine_large_02_2" = 		{ width = @small_trail_W 	lenght = @medium_trail_L   	}
-			"engine_small_01" = 		{ width = @small_trail_W 	lenght = @small_trail_L   	}
-			"engine_small_02" = 		{ width = @small_trail_W 	lenght = @small_trail_L   	}
-			"engine_medium_02" = 		{ width = @small_trail_W 	lenght = @small_trail_L   	}
-			"engine_medium_01" = 		{ width = @small_trail_W 	lenght = @small_trail_L   	}
-		}
 	}
 }

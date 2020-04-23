@@ -25,7 +25,7 @@ stardestroyer_yards = {
 		}
 	}
 	show_in_tech = "tech_starbasebuilding_stardestroyer"
-	custom_tooltip = stardestroyer_yards_desc_modifier
+	custom_tooltip = "stardestroyer_yards_desc_modifier"
 	
 	ai_build_at_chokepoint = no
 	ai_build_outside_chokepoint = yes

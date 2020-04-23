@@ -12,7 +12,7 @@ swfo_stormtrooper_legion = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 250
+			minerals = 100
 		}
 	upkeep = {
 			energy = 1.5

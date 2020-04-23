@@ -264,12 +264,10 @@ country_event = {
 							}
 							if = {
 								limit = {
-									AND = {
-										exists = space_owner
-										space_owner = {
-											OR = {
-												is_country_type = ai_empire
-											}
+									exists = space_owner
+									space_owner = {
+										OR = {
+											is_country_type = ai_empire
 										}
 									}
 								}			

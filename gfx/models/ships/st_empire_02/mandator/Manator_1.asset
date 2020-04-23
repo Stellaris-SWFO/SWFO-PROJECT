@@ -1,7 +1,7 @@
 
 entity = {
 	name = "Manator_entity"
-	pdxmesh = "mammalian_01_titan_frame_mesh"
+	pdxmesh = "locator_mesh"
 	
 	
 	locator = { name = "part1" rotation = { 0 0 0 } position = { 0 0 0 } }

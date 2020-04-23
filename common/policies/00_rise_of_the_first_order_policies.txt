@@ -10,7 +10,10 @@
 foreign_policy_rotfo = {
 		
 	potential = {
-			is_country_type = default
+			OR = {
+				has_civic = civic_final_order
+				has_civic = civic_first_order_military
+			}
 		}
 	option = {
 		name = "isolationism_fp"
@@ -49,7 +52,6 @@ foreign_policy_rotfo = {
 					has_ethic = "ethic_fanatic_xenophobe"					
 					has_ai_personality = fanatic_purifiers
 					has_ai_personality = xenophobic_isolationists
-					has_country_flag = isolationist
 					}
 			}
 			modifier = {
@@ -164,8 +166,11 @@ option = {
 trade_policy_rotfo = {
 		
 	potential = {
-			is_country_type = default
+		OR = {
+			has_civic = civic_final_order
+			has_civic = civic_first_order_military
 		}
+	}
 	option = {
 		name = "protectionism_tp"
 		
@@ -300,8 +305,11 @@ option = {
 religious_policy_rotfo = {
 		
 	potential = {
-			is_country_type = default
+		OR = {
+			has_civic = civic_final_order
+			has_civic = civic_first_order_military
 		}
+	}
 	option = {
 		name = "atheism_rp"
 		
@@ -479,6 +487,13 @@ option = {
 ####################
 
 media_policy_rotfo = {
+
+	potential = {
+		OR = {
+			has_civic = civic_final_order
+			has_civic = civic_first_order_military
+		}
+	}
 		
 
 	option = {
@@ -514,11 +529,14 @@ media_policy_rotfo = {
 				}
 			}			
 		}
-}
-option = {
+	}
+	option = {
 		name = "censored_media_mr"
 		potential = {
-			is_country_type = default
+			OR = {
+				has_civic = civic_final_order
+				has_civic = civic_first_order_military
+			}
 		}
 		policy_flags = {
 			censored_media_rotfo
@@ -542,7 +560,7 @@ option = {
 			}
 		}
 	}
-option = {
+	option = {
 		name = "free_media_mr"
 		
 		policy_flags = {

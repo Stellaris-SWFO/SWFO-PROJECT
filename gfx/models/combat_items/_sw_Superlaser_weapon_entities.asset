@@ -7,32 +7,13 @@ entity = {
 		name = "attack" state_time = 0.3 looping = no
 		start_event = { trigger_once = yes sound = { soundeffect = "sw_Superlaser_windup" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "sw_Superlaser_windup_long" } }
-		start_event = { use_parent_nodes = yes node = "D1" particle = "ship_light_green_SW_effect" keep_particle = yes trigger_once = yes }
-		start_event = { use_parent_nodes = yes node = "D2" particle = "ship_light_green_SW_effect" keep_particle = yes trigger_once = yes }
-		start_event = { use_parent_nodes = yes node = "D3" particle = "ship_light_green_SG_effect" keep_particle = yes trigger_once = yes }
-		start_event = { use_parent_nodes = yes node = "D4" particle = "ship_light_green_SG_effect" keep_particle = yes trigger_once = yes }
-		
-		start_event = { use_parent_nodes = yes node = "W01" particle = "muzzle_green_SW_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "D1" particle = "ship_light_green_SW_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "D2" particle = "ship_light_green_SW_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "D3" particle = "ship_light_green_SG_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "D4" particle = "ship_light_green_SG_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "W01" particle = "muzzle_green_SW_effect" keep_particle = yes trigger_once = yes }
 		
 	}
-	
-	#locator = { name = "root" rotation = { 0 0 0 } position = { 0 0 -0.5 } }
-	#attach = { root = "sw_Superlaser_beam_01_entity" }
-	#attach = { root = "sw_Superlaser_beam_02_entity" }
-	#attach = { root = "sw_Superlaser_beam_03_entity" }
-	#attach = { root = "sw_Superlaser_beam_04_entity" }
-	#attach = { root = "sw_Superlaser_beam_05_entity" }
-	#attach = { root = "sw_Superlaser_beam_06_entity" }
-	#attach = { root = "sw_Superlaser_beam_07_entity" }
-	#attach = { root = "sw_Superlaser_beam_08_entity" }
-	#attach = { root = "sw_Superlaser_beam_01_entity" }
-	#attach = { root = "sw_Superlaser_beam_02_entity" }
-	#attach = { root = "sw_Superlaser_beam_03_entity" }
-	#attach = { root = "sw_Superlaser_beam_04_entity" }
-	#attach = { root = "sw_Superlaser_beam_05_entity" }
-	#attach = { root = "sw_Superlaser_beam_06_entity" }
-	#attach = { root = "sw_Superlaser_beam_07_entity" }
-	#attach = { root = "sw_Superlaser_beam_08_entity" }
 }
 
 entity = {

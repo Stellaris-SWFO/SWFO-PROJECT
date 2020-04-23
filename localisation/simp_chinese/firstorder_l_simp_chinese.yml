@@ -6,13 +6,13 @@
  starkiller_base_NAME:0 "未知星域"
  starkiller_base_DESC:0 "开始于弑星者基地,威力巨大的超级武器。"
  
- thermal_oscillator:0 "B热振荡器"
+ thermal_oscillator:0 "§B热振荡器§!"
  thermal_oscillator_desc:0 "这个组件位于弑星者基地的表面，储存和储存从它所环绕的恒星收集的暗能量。这不仅为基地本身提供了足够的能量，也为物理学研究提供了动力。"
  
- fostarkiller_base:0 "R毁灭性超级武器"
+ fostarkiller_base:0 "§R毁灭性超级武器§!"
  fostarkiller_base_desc:0 "在未知星域的深处，第一秩序建造了一种超级武器，它使用整个星球作为武器平台。作为第一秩序在这个空间内的一个据点，这颗经过改造的可移动严寒行星上聚集了大批士兵、军官和科学家，他们在这个星球上巡逻和操作武器。它还配备了一个行星护盾发生器，以抵御轨道轰击。"
  
- kyber_crystals:0 "M富含凯伯晶体"
+ kyber_crystals:0 "§M富含凯伯晶体§!"
  kyber_crystals_desc: "凯伯晶体，简称为凯伯，是一种罕见的，力调谐晶体，生长在自然界中，并发现在分散在银河系各大行星上。通常被绝地和西斯用来制造光剑。它可以集中巨大的能量，使它们成为制造涡轮激光武器的理想选择。"
  
  civic_first_order_military:0 "复活计划"
@@ -40,10 +40,13 @@
  policy_foreign_policy_rotfo:0 "外交政策"
  policy_foreign_policy_rotfo_desc:0 "外交政策，或称外交策略，是指国家为维护国家利益和在星际关系环境中实现目标而选择的利己战略。"
  isolationism_fp:0 "孤立主义"
+ isolationism_rotfo_name:"孤立主义"
+ balanced_foreign_policy_rotfo_name:"平等的外交政策"
  isolationism_fp_desc:0 "与别国的事务保持距离，最有利于各国的利益。无论是为了避免卷入危险的冲突，还是仅仅为了确保文化的纯洁，这一信条都试图把所有的努力都集中在我们自己的进步上，\n\n§这一政策有利于以牺牲与其他银河实体的关系为代价的防御和自我完善的重点。"
  balanced_foreign_policy_fp:0 "平等的外交政策"
  balanced_foreign_policy_fp_desc:0 "只有保持对外关系的平衡，我们的国家才能继续为伟大而奋斗。我们必须开放地与银河系中的其他人互动，同时也要确保我们自己的成功不被忽视。\n\n§这是大多数政府采取的平衡方法。"
  globalism_fp:0 "星际商业"
+ globalism_rotfo_name:"星际商业"
  globalism_fp_desc:0 "当我们进一步探索群星的时候，我们必须与那些存在在无尽的虚空中的其他种族合作。只有将我们周围数不清的星际观点、产品、思想和其他方面的文化融为一体，我们才能实现繁荣，\n\n§E这一政策促进了我们与银河系其他许多实体的友好关系。"
  
  ####################
@@ -53,10 +56,13 @@
  policy_trade_policy_rotfo:0 "贸易法"
  policy_trade_policy_rotfo_desc:0 "贸易政策是国家对自由贸易的立场。"
  protectionism_tp:0 "贸易保护"
+ protectionism_rotfo_name:"贸易保护"
  protectionism_tp_desc:0 "贸易保护是政府对外国进口商品征税和严查的政策。"
  balanced_trade_tp:0 "平等贸易"
+ balanced_trade_rotfo_name:"平等贸易"
  balanced_trade_tp_desc:0 "平等贸易是一项政策，为自由贸易提供了更为中间的途径。虽然贸易并非完全自由流动，但它也没有将外国产品限制在贸易保护议程的范围内。"
  free_trade_tp:0 "自由贸易"
+ free_trade_rotfo_name:"自由贸易"
  free_trade_tp_desc:0 "自由贸易是一项明确的政策，旨在允许货物自由跨境流动，而不受政府官员、法律或税收的不当干预。"
 
  ####################
@@ -83,12 +89,16 @@
  policy_religious_policy_rotfo:0 "宗教政策"
  policy_religious_policy_rotfo_desc:0 "宗教政策决定了你对宗教的国家立场。这代表了贵国政府对宗教的态度，无论是在广义上还是在国家宗教的范围内。"
  atheism_rp:0 "无神论"
+ atheism_rotfo_name:"无神论"
  atheism_rp_desc:0 "无神论是道德主义的反面。无神论并没有把一个宗教当作一个真正的词，而是积极地抨击所有宗教都是非法的。"
  secularized_rp:0 "世俗化"
+ secularized_rotfo_name:"世俗化"
  secularized_rp_desc:0 "世俗主义是政府在宗教中没有地位的立场，应该避免任何形式的宗教事务。"
  pluralism_rp:0 "多元论"
+ pluralism_rotfo_name:"多元论"
  pluralism_rp_desc:0 "这项政策认为，每个公民都有权持有自己的宗教观点，而宗教多数派（如果有的话）无权侵犯这一自由做法。"
  moralism_rp:0 "道德主义"
+ moralism_rotfo_name:"道德主义"
  moralism_rp_desc:0 "道德主义提倡一种宗教高于一切宗教，并积极寻求将国家宗教传播给宗教少数群体。"
 
  ####################
@@ -98,10 +108,13 @@
  policy_media_policy_rotfo:0 "媒体权限"
  policy_media_policy_rotfo_desc:0 "一个国家的媒体权限决定了谁控制着通讯和信息的手段。"
  state_media_mr:0 "官方媒体"
+ state_media_rotfo_name:"官方媒体"
  state_media_mr_desc:0 "选择将媒体仅限于国营或国家认可的机构，允许政府几乎完全控制信息。"
  censored_media_mr:0 "受审媒体"
+ censored_media_rotfo_name:"受审媒体"
  censored_media_mr_desc:0 "选择允许某种程度上的自由媒体，但政府保留审查其认为有冒犯性或与目标对立的材料从而阻止的权利。"
  free_media_mr:0 "自由媒体"
+ free_media_rotfo_name:"自由媒体"
  free_media_mr_desc:0 "这种选择解放了政府对媒体的控制。信息自由流动，人们自由决定。" 
  
  ####################################
@@ -125,9 +138,11 @@
  ####################################
  tech_swfo_stormtrooper_legion:0 "第一秩序冲锋队"
  tech_swfo_stormtrooper_legion_desc:0 "第一秩序冲锋队的士兵从出生起就接受训练，用字母数字代替名字，并接受多年的心理训练，以确保绝对忠诚。"
+ swfo_stormtrooper_legion_plural:"第一秩序冲锋队"
  
  swfo_stormtrooper_legion:0 "第一秩序冲锋队"
  swfo_stormtrooper_legion_desc:0 "第一秩序冲锋队的士兵从出生起就接受训练，用字母数字代替名字，并接受多年的心理训练，以确保绝对忠诚。"
+ swfo_atatm6_walker_plural:"AT-M6 步行机"
  
  
  swfo_atatm6_walker:0 "AT-M6 步行机"
@@ -157,6 +172,11 @@
  supermacy_MID2:0 "舰船功能区"
  supermacy_MID3:0 "舰船核心"
  supermacy_STERN:0 "舰尾"
+ supermacy_BOW_1:0 "舰首"
+ supermacy_MID1_1:0 "舰船装甲"
+ supermacy_MID2_1:0 "舰船功能区"
+ supermacy_MID3_1:0 "舰船核心"
+ supermacy_STERN_1:0 "舰尾"
  
  ####################################
  # Ship Components
@@ -213,7 +233,7 @@
  ####################################
  # Starbase Building (Shipyard)
  ####################################
- stardestroyer_yards_desc_modifier:0 "船坞: R歼星舰建造启用！"
+ stardestroyer_yards_desc_modifier:0 "船坞: §R歼星舰建造启用！§!"
  
  sm_stardestroyer_yards:0 "复兴级建造船坞"
  sm_stardestroyer_yards_desc:0 "作为一个重要的海军综合体，复兴级歼星舰造船厂是唯一一个有足够能力制造这样一艘复杂船只的造船厂。围绕行星运行的造船厂被用于基本的船舶修理、制造和机密技术的开发。"
@@ -267,7 +287,7 @@
  
  #Mandator Superlaser
  EDY_sithlaser:0 "委托者IV无畏舰火炮"
- EDY_sithlaser_desc:0 "委托者IV级无畏舰装备了两个轨道自动发射炮，可以在需要补给前连续发射两轮齐射。"
+ EDY_sithlaser_DESC:0 "委托者IV级无畏舰装备了两个轨道自动发射炮，可以在需要补给前连续发射两轮齐射。"
  
  #TIE/fo
  SWFO_TIE_FIGHTER:0 "TIE/FO 战斗机"
@@ -357,4 +377,4 @@ Xyston_BOW:"长矛 舰首"
   EDY_sithlaser_XYSTON:"达斯米奇超级鸡光"
  EDY_sithlaser_XYSTON_DESC:"达斯米奇万古长存！"
  EDY_sithlaser_XYSTON_desc:"达斯米奇万古长存！"
- swfo_stormtrooper_legion:"冲锋队"
+ SW_FLAGSHIP_DEFENSIVE_BEHAVIOR_DESC:"舰船将在260范围外停下进行攻击"

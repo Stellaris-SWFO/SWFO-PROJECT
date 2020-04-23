@@ -1,6 +1,6 @@
 entity = {
 	name = "X309_LOCATOR_entity"
-	pdxmesh = "mammalian_01_titan_frame_mesh"
+	pdxmesh = "locator_mesh"
 	scale = 1.0
 	
 	locator = { name = "part1"	position = { 0 0 0 } rotation = { 0 0 0 } }
