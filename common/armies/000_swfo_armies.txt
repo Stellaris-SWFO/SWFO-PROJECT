@@ -24,7 +24,6 @@ swfo_stormtrooper_legion = {
 	show_tech_unlock_if = { 
 		OR = {
 			NOT = { has_authority = auth_machine_intelligence }
-			has_valid_civic = civic_machine_assimilator
 		}
 	}
 	potential = {
@@ -38,7 +37,6 @@ swfo_stormtrooper_legion = {
 		owner = {
 			OR = {
 				NOT = { has_authority = auth_machine_intelligence }
-				has_valid_civic = civic_machine_assimilator
 			}
 		}
 	}
@@ -71,7 +69,6 @@ swfo_atatm6_walker = {
 	show_tech_unlock_if = { 
 		OR = {
 			NOT = { has_authority = auth_machine_intelligence }
-			has_valid_civic = civic_machine_assimilator
 		}
 	}
 	potential = {
@@ -85,7 +82,6 @@ swfo_atatm6_walker = {
 		owner = {
 			OR = {
 				NOT = { has_authority = auth_machine_intelligence }
-				has_valid_civic = civic_machine_assimilator
 			}
 		}
 	}
