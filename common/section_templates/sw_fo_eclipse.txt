@@ -13,64 +13,8 @@ ship_section_template = {
 		template = "invisible_titanic_fixed"
 		locatorname = "W01"
 	}
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_03"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_04"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_05"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_06"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_07"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_08"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_09"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_10"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_11"
-		template = "invisible_extra_large_fixed"
-		locatorname = "W01"
-	}
-
-	large_utility_slots = 12
-	aux_utility_slots = 4
+	large_utility_slots = 8
+	aux_utility_slots = 2
 	
 	resources = {
 		category = ship_sections
@@ -149,8 +93,8 @@ ship_section_template = {
 		locatorname = "L12"
 	}
 	
-	large_utility_slots = 12
-	aux_utility_slots = 4
+	large_utility_slots = 8
+	aux_utility_slots = 2
 	resources = {
 		category = ship_sections
 		cost = {
@@ -229,8 +173,8 @@ ship_section_template = {
 	}
 
 	
-	large_utility_slots = 12
-	aux_utility_slots = 4
+	large_utility_slots = 8
+	aux_utility_slots = 2
 	resources = {
 		category = ship_sections
 		cost = {
@@ -308,8 +252,8 @@ ship_section_template = {
 		locatorname = "L12"
 	}
 	
-	large_utility_slots = 12
-	aux_utility_slots = 4
+	large_utility_slots = 8
+	aux_utility_slots = 2
 
 	resources = {
 		category = ship_sections
@@ -388,8 +332,8 @@ ship_section_template = {
 		locatorname = "L24"
 	}
 
-	large_utility_slots = 12
-	aux_utility_slots = 4
+	large_utility_slots = 8
+	aux_utility_slots = 2
 	
 	resources = {
 		category = ship_sections
