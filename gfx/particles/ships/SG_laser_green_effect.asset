@@ -1,5 +1,5 @@
 particle={
-	name="SG_green_effect"
+	name="smallgreen_green_effect"
 	subsystem={
 		name="light"
 		max_amount=1

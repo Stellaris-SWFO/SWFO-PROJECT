@@ -7,10 +7,10 @@ entity = {
 		name = "attack" state_time = 0.3 looping = no
 		start_event = { trigger_once = yes sound = { soundeffect = "sw_Superlaser_windup" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "sw_Superlaser_windup_long" } }
-		event = { time = 0 use_parent_nodes = yes node = "D1" particle = "ship_light_green_SW_effect" keep_particle = yes trigger_once = yes }
-		event = { time = 0 use_parent_nodes = yes node = "D2" particle = "ship_light_green_SW_effect" keep_particle = yes trigger_once = yes }
-		event = { time = 0 use_parent_nodes = yes node = "D3" particle = "ship_light_green_SG_effect" keep_particle = yes trigger_once = yes }
-		event = { time = 0 use_parent_nodes = yes node = "D4" particle = "ship_light_green_SG_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "D1" particle = "ship_light_green_biggreen_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "D2" particle = "ship_light_green_biggreen_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "D3" particle = "ship_light_green_smallgreen_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 use_parent_nodes = yes node = "D4" particle = "ship_light_green_smallgreen_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 use_parent_nodes = yes node = "W01" particle = "muzzle_green_SW_effect" keep_particle = yes trigger_once = yes }
 		
 	}
