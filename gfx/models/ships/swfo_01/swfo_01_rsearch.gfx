@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_rsearch_mesh"
+		file = "gfx/models/ships/swfo_01/swfo_01_rsearch.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Mesh_0270Shape"
+			index = 0
+			texture_diffuse = "scientific_station_diff.dds"
+			texture_normal = "scientific_station_norm.dds"
+			texture_specular = "scientific_station_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

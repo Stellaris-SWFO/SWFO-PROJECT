@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_starbase_mesh"
+		file = "gfx/models/ships/swfo_01/swfo_01_starbase.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Mesh_0389Shape"
+			index = 0
+			texture_diffuse = "Starbase_diff.dds"
+			texture_normal = "Starbase_norm.dds"
+			texture_specular = "Starbase_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
