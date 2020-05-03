@@ -41,7 +41,7 @@ mobile_capital = {
 }
 weapon_testing_labs = {
 	planet_researchers_produces_mult = 0.20
-	pop_assembly_speed = 0.15
+	pop_growth_speed = 0.25
 	ship_weapon_damage = 0.10
 	
 	icon = "gfx/interface/icons/planet_modifiers/weapon_testing_labs.dds"
