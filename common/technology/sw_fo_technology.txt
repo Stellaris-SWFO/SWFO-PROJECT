@@ -463,7 +463,7 @@ tech_starbasebuilding_stardestroyer = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			years_passed > 1
+			years_passed <= 10
 		}
 		modifier = {
 			factor = 1
@@ -574,7 +574,7 @@ tech_building_swfo_training_facilities = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			years_passed > 1
+			years_passed <= 10
 		}
 		modifier = {
 			factor = 1
