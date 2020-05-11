@@ -2,7 +2,7 @@
 
 entity = {
 	name = "swfo_01_colossus_entity"
-	pdxmesh = "swfo_01_colossus_mesh"
+	pdxmesh = "molluscoid_01_colossus_frame_mesh"
 	
 	default_state = "idle"
 	# Actual idle state when being in idle/moving.

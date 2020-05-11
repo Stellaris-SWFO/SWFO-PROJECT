@@ -1,7 +1,0 @@
-objectTypes = {
-	pdxmesh = {
-		name = "swfo_01_dreadnought_1_locator_mesh"
-		file = "gfx/models/ships/swfo_01/Droughnout/swfo_01_dreadnought_1_locator.mesh"
-		scale = 0.7
-	}
-}

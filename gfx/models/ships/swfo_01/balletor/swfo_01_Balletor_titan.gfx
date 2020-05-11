@@ -1,0 +1,1442 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_Balletor_titan_mesh"
+		file = "gfx/models/ships/swfo_01/balletor/swfo_01_Balletor_titan.mesh"
+		scale = 1.0
+
+		animation = { id = "open" type = "swf0_01_Balletor_titan_open_animation" }
+		animation = { id = "clossing" type = "swfo_01_Balletor_titan_clossing_animation" }
+
+		meshsettings = {
+			name = "Engine_ExhaustShape"
+			index = 0
+			texture_diffuse = "Engine_Exhaust.dds"
+			texture_normal = "Engine_Exhaust_B.dds"
+			texture_specular = "Engine_Exhaust_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_3_05Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_3.dds"
+			texture_normal = "L_Empire_Bellator_Star_Battlecruiser_3_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_3_04Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_3.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_3_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_3_03Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_3.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_3_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_3_01Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_3.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_3_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_3_02Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_3.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_3_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_2_06Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_2.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_2_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_2_05Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_2.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_2_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_2_04Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_2.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_2_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_2_03Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_2.dds"
+			texture_normal = "L_Empire_Bellator_Star_Battlecruiser_2_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_2_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_2_02Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_2.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_2_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_34Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_33Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_32Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_31Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_30Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_29Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_28Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_27Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_26Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_25Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_24Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_23Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_22Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_21Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_20Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_19Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_18Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_17Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_16Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_15Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_14Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_13Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_12Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_11Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_10Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_09Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_2_01Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_2.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_2_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_3_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_08Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_07Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_06Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_05Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_04Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_03Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "L_Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_01Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "L_Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_1_02Shape"
+			index = 0
+			texture_diffuse = "Empire_Bellator_Star_Battlecruiser_1.dds"
+			texture_normal = "Empire_Bellator_Star_Battlecruiser_1_B.dds"
+			texture_specular = "Empire_Bellator_Star_Battlecruiser_1_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0056Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0055Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0054Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0053Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0052Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0051Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0050Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0049Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0048Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0047Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0046Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0045Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0044Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0043Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0042Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0041Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0040Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0039Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0038Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0037Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0036Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0035Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0034Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0033Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0032Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0031Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0030Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0029Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0028Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0027Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0026Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0025Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0024Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0023Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0022Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0021Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0020Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0019Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0018Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0017Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0016Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0015Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0014Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0013Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0012Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0011Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0010Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret009Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret008Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret007Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret006Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret005Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret004Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret003Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret002Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0056|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0055|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0054|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0053|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0052|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0051|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0050|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0049|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0048|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0047|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0046|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0045|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0044|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0043|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0042|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0041|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0040|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0039|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0038|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0037|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0036|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0035|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0034|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0033|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0032|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0031|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0030|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0029|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0028|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0027|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0026|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0025|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0024|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0023|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0022|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0021|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0020|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0019|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0018|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0017|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0016|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0015|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0014|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0013|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0012|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0011|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret0010|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret009|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret008|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret007|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret006|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret005|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret004|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret003|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret002|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Turret001|Barrel001|Barrel001Shape"
+			index = 0
+			texture_diffuse = "Empire_Imperial_Star_Destroyer_Armor.dds"
+			texture_normal = "Empire_Imperial_Star_Destroyer_Armor_B.dds"
+			texture_specular = "Empire_Imperial_Star_Destroyer_Armor_s01.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+
+	pdxmesh = {
+		name = "swfo_01_Balletor_titan_frame_mesh"
+		file = "gfx/models/ships/swfo_01/balletor/swfo_01_Balletor_titan_frame.mesh"
+		scale = 1.0
+
+		animation = { id = "open" type = "swfo_01_Balletor_titan_frame_open_animation" }
+		animation = { id = "clossing" type = "swfo_01_Balletor_titan_frame_clossing_animation" }
+	}
+}
