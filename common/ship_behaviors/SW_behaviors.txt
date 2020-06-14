@@ -14,7 +14,7 @@ ship_behavior = {
 	attack_move_pattern = stay_at_range
 	passive_move_pattern = charge
 	
-	desc = "SW_FLAGSHIP_DEFENSIVE_BEHAVIOR_DESC"
+	desc = "SW_FLAGSHIP_eclipse_BEHAVIOR_DESC"
 }
 
 ####Fighters
