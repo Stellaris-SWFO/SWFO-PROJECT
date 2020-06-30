@@ -200,11 +200,6 @@ firstorder_ship_mandator = {
 	min_upgrade_cost = {
 		alloys = 20
 	}
-	
-	empire_limit = {
-		base = 20
-		max = 20
-	}
 }
 ##################################################Eclipse class Dreadnought##################################################
 firstorder_ship_eclipse = {
@@ -511,11 +506,6 @@ xyston = {
 				}
 			}
 		}
-	}
-	
-	empire_limit = {
-		base = 10
-		max = 10
 	}
 
 	resources = {

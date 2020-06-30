@@ -109,7 +109,7 @@ country_event = {
 			}
 		}
 		solar_system = {
-			spawn_megastructure = { type = "swfo_starkillerbase_2" location = event_target:starkillerbase_location01}
+			spawn_megastructure = { type = "swfo_starkillerbase_2" location = event_target:starkillerbase_location01 }
 		}
 	}
 }
@@ -223,7 +223,7 @@ country_event = {
 					 }	
 				}
 				change_pc = pc_shattered
-			}
+		}
 		if = {
 			limit = {
 				has_planet_flag = built_target
@@ -248,7 +248,7 @@ country_event = {
 					 }	
 				}
 				remove_planet = yes
-			}
+		}
 		if = {
 			limit = {
 						has_planet_flag = built_target
@@ -323,7 +323,7 @@ country_event = {
 				remove_megastructure = this
 			}
 		}
-		every_planet_within_border = {
+		every_planet = {
 			limit = {
 				has_planet_flag = buildingsoon
 			}
@@ -342,7 +342,7 @@ country_event = {
 			limit = {
 				has_planet_flag = built_target
 			}
-		remove_planet_flag = built_target
+			remove_planet_flag = built_target
 		}	
 		event_target:starkillerbase_location01 = {
 			set_variable = {

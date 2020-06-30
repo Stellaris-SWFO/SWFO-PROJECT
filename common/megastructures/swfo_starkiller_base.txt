@@ -313,7 +313,7 @@ starkiller_planet_target_marker_0 = {
 				which = num_targets
 				value = 1
 				}
-			}
+		}
 		fromfrom.planet = {
 			set_planet_flag = built_target
 		}
