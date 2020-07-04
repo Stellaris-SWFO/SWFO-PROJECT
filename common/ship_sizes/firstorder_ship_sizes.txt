@@ -410,10 +410,12 @@ firstorder_ship_supremacy = {
 	
 	resources = {
 		category = ships
+		cost = {
+			alloys = 20000
+		}
 		upkeep = {
-			energy = 25
-			alloys = 15
-			influence = 2
+			energy = 2000
+			alloys = 20
 		}
 	}
 	min_upgrade_cost = {
@@ -514,7 +516,7 @@ xyston = {
 			alloys = 5000
 		}
 		upkeep = {
-			energy = 50
+			energy = 200
 			alloys = 10
 		}
 	}

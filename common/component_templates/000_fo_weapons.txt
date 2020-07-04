@@ -11,7 +11,7 @@ weapon_component_template = {
 	
 	damage = { min = 100000 max = 200000 }
 	windup = { min = 45.0 max = 135.0 }
-	total_fire_time = 90
+	total_fire_time = 180
 	range = 400.0
 	accuracy = 0.9
 	tracking = 0.0
@@ -21,6 +21,8 @@ weapon_component_template = {
 	shield_penetration = 1.0
 	armor_penetration = 1.0
 	hull_damage = 2.0
+	firing_arc = 10.0
+	min_range = 30.0
 	
 	power = -100
 	
@@ -38,6 +40,7 @@ weapon_component_template = {
 	size_restriction = { firstorder_ship_eclipse }
 	ai_tags = { weapon_role_anti_armor }
 }
+
 #MANDATOR LASER
 weapon_component_template = {
 	key = "EDY_sithlaser"
@@ -51,7 +54,7 @@ weapon_component_template = {
 	
 	damage = { min = 10000 max = 20000 }
 	windup = { min = 45.0 max = 135.0 }
-	total_fire_time = 30
+	total_fire_time = 90
 	range = 400.0
 	accuracy = 0.9
 	tracking = 0.0
@@ -61,6 +64,8 @@ weapon_component_template = {
 	shield_penetration = 1.0
 	armor_penetration = 1.0
 	hull_damage = 2.0
+	firing_arc = 10.0
+	min_range = 30.0
 	
 	power = -100
 	
@@ -90,14 +95,14 @@ weapon_component_template = {
 	icon = "GFX_ship_part_mandator_laser"
 	icon_frame = 1
 	
-	damage = { min = 50000 max = 100000 }
+	damage = { min = 5000 max = 20000 }
 	windup = { min = 45.0 max = 135.0 }
-	total_fire_time = 30
+	total_fire_time = 90
 	range = 400.0
 	accuracy = 0.9
 	tracking = 0.0
 	
-	shield_damage = 1.0
+	shield_damage = 1.4
 	armor_damage = 1.4
 	shield_penetration = 1.0
 	armor_penetration = 1.0
@@ -110,7 +115,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 10000
+			alloys = 500
 		}
 	}
 	

@@ -28,7 +28,7 @@ utility_component_template = {
 	upgrades_to = "ST_RESURGENT_01_COMBAT_COMPUTER_2"
 
 	ship_modifier = {
-		ship_fire_rate_mult = 0.3
+		ship_fire_rate_mult = 0.1
 	}
 	
 	ai_weight = {
@@ -58,7 +58,7 @@ utility_component_template = {
 	upgrades_to = "ST_RESURGENT_01_COMBAT_COMPUTER_3"
 	
 	ship_modifier = {
-		ship_fire_rate_mult = 0.5
+		ship_fire_rate_mult = 0.2
 		ship_weapon_range_mult = 0.2
 	}
 	
@@ -87,7 +87,7 @@ utility_component_template = {
 	upgrades_to = "ST_RESURGENT_01_COMBAT_COMPUTER_4"
 
 	ship_modifier = {
-		ship_fire_rate_mult = 0.7
+		ship_fire_rate_mult = 0.35
 		ship_weapon_range_mult = 0.25
 	}
 	
@@ -115,7 +115,7 @@ utility_component_template = {
 	prerequisites = { "tech_combat_computers_3" }
 	
 	ship_modifier = {
-		ship_fire_rate_mult = 1.0
+		ship_fire_rate_mult = 0.5
 		ship_weapon_range_mult = 0.5
 	}
 	
@@ -146,7 +146,7 @@ utility_component_template = {
 	prerequisites = { "tech_precognition_interface" }
 
 	ship_modifier = {
-		ship_weapon_range_mult = 1.0
+		ship_weapon_range_mult = 0.5
 		ship_tracking_add = 10
 	}
 	
