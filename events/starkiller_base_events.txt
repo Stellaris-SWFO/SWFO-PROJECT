@@ -133,83 +133,83 @@ country_event = {
 			}
 		}
 		every_planet = {
-		if = {
-			limit = {
-				#Limit to Target Planet
-				has_planet_flag = built_target
-				OR = {
-					is_planet_class = pc_machine
-					is_planet_class = pc_frozen
-					is_planet_class = pc_barren
-					is_planet_class = pc_barren_cold
-					is_planet_class = pc_desert
-					is_planet_class = pc_arid
-					is_planet_class = pc_tundra
-					is_planet_class = pc_continental
-					is_planet_class = pc_tropical
-					is_planet_class = pc_ocean
-					is_planet_class = pc_alpine
-					is_planet_class = pc_savannah
-					is_planet_class = pc_nuked
-					is_planet_class = pc_infested
-					is_planet_class = pc_shielded
-					is_planet_class = pc_gaia
-					is_planet_class = pc_relic
-					is_planet_class = pc_city
-					is_planet_class = pc_aquatic
-					is_planet_class = pc_aquatichot
-					is_planet_class = pc_aquaticcold
-					is_planet_class = pc_aquaticcity
-					is_planet_class = pc_ecocity
-					is_planet_class = pc_bioforge
-					is_planet_class = pc_machine_factory
-					is_planet_class = pc_methane
-					is_planet_class = pc_ammonia
-					is_planet_class = pc_ash
-					is_planet_class = pc_irradiated
-					is_planet_class = pc_gghab
-					is_planet_class = pc_tmhab
-					is_planet_class = pc_tmhab2
-					is_planet_class = pc_mmhab
-					is_planet_class = pc_mmhab2
-					is_planet_class = pc_bhab
-					is_planet_class = pc_bchab
-					is_planet_class = pc_mhab
-					is_planet_class = pc_fhab
-					is_planet_class = pc_prairie
-					is_planet_class = pc_antarctic
-					is_planet_class = pc_snow
-					is_planet_class = pc_glacial
-					is_planet_class = pc_frozen_desert
-					is_planet_class = pc_steppe
-					is_planet_class = pc_hadesert
-					is_planet_class = pc_boreal
-					is_planet_class = pc_sandsea
-					is_planet_class = pc_subarctic
-					is_planet_class = pc_cascadian		
-					is_planet_class = pc_swamp
-					is_planet_class = pc_mangrove
-					is_planet_class = pc_desertislands
-					is_planet_class = pc_mesa
-					is_planet_class = pc_oasis
-					is_planet_class = pc_hajungle
-					is_planet_class = pc_mushroom
-					is_planet_class = pc_retinal
-					is_planet_class = pc_forest
-					is_planet_class = pc_med
-					is_planet_class = pc_primal
-					is_planet_class = pc_karst
-					is_planet_class = pc_superhabitable
-					is_planet_class = pc_tidallylocked
-					is_planet_class = pc_geothermal
-					is_planet_class = pc_biolumen
-					is_planet_class = pc_crystal
-					is_planet_class = pc_floating
-					is_planet_class = pc_graveyard
-					is_planet_class = pc_technoorganic
-					is_planet_class = pc_archive
-					is_planet_class = pc_shenhai
-					is_planet_class = pc_wsg_port
+			if = {
+				limit = {
+					#Limit to Target Planet
+					has_planet_flag = built_target
+					OR = {
+						is_planet_class = pc_machine
+						is_planet_class = pc_frozen
+						is_planet_class = pc_barren
+						is_planet_class = pc_barren_cold
+						is_planet_class = pc_desert
+						is_planet_class = pc_arid
+						is_planet_class = pc_tundra
+						is_planet_class = pc_continental
+						is_planet_class = pc_tropical
+						is_planet_class = pc_ocean
+						is_planet_class = pc_alpine
+						is_planet_class = pc_savannah
+						is_planet_class = pc_nuked
+						is_planet_class = pc_infested
+						is_planet_class = pc_shielded
+						is_planet_class = pc_gaia
+						is_planet_class = pc_relic
+						is_planet_class = pc_city
+						is_planet_class = pc_aquatic
+						is_planet_class = pc_aquatichot
+						is_planet_class = pc_aquaticcold
+						is_planet_class = pc_aquaticcity
+						is_planet_class = pc_ecocity
+						is_planet_class = pc_bioforge
+						is_planet_class = pc_machine_factory
+						is_planet_class = pc_methane
+						is_planet_class = pc_ammonia
+						is_planet_class = pc_ash
+						is_planet_class = pc_irradiated
+						is_planet_class = pc_gghab
+						is_planet_class = pc_tmhab
+						is_planet_class = pc_tmhab2
+						is_planet_class = pc_mmhab
+						is_planet_class = pc_mmhab2
+						is_planet_class = pc_bhab
+						is_planet_class = pc_bchab
+						is_planet_class = pc_mhab
+						is_planet_class = pc_fhab
+						is_planet_class = pc_prairie
+						is_planet_class = pc_antarctic
+						is_planet_class = pc_snow
+						is_planet_class = pc_glacial
+						is_planet_class = pc_frozen_desert
+						is_planet_class = pc_steppe
+						is_planet_class = pc_hadesert
+						is_planet_class = pc_boreal
+						is_planet_class = pc_sandsea
+						is_planet_class = pc_subarctic
+						is_planet_class = pc_cascadian		
+						is_planet_class = pc_swamp
+						is_planet_class = pc_mangrove
+						is_planet_class = pc_desertislands
+						is_planet_class = pc_mesa
+						is_planet_class = pc_oasis
+						is_planet_class = pc_hajungle
+						is_planet_class = pc_mushroom
+						is_planet_class = pc_retinal
+						is_planet_class = pc_forest
+						is_planet_class = pc_med
+						is_planet_class = pc_primal
+						is_planet_class = pc_karst
+						is_planet_class = pc_superhabitable
+						is_planet_class = pc_tidallylocked
+						is_planet_class = pc_geothermal
+						is_planet_class = pc_biolumen
+						is_planet_class = pc_crystal
+						is_planet_class = pc_floating
+						is_planet_class = pc_graveyard
+						is_planet_class = pc_technoorganic
+						is_planet_class = pc_archive
+						is_planet_class = pc_shenhai
+						is_planet_class = pc_wsg_port
 					}
 				}
 				solar_system = {
@@ -223,10 +223,10 @@ country_event = {
 					 }	
 				}
 				change_pc = pc_shattered
-		}
-		if = {
-			limit = {
-				has_planet_flag = built_target
+			}
+			if = {
+				limit = {
+					has_planet_flag = built_target
 					OR = {
 						is_planet_class = pc_habitat
 						is_planet_class = pc_ringworld_habitable
@@ -245,46 +245,46 @@ country_event = {
 						attacker = from
 						location = prev
 						value_for_planet_destruction = 1
-					 }	
+					}	
 				}
 				remove_planet = yes
-		}
-		if = {
-			limit = {
-						has_planet_flag = built_target
-					}
+			}
+			if = {
+				limit = {
+					has_planet_flag = built_target
+				}
 				solar_system = {
 					if = {
 						limit = {
-								NOT = { has_star_flag = target_system_temp }
-							}
-							set_timed_star_flag = {
-								flag = target_system_temp
-								days = 2	
-							}
-							if = {
-								limit = {
-									exists = space_owner
-									space_owner = {
-										OR = {
-											is_country_type = ai_empire
-										}
+							NOT = { has_star_flag = target_system_temp }
+						}
+						set_timed_star_flag = {
+							flag = target_system_temp
+							days = 2	
+						}
+						if = {
+							limit = {
+								exists = space_owner
+								space_owner = {
+									OR = {
+										is_country_type = ai_empire
 									}
-								}			
-								every_country = {
-									limit = {
-										NOT = { is_country_type = primitive }
-										NOT = { is_country = ROOT }
-									}
-									remove_opinion_modifier = { who = ROOT modifier = opinion_in_starkillerbase_fire_control }
 								}
+							}			
+							every_country = {
+								limit = {
+									NOT = { is_country_type = primitive }
+									NOT = { is_country = ROOT }
+								}
+								remove_opinion_modifier = { who = ROOT modifier = opinion_in_starkillerbase_fire_control }
 							}
-							else = {
-								every_country = {
-									limit = {
-										NOT = { is_country_type = primitive }
-										NOT = { is_country = ROOT }
-									}
+						}
+						else = {
+							every_country = {
+								limit = {
+									NOT = { is_country_type = primitive }
+									NOT = { is_country = ROOT }
+								}
 								remove_opinion_modifier = { who = ROOT modifier = opinion_in_starkillerbase_fire_control }
 								add_opinion_modifier = { who = ROOT modifier = opinion_starkillerbase_broke_our_system_planet }
 							}	

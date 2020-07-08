@@ -97,4 +97,3 @@ can_destroy_planet_with_PLANET_KILLER_JUMP = {
 		}
 	#}
 }
-
