@@ -1,8 +1,0 @@
-objectTypes = {
-	pdxparticle = {
-		name = "starbasekiller_SW_effect"
-		type = "SW_starkiller_red_effect"
-		
-		scale = 110.0
-	}
-}
