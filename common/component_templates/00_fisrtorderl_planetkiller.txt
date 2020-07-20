@@ -1,4 +1,4 @@
-weapon_component_template = { # World Cracker
+weapon_component_template = {
 	key = "PLANET_KILLER_JUMP"
 	size = planet_killer
 	entity = "invisible_turret_entity"

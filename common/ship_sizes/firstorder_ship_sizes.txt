@@ -310,7 +310,6 @@ firstorder_ship_eclipse = {
 	}
 }
 ##################################################Supremacy##################################################
-
 firstorder_ship_supremacy = {
 	#graphical_culture = { "st_empire_02" }
 	formation_priority = 5
@@ -422,7 +421,6 @@ firstorder_ship_supremacy = {
 		alloys = 50
 	}
 }
-
 ######################################Xyston##################################################
 xyston = {
 	formation_priority = @titan_formation_priority

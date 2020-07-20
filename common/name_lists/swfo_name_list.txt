@@ -57,14 +57,6 @@ swfo_name_list = {
 			sequential_name = "%O% AT-PD Walker Defense Battalion"
 		}
 		
-		android_army = {
-			sequential_name = "%O% Dark Trooper Phase III Army"
-		}
-
-		android_defense_army = {
-			sequential_name = "%O% Dark Trooper Phase III Garrison"
-		}
-		
 		psionic_army = {
 			sequential_name = "%R% Knights of Ren"
 		}

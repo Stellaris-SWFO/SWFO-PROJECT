@@ -62,8 +62,8 @@ sith_fortress = {
 	pop_environment_tolerance = 0.50
 	planet_amenities_mult = 0.20
 	pop_ethic_spiritualist_attraction_mult = 0.10 
-	planet_orbital_bombardment_damage = -0.50
-	army_defense_health_mult = 0.10
+	planet_orbital_bombardment_damage = -1
+	army_defense_health_mult = 1.0
 	
 	icon = "gfx/interface/icons/planet_modifiers/sith_fortress.dds"
 	icon_frame = 1

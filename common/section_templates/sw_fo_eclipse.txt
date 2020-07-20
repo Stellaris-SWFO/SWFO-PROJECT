@@ -14,7 +14,6 @@ ship_section_template = {
 		locatorname = "W01"
 	}
 	large_utility_slots = 8
-	aux_utility_slots = 2
 	
 	resources = {
 		category = ship_sections
@@ -94,7 +93,7 @@ ship_section_template = {
 	}
 	
 	large_utility_slots = 8
-	aux_utility_slots = 2
+
 	resources = {
 		category = ship_sections
 		cost = {
@@ -174,7 +173,6 @@ ship_section_template = {
 
 	
 	large_utility_slots = 8
-	aux_utility_slots = 2
 	resources = {
 		category = ship_sections
 		cost = {
@@ -253,7 +251,6 @@ ship_section_template = {
 	}
 	
 	large_utility_slots = 8
-	aux_utility_slots = 2
 
 	resources = {
 		category = ship_sections
@@ -333,7 +330,7 @@ ship_section_template = {
 	}
 
 	large_utility_slots = 8
-	aux_utility_slots = 2
+	aux_utility_slots = 8
 	
 	resources = {
 		category = ship_sections
@@ -360,7 +357,6 @@ ship_section_template = {
 	}
 
 	large_utility_slots = 8
-	aux_utility_slots = 1
 	
 	resources = {
 		category = ship_sections
@@ -420,7 +416,6 @@ ship_section_template = {
 	}
 	
 	large_utility_slots = 8
-	aux_utility_slots = 1
 	resources = {
 		category = ship_sections
 		cost = {
@@ -480,7 +475,6 @@ ship_section_template = {
 
 	
 	large_utility_slots = 8
-	aux_utility_slots = 1
 	resources = {
 		category = ship_sections
 		cost = {
@@ -540,7 +534,6 @@ ship_section_template = {
 
 	
 	large_utility_slots = 8
-	aux_utility_slots = 1
 	resources = {
 		category = ship_sections
 		cost = {
@@ -600,7 +593,7 @@ ship_section_template = {
 
 	
 	large_utility_slots = 8
-	aux_utility_slots = 1
+	aux_utility_slots = 4
 	resources = {
 		category = ship_sections
 		cost = {

@@ -56,7 +56,20 @@ ship_section_template = {
 		locatorname = "mid_strike_craft_02"
 		#rotation = 90
 	}
-	large_utility_slots = 8
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		locatorname = "mid_strike_craft_02"
+		#rotation = 90
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		locatorname = "mid_strike_craft_02"
+		#rotation = 90
+	}
+	medium_utility_slots = 4
+	large_utility_slots = 4
 	resources = {
 		category = ship_sections
 		cost = {
@@ -98,22 +111,22 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "GUN_09"
-		template = "medium_turret"
+		template = "large_turret"
 		locatorname = "mid_medium_05"
 	}
 	component_slot = {
 		name = "GUN_10"
-		template = "medium_turret"
+		template = "large_turret"
 		locatorname = "mid_medium_06"
 	}
 	component_slot = {
 		name = "GUN_11"
-		template = "medium_turret"
+		template = "large_turret"
 		locatorname = "mid_medium_07"
 	}
 	component_slot = {
 		name = "GUN_12"
-		template = "medium_turret"
+		template = "large_turret"
 		locatorname = "mid_medium_08"
 	}
 	medium_utility_slots = 4
@@ -135,7 +148,7 @@ ship_section_template = {
 	entity = "swfo_resurgent_allinone_entity"
 	icon = "GFX_ship_part_core_mid"
 
-###############rechts halb außen hinten###############
+	###############rechts halb außen hinten###############
 	component_slot = {
 		name = "GUN_14"
 		template = "large_turret"
@@ -192,12 +205,12 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "GUN_23"
-		template = "point_defence_turret"
+		template = "medium_missile_turret"
 		locatorname = "aft_medium_10"
 	}
 	component_slot = {
 		name = "GUN_25"
-		template = "point_defence_turret"
+		template = "medium_missile_turret"
 		locatorname = "aft_medium_12"
 	}
 	medium_utility_slots = 4
@@ -255,35 +268,36 @@ ship_section_template = {
 
 component_slot = {
 		name = "GUN_32"
-		template = "large_turret"
+		template = "point_defence_turret"
 		locatorname = "aft_medium_01"
 	}
 	component_slot = {
 		name = "GUN_33"
-		template = "large_turret"
+		template = "point_defence_turret"
 		locatorname = "aft_medium_02"
 	}
 	component_slot = {
 		name = "GUN_34"
-		template = "medium_turret"
+		template = "point_defence_turret"
 		locatorname = "aft_medium_03"
 	}
 	component_slot = {
 		name = "GUN_35"
-		template = "medium_turret"
+		template = "point_defence_turret"
 		locatorname = "aft_medium_08"
 	}
 	component_slot = {
 		name = "GUN_36"
-		template = "medium_turret"
+		template = "point_defence_turret"
 		locatorname = "aft_medium_08"
 	}
 	component_slot = {
 		name = "GUN_37"
-		template = "medium_turret"
+		template = "point_defence_turret"
 		locatorname = "aft_medium_08"
 	}
-	aux_utility_slots = 4
+	aux_utility_slots = 2
+	large_utility_slots = 2
 	medium_utility_slots = 4
 
 	resources = {

@@ -67,7 +67,7 @@ starkiller_base = {
 		
 		init_effect = {
 			prevent_anomaly = yes
-			change_pc = "pc_nuked"
+			change_pc = "pc_arctic"
 			set_planet_entity = {
 				entity = "nuked_planet_01_entity"
 				picture = pc_exegol
@@ -128,16 +128,11 @@ starkiller_base = {
 	}
 
 	init_effect = {
-		every_neighbor_system = {
-			set_star_flag = empire_cluster
-			every_neighbor_system = {
-				set_star_flag = empire_cluster
-			}
-		}
 		generate_home_system_resources = yes
 		spawn_megastructure = { 
 			type = "swfo_starkillerbase_0" 
 			location = event_target:starkillerbase_location01 
+			owner = space_owner
 		}
 	}
 }

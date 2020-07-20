@@ -21,53 +21,43 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "LARGE_GUN_01"
-		template = "point_defence_turret"
+		template = "large_turret"
 		locatorname = "L01"
 	}
 	component_slot = {
 		name = "LARGE_GUN_02"
-		template = "point_defence_turret"
+		template = "large_turret"
 		locatorname = "L02"
 	}
 	component_slot = {
 		name = "LARGE_GUN_03"
-		template = "point_defence_turret"
+		template = "large_turret"
 		locatorname = "L03"
 	}
 	component_slot = {
 		name = "LARGE_GUN_04"
-		template = "point_defence_turret"
+		template = "large_turret"
 		locatorname = "L04"
 	}
 	component_slot = {
 		name = "LARGE_GUN_05"
-		template = "point_defence_turret"
+		template = "large_turret"
 		locatorname = "L05"
 	}
 	component_slot = {
 		name = "LARGE_GUN_06"
-		template = "point_defence_turret"
+		template = "large_turret"
 		locatorname = "L06"
 	}
 	component_slot = {
 		name = "LARGE_GUN_07"
-		template = "point_defence_turret"
+		template = "large_turret"
 		locatorname = "L07"
 	}
 	component_slot = {
 		name = "LARGE_GUN_08"
-		template = "point_defence_turret"
+		template = "large_turret"
 		locatorname = "L08"
-	}
-	component_slot = {
-		name = "LARGE_GUN_09"
-		template = "point_defence_turret"
-		locatorname = "L09"
-	}
-	component_slot = {
-		name = "LARGE_GUN_10"
-		template = "point_defence_turret"
-		locatorname = "L010"
 	}
 	component_slot = {
 		name = "HANGAR_01"
@@ -88,9 +78,19 @@ ship_section_template = {
 		name = "HANGAR_04"
 		template = "large_strike_craft"
 		locatorname = "mid_strike_craft_02"
+	}
+	component_slot = {
+		name = "HANGAR_05"
+		template = "large_strike_craft"
+		locatorname = "mid_strike_craft_02"
+	}
+	component_slot = {
+		name = "HANGAR_06"
+		template = "large_strike_craft"
+		locatorname = "mid_strike_craft_02"
 	}	
 	
-large_utility_slots = 8
+	large_utility_slots = 8
 	
 	resources = {
 		category = ship_sections
@@ -170,7 +170,7 @@ ship_section_template = {
 	}
 
 
-large_utility_slots = 8
+	large_utility_slots = 8
 	
 	resources = {
 		category = ship_sections
@@ -250,7 +250,7 @@ ship_section_template = {
 	}
 
 
-large_utility_slots = 8
+	large_utility_slots = 8
 	
 	resources = {
 		category = ship_sections
