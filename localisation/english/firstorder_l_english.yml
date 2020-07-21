@@ -188,7 +188,7 @@
  ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer"
  ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "Advanced Combat Computer"
  ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "Sentient Combat Computer"
- ST_RESURGENT_01_COMBAT_COMPUTER_5:0 "Precognitive Interface"
+ ECLIPSE_COMBAT_COMPUTER:0 "Precognitive Interface"
  
  ##############Hyper Space Tracker############## 
  supremacy_hyperspacetracker_component:0 "Supremacy Hyperspace Tracking Control"
@@ -381,4 +381,4 @@
  EDY_sithlaser_XYSTON:"Darth Mickey Gun"
  EDY_sithlaser_XYSTON_DESC:"Like you see,this is Darth Mickey Gun"
  EDY_sithlaser_XYSTON_desc:"Like you see,this is Darth Mickey Gun"
- SW_FLAGSHIP_eclipse_BEHAVIOR_DESC:"This ship will attack stay at range 260"
+ SW_FLAGSHIP_ECLIPSE_BEHAVIOR_DESC:"§REclipse battle system:§!This ship will attack stay at range 260"

@@ -124,7 +124,6 @@ firstorder_ship_mandator = {
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	
 	prerequisites = { tech_MANDATORCLASS }
-	default_behavior = SW_flagship
 	
 
 	combat_disengage_chance = 1.25
@@ -233,7 +232,6 @@ firstorder_ship_eclipse = {
 	prerequisites = { "tech_ECLIPSECLASS" }
 	
 	combat_disengage_chance = 1.25
-	default_behavior = SW_flagship
 	
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -448,7 +446,6 @@ xyston = {
 	prerequisites = { "tech_ECLIPSECLASS" }
 	
 	combat_disengage_chance = 1.25
-	default_behavior = SW_flagship
 	
 	class = shipclass_military
 	construction_type = starbase_shipyard

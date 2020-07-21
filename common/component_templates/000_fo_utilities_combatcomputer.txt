@@ -128,7 +128,7 @@ utility_component_template = {
 
 
 utility_component_template = {
-	key = "ST_RESURGENT_01_COMBAT_COMPUTER_5"
+	key = "ECLIPSE_COMBAT_COMPUTER"
 	size = small
 	icon = "GFX_ship_part_computer_artillery_precog"
 	icon_frame = 1
@@ -142,7 +142,7 @@ utility_component_template = {
 	class_restriction = { shipclass_military shipclass_starbase }
 	size_restriction = { "firstorder_ship_eclipse" "firstorder_ship_mandator" "xyston" }
 	component_set = "combat_computers"
-	ship_behavior = "SW_flagship"
+	ship_behavior = "SW_flagship_behavior"
 	prerequisites = { "tech_combat_computers_3" }
 
 	ship_modifier = {

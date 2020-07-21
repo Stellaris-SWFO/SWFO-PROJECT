@@ -167,7 +167,7 @@
  ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer"
  ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "Advanced Combat Computer"
  ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "Sentient Combat Computer"
- ST_RESURGENT_01_COMBAT_COMPUTER_5:0 "Precognitive Interface"
+ ECLIPSE_COMBAT_COMPUTER:0 "Precognitive Interface"
  
  ##############Hyper Space Tracker############## 
  supremacy_hyperspacetracker_component:0 "Supremacy Hyperspace Tracking Control"

@@ -1,10 +1,10 @@
 ### FLAGSHIP
 
 ship_behavior = {
-	name = "SW_flagship"
+	name = "SW_flagship_behavior"
 	preferred_attack_range = max
-	formation_distance = 260
-	return_to_formation_distance = 280
+	formation_distance = 250
+	return_to_formation_distance = 250
 
 	combat_target_anchor = root
 
@@ -14,7 +14,7 @@ ship_behavior = {
 	attack_move_pattern = stay_at_range
 	passive_move_pattern = charge
 	
-	desc = "SW_FLAGSHIP_eclipse_BEHAVIOR_DESC"
+	desc = "SW_FLAGSHIP_ECLIPSE_BEHAVIOR_DESC"
 }
 
 ####Fighters

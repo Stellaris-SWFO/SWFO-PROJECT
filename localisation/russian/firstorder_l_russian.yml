@@ -168,7 +168,7 @@
  ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "Промежуточный Боевой Компьютер"
  ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "Продвинутый Боевой Компьютер"
  ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "Разумный Боевой Компьютер"
- ST_RESURGENT_01_COMBAT_COMPUTER_5:0 "Вещий Интерфейс"
+ ECLIPSE_COMBAT_COMPUTER:0 "Вещий Интерфейс"
  
  ##############Hyper Space Tracker############## 
  supremacy_hyperspacetracker_component:0 "Гиперпространственный Контроль Слежения Превосходства"
