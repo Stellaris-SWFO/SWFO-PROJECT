@@ -26,7 +26,9 @@ origin_first_order_military = {
 		country_starbase_capacity_add = 5
 		pop_government_ethic_attraction = 0.20
 	}
-
+	initializers = {
+		starkiller_base
+	}
 	description = "origin_tooltip_first_order_military_effects"
 
 	advanced_start = yes

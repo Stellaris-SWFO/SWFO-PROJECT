@@ -110,7 +110,7 @@ swfo_starkillerbase_1 = {
 	on_build_cancel = {}
 	on_build_complete = {
 		from = { 
-        country_event = { id = starkiller.0 }
+        	country_event = { id = starkiller.0 }
         }	
 	}	
 }

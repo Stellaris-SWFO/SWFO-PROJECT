@@ -27,12 +27,6 @@ country_event = {
 	immediate = {
 		country_event = { id = starkiller.2 days = 30 }
 		set_country_flag = nomorespeech
-		solar_system = {
-			spawn_megastructure = { 
-				type = "swfo_sun_drain" 
-				location = event_target:sun_location01 
-			}
-		}
 		every_megastructure = {
 			limit = {
 				exists = this
@@ -40,10 +34,14 @@ country_event = {
 			}
 			remove_megastructure = this
 		}
-		solar_system = {
+		event_target:sun_target_system = {
+			spawn_megastructure = { 
+				type = "swfo_sun_drain" 
+				location = event_target:sun_location01 
+			}
 			spawn_megastructure = { 
 				type = "swfo_starkillerbase_a" 
-				location = event_target:starkillerbase_location01 
+				location = event_target:starkillerbase_location01
 			}
 		}
 		play_sound = swfo_starkillerbase_charge
@@ -110,10 +108,10 @@ country_event = {
 			}
 			remove_megastructure = this
 		}
-		solar_system = {
+		event_target:sun_target_system = {
 			spawn_megastructure = { 
 				type = "swfo_starkillerbase_2" 
-				location = event_target:starkillerbase_location01 
+				location = event_target:starkillerbase_location01
 			}
 		}
 	}
@@ -240,7 +238,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-
 		#Delete Target Marker
 		every_megastructure = {
 			if = {
@@ -260,26 +257,28 @@ country_event = {
 			}
 		}
 		every_planet = {
-			limit = {
-				has_planet_flag = buildingsoon
+			if = {
+				limit = {
+					has_planet_flag = buildingsoon
+				}
+				save_event_target_as = buildtargetsoon
 			}
-			save_event_target_as = buildtargetsoon
+			if = {
+				limit = {
+					has_planet_flag = built_target
+				}
+				remove_planet_flag = built_target
+			}
 		}
 		#rebuilts Starkiller Base
-		solar_system = {
+		event_target:sun_target_system = {
 			spawn_megastructure = { 
 				type = "swfo_starkillerbase_1" 
 				location = event_target:buildtargetsoon
 				owner = space_owner
 			}
 		}
-		#Allow building of Target Marker again
-		every_planet = {
-			limit = {
-				has_planet_flag = built_target
-			}
-			remove_planet_flag = built_target
-		}	
+		#reset variable
 		event_target:starkillerbase_location01 = {
 			set_variable = {
 				which = num_targets

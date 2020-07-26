@@ -4,7 +4,7 @@ starkiller_base = {
 	name = "Starkiller Base"
 	class = "sc_f"
 	max_instances = 1
-	usage = custom_empire
+	usage = origin
 			
 			
 	#Asteroid Belts		
@@ -28,19 +28,6 @@ starkiller_base = {
 	asteroid_belt = {
 		type = rocky_asteroid_belt
 		radius = 168
-	}
-
-	asteroid_belt = {
-		type = icy_asteroid_belt
-		radius = 255
-	}
-	asteroid_belt = {
-		type = icy_asteroid_belt
-		radius = 260
-	}
-	asteroid_belt = {
-		type = icy_asteroid_belt
-		radius = 265
 	}
 	#Sun
 	planet = {
@@ -128,6 +115,8 @@ starkiller_base = {
 	}
 
 	init_effect = {
+		save_global_event_target_as = sun_target_system
+		set_star_flag = sun_target_system
 		generate_home_system_resources = yes
 		spawn_megastructure = { 
 			type = "swfo_starkillerbase_0" 
