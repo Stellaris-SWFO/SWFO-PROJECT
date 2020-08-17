@@ -359,7 +359,7 @@
 
  origin_tooltip_first_order_military_effects:"We must conquer the entire galaxy."
  origin_first_order_military:0 "New Order"
- origin_first_order_military_desc:0 "Our future rests on this and our existence depends on it. We will restore the galactic order. Now we are the order!"
+ origin_first_order_military_desc:0 "§Y'Today is the end of the Republic! The end of a regime that acquiesces to disorder! At this very moment, in a system far from here the New Republic LIES to the GALAXY while secretly supporting the treachery of the loathsome Resistance. This fierce machine which you have built, upon which we stand, will bring an end to the Senate! To their cherished fleet! All remaining systems will bow to the First Order! And will remember this... as the last day of the Republic!'§! ― General Hux"
 
  need_stardestroyershipyard:"Need Resurgent class Shipyards"
  mandator_orbital_autocannon:"mandator gun"
