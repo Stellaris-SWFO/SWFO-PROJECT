@@ -1,12 +1,12 @@
 stardestroyer_yards = {
 	icon = "GFX_spaceport_module_stardestroyer_assembly"
 	construction_days = 720
-	
 	potential = {
 		exists = owner
-		owner = { has_technology = tech_starbasebuilding_stardestroyer }			
+		owner = {
+			has_technology = tech_starbasebuilding_stardestroyer
+		}
 	}
-	
 	possible = {
 		custom_tooltip = {
 			fail_text = "requires_citadel"
@@ -14,7 +14,6 @@ stardestroyer_yards = {
 		}
 		has_starbase_module = shipyard
 	}
-
 	resources = {
 		category = starbase_buildings
 		cost = {
@@ -26,7 +25,6 @@ stardestroyer_yards = {
 	}
 	show_in_tech = "tech_starbasebuilding_stardestroyer"
 	custom_tooltip = "stardestroyer_yards_desc_modifier"
-	
 	ai_build_at_chokepoint = no
 	ai_build_outside_chokepoint = yes
 	ai_weight = {

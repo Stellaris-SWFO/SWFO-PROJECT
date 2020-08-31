@@ -1,19 +1,15 @@
 @mandator_section_cost = 4000
-
 ship_section_template = {
 	key = "Manator_ship_BOW"
 	ship_size = firstorder_ship_mandator
 	fits_on_slot = main
 	entity = "first_01_Manator_bow_entity"
 	icon = "GFX_ship_part_core_bow"
-
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
 		locatorname = "T01"
 	}
-
 	component_slot = {
 		name = "TITANIC_02"
 		template = "invisible_titanic_fixed"
@@ -68,12 +64,12 @@ ship_section_template = {
 		name = "HANGAR_02"
 		template = "large_strike_craft"
 		locatorname = "mid_strike_craft_01"
-	}	
+	}
 	component_slot = {
 		name = "HANGAR_03"
 		template = "large_strike_craft"
 		locatorname = "mid_strike_craft_01"
-	}	
+	}
 	component_slot = {
 		name = "HANGAR_04"
 		template = "large_strike_craft"
@@ -88,10 +84,8 @@ ship_section_template = {
 		name = "HANGAR_06"
 		template = "large_strike_craft"
 		locatorname = "mid_strike_craft_02"
-	}	
-	
+	}
 	large_utility_slots = 8
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -99,7 +93,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid1
 ship_section_template = {
 	key = "Manator_ship_MID1"
@@ -107,7 +101,6 @@ ship_section_template = {
 	fits_on_slot = bow
 	entity = "first_01_Manator_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-	
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "point_defence_turret"
@@ -168,10 +161,7 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "L018"
 	}
-
-
 	large_utility_slots = 8
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -179,7 +169,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid2
 ship_section_template = {
 	key = "Manator_ship_MID2"
@@ -187,7 +177,6 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "first_01_Manator_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "point_defence_turret"
@@ -248,10 +237,7 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "L07"
 	}
-
-
 	large_utility_slots = 8
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -267,7 +253,6 @@ ship_section_template = {
 	fits_on_slot = stern
 	entity = "first_01_Manator_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-	
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "point_defence_turret"
@@ -328,10 +313,8 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "L010"
 	}
-
 	aux_utility_slots = 4
 	large_utility_slots = 4
-	
 	resources = {
 		category = ship_sections
 		cost = {

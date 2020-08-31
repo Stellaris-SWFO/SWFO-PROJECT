@@ -1,57 +1,53 @@
 objectTypes = {
-
-#############Supremacy#########
-#moving
+	#############Supremacy#########
+	#moving
 	pdxparticle = {
 		name = "swfo_l_1_ship_exhaust_moving_particle"
 		type = "mammalian_01_ship_exhaust_file"
-		scale = 16.0
+		scale = 16
 	}
-#idle
-#	pdxparticle = {
-#		name = "swfo_l_1_ship_exhaust_idle_particle"
-#		type = "arthropoid_01_ship_exhaust_idle_large_file"
-#		scale = 16.0
-#	}
-	
-#############Resurgent#########
-#idle
+	#idle
+	#	pdxparticle = {
+	#		name = "swfo_l_1_ship_exhaust_idle_particle"
+	#		type = "arthropoid_01_ship_exhaust_idle_large_file"
+	#		scale = 16.0
+	#	}
+	#############Resurgent#########
+	#idle
 	#small
 	pdxparticle = {
 		name = "swfo_s_0_exhaust_idle_particle"
 		type = "mammalian_01_ship_exhaust_idle_file"
-		scale = 5.0
+		scale = 5
 	}
 	#large
 	pdxparticle = {
 		name = "swfo_l_0_exhaust_idle_particle"
 		type = "arthropoid_01_ship_exhaust_idle_file"
-		scale = 8.0
+		scale = 8
 	}
-#moving
+	#moving
 	#small
 	pdxparticle = {
 		name = "swfo_s_0_ship_exhaust_moving_particle"
 		type = "mammalian_01_ship_exhaust_file"
-		scale = 5.0
+		scale = 5
 	}
 	#large
 	pdxparticle = {
 		name = "swfo_l_0_ship_exhaust_moving_particle"
 		type = "arthropoid_01_ship_exhaust_file"
-		scale = 8.0
+		scale = 8
 	}
-
-
-#################vanilla ship#########################33
+	#################vanilla ship#########################33
 	pdxparticle = {
 		name = "swfo_v_0_exhaust_idle_particle"
 		type = "mammalian_01_ship_exhaust_idle_file"
-		scale = 5.0
+		scale = 5
 	}
 	pdxparticle = {
 		name = "swfo_v_1_exhaust_idle_particle"
 		type = "mammalian_01_ship_exhaust_idle_file"
-		scale = 3.0
+		scale = 3
 	}
 }

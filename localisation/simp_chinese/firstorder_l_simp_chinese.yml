@@ -183,10 +183,10 @@
  ####################################
  
  ##############Combat computers##############
- ST_RESURGENT_01_COMBAT_COMPUTER_1:0 "基本作战计算机"
- ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "中级作战计算机"
- ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "高级作战计算机"
- ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "感知作战计算机"
+ SWFO_COMBAT_COMPUTER_1:0 "基本作战计算机"
+ SWFO_COMBAT_COMPUTER_2:0 "中级作战计算机"
+ SWFO_COMBAT_COMPUTER_3:0 "高级作战计算机"
+ SWFO_COMBAT_COMPUTER_4:0 "感知作战计算机"
  ECLIPSE_COMBAT_COMPUTER:0 "日蚀级作战指挥系统"
  
  ##############Hyper Space Tracker############## 

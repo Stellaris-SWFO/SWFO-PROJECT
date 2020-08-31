@@ -1,10 +1,9 @@
 ##################################################Resurgent SD##################################################
 firstorder_ship_resurgent = {
-	#graphical_culture = { "st_empire_02" }
-	formation_priority = 5
+	formation_priority = 41
 	max_speed = @speed_default
-	acceleration = 0.15
-	rotation_speed = 0.040
+	acceleration = 0.2
+	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
 	modifier = {
 		ship_armor_add = 60000
@@ -102,7 +101,7 @@ firstorder_ship_resurgent = {
 }
 ##################################################Mandator IV##################################################
 firstorder_ship_mandator = {
-	formation_priority = @titan_formation_priority
+	formation_priority = 42
 	max_speed = @speed_slow
 	acceleration = 0.2
 	rotation_speed = 0.15
@@ -200,13 +199,114 @@ firstorder_ship_mandator = {
 		alloys = 20
 	}
 }
+######################################Xyston##################################################
+xyston = {
+	formation_priority = 43
+	max_speed = @speed_slow
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 60000
+	modifier = {
+		ship_armor_add = 60000
+		ship_shield_add = 60000
+	}
+	size_multiplier = 25
+	fleet_slot_size = 25
+	section_slots = {
+		"bow" = { locator = "part1" }
+		"mid" = { locator = "part2" }
+		"mid2" = { locator = "part3" }
+		"mid3" = { locator = "part4" }
+		"stern" = { locator = "part5" }
+	}
+	num_target_locators = 8
+	is_space_station = no
+	icon_frame = 6
+	base_buildtime = 1000
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_ECLIPSECLASS" }
+	
+	combat_disengage_chance = 1.25
+	
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+	potential_construction = {
+		OR = {
+			AND = {
+				is_scope_type = starbase
+			}
+			AND = {
+				is_scope_type = megastructure
+				OR = {
+					is_megastructure_type = mega_shipyard_3
+					is_megastructure_type = mega_shipyard_restored
+				}
+			}
+		}
+	}
+
+	possible_construction = {
+		custom_tooltip = {
+			fail_text = starbase_citadel_trigger
+			OR = {
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+				AND = {
+					is_scope_type = starbase
+					has_starbase_size >= starbase_citadel
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = need_stardestroyershipyard
+			OR = {
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+				AND = {
+					is_scope_type = starbase
+					has_starbase_building = stardestroyer_yards
+				}
+			}
+		}
+	}
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 500
+		}
+		upkeep = {
+			energy = 200
+			alloys = 10
+		}
+	}
+}
 ##################################################Eclipse class Dreadnought##################################################
 firstorder_ship_eclipse = {
-	formation_priority = @titan_formation_priority
+	formation_priority = 44
 	max_speed = @speed_slow
 	acceleration = 0.15
-	rotation_speed = 0.1
-	collision_radius = 18
+	rotation_speed = 0.15
+	collision_radius = 100 #20
 	modifier = {
 		ship_armor_add = 300000
 		ship_shield_add = 300000
@@ -309,12 +409,11 @@ firstorder_ship_eclipse = {
 }
 ##################################################Supremacy##################################################
 firstorder_ship_supremacy = {
-	#graphical_culture = { "st_empire_02" }
 	formation_priority = 5
 	max_speed = @speed_slow
 	acceleration = 0.15
-	rotation_speed = 0.040
-	collision_radius = 18
+	rotation_speed = 0.15
+	collision_radius = 100 #20
 	modifier = {
 		ship_evasion_add = 2.5
 		ship_weapon_damage = 0.5
@@ -417,102 +516,5 @@ firstorder_ship_supremacy = {
 	}
 	min_upgrade_cost = {
 		alloys = 50
-	}
-}
-######################################Xyston##################################################
-xyston = {
-	formation_priority = @titan_formation_priority
-	max_speed = @speed_slow
-	acceleration = 0.15
-	rotation_speed = 0.1
-	collision_radius = @titan_collision_radius
-	max_hitpoints = 60000
-	size_multiplier = 25
-	fleet_slot_size = 25
-	section_slots = {
-		"bow" = { locator = "part1" }
-		"mid" = { locator = "part2" }
-		"mid2" = { locator = "part3" }
-		"mid3" = { locator = "part4" }
-		"stern" = { locator = "part5" }
-	}
-	num_target_locators = 8
-	is_space_station = no
-	icon_frame = 6
-	base_buildtime = 1000
-	can_have_federation_design = no
-	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-
-	prerequisites = { "tech_ECLIPSECLASS" }
-	
-	combat_disengage_chance = 1.25
-	
-	class = shipclass_military
-	construction_type = starbase_shipyard
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	required_component_set = "thruster_components"
-	required_component_set = "sensor_components"
-	required_component_set = "combat_computers"
-
-	potential_construction = {
-		OR = {
-			AND = {
-				is_scope_type = starbase
-			}
-			AND = {
-				is_scope_type = megastructure
-				OR = {
-					is_megastructure_type = mega_shipyard_3
-					is_megastructure_type = mega_shipyard_restored
-				}
-			}
-		}
-	}
-
-	possible_construction = {
-		custom_tooltip = {
-			fail_text = starbase_citadel_trigger
-			OR = {
-				AND = {
-					is_scope_type = megastructure
-					OR = {
-						is_megastructure_type = mega_shipyard_3
-						is_megastructure_type = mega_shipyard_restored
-					}
-				}
-				AND = {
-					is_scope_type = starbase
-					has_starbase_size >= starbase_citadel
-				}
-			}
-		}
-		custom_tooltip = {
-			fail_text = need_stardestroyershipyard
-			OR = {
-				AND = {
-					is_scope_type = megastructure
-					OR = {
-						is_megastructure_type = mega_shipyard_3
-						is_megastructure_type = mega_shipyard_restored
-					}
-				}
-				AND = {
-					is_scope_type = starbase
-					has_starbase_building = stardestroyer_yards
-				}
-			}
-		}
-	}
-
-	resources = {
-		category = ships
-		cost = {
-			alloys = 5000
-		}
-		upkeep = {
-			energy = 200
-			alloys = 10
-		}
 	}
 }

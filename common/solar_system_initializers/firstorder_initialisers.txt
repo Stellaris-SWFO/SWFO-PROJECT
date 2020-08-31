@@ -1,12 +1,9 @@
 # FIRST ORDER
-
 starkiller_base = {
 	name = "Starkiller Base"
 	class = "sc_f"
 	max_instances = 1
 	usage = origin
-			
-			
 	#Asteroid Belts		
 	asteroid_belt = {
 		type = rocky_asteroid_belt
@@ -16,7 +13,6 @@ starkiller_base = {
 		type = rocky_asteroid_belt
 		radius = 55
 	}
-
 	asteroid_belt = {
 		type = rocky_asteroid_belt
 		radius = 158
@@ -41,17 +37,12 @@ starkiller_base = {
 			save_global_event_target_as = sun_location01
 		}
 	}
-	
-		
-
 	planet = {
 		name = "Exegol"
 		class = ideal_planet_class
 		orbit_distance = 60
 		orbit_angle = 2
 		has_ring = no
-		
-		
 		init_effect = {
 			prevent_anomaly = yes
 			change_pc = "pc_arctic"
@@ -65,7 +56,6 @@ starkiller_base = {
 			}
 		}
 	}
-
 	#Starkiller Base
 	planet = {
 		count = 1
@@ -77,14 +67,13 @@ starkiller_base = {
 		home_planet = yes
 		size = 35
 		has_ring = no
-		
 		#Modifiers
 		init_effect = {
 			save_global_event_target_as = starkillerbase_location01
 			prevent_anomaly = yes
 			change_pc = "pc_arctic"
-			set_planet_entity = { 
-				entity = "pc_arctic" 
+			set_planet_entity = {
+				entity = "pc_arctic"
 				picture = pc_starkiller
 			}
 			add_modifier = {
@@ -113,14 +102,13 @@ starkiller_base = {
 			}
 		}
 	}
-
 	init_effect = {
 		save_global_event_target_as = sun_target_system
 		set_star_flag = sun_target_system
 		generate_home_system_resources = yes
-		spawn_megastructure = { 
-			type = "swfo_starkillerbase_0" 
-			location = event_target:starkillerbase_location01 
+		spawn_megastructure = {
+			type = "swfo_starkillerbase_0"
+			location = event_target:starkillerbase_location01
 			owner = space_owner
 		}
 	}

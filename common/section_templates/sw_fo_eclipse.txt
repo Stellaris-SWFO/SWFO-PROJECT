@@ -1,5 +1,4 @@
 @eclipse_section_cost = 4000
-
 #Bow
 ship_section_template = {
 	key = "firstorder_ship_eclipse_BOW"
@@ -7,14 +6,12 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "X309_1_entity"
 	icon = "GFX_ship_part_core_bow"
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
 		locatorname = "W01"
 	}
 	large_utility_slots = 8
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -22,7 +19,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid1
 ship_section_template = {
 	key = "firstorder_ship_eclipse_MID1"
@@ -30,7 +27,6 @@ ship_section_template = {
 	fits_on_slot = bow
 	entity = "X309_1_entity"
 	icon = "GFX_ship_part_core_mid"
-	
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
@@ -91,9 +87,7 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "L12"
 	}
-	
 	large_utility_slots = 8
-
 	resources = {
 		category = ship_sections
 		cost = {
@@ -101,7 +95,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid2
 ship_section_template = {
 	key = "firstorder_ship_eclipse_MID2"
@@ -109,7 +103,6 @@ ship_section_template = {
 	fits_on_slot = core
 	entity = "X309_1_entity"
 	icon = "GFX_ship_part_core_mid"
-
 	component_slot = {
 		name = "PD_01"
 		template = "point_defence_turret"
@@ -170,8 +163,6 @@ ship_section_template = {
 		template = "large_strike_craft"
 		locatorname = "L24"
 	}
-
-	
 	large_utility_slots = 8
 	resources = {
 		category = ship_sections
@@ -188,7 +179,6 @@ ship_section_template = {
 	fits_on_slot = data
 	entity = "X309_1_entity"
 	icon = "GFX_ship_part_core_mid"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
@@ -249,9 +239,7 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "L12"
 	}
-	
 	large_utility_slots = 8
-
 	resources = {
 		category = ship_sections
 		cost = {
@@ -259,7 +247,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Stern
 ship_section_template = {
 	key = "firstorder_ship_eclipse_STERN"
@@ -267,7 +255,6 @@ ship_section_template = {
 	fits_on_slot = stern
 	entity = "X309_1_entity"
 	icon = "GFX_ship_part_core_stern"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
@@ -328,10 +315,8 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "L24"
 	}
-
 	large_utility_slots = 8
 	aux_utility_slots = 8
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -339,7 +324,6 @@ ship_section_template = {
 		}
 	}
 }
-
 
 #############################Xyston#########################
 #Bow
@@ -349,15 +333,12 @@ ship_section_template = {
 	fits_on_slot = bow
 	entity = "xyston_frame_entity"
 	icon = "GFX_ship_part_core_bow"
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
 		locatorname = "xl_gun_01"
 	}
-
 	large_utility_slots = 8
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -365,7 +346,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid1
 ship_section_template = {
 	key = "Xyston_MID1"
@@ -373,7 +354,6 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "xyston_frame_entity"
 	icon = "GFX_ship_part_core_mid"
-	
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
@@ -414,7 +394,6 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "large_gun_08"
 	}
-	
 	large_utility_slots = 8
 	resources = {
 		category = ship_sections
@@ -423,7 +402,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid2
 ship_section_template = {
 	key = "Xyston_MID2"
@@ -431,7 +410,6 @@ ship_section_template = {
 	fits_on_slot = mid2
 	entity = "xyston_frame_entity"
 	icon = "GFX_ship_part_core_mid"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
@@ -472,8 +450,6 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "large_gun_08"
 	}
-
-	
 	large_utility_slots = 8
 	resources = {
 		category = ship_sections
@@ -490,7 +466,6 @@ ship_section_template = {
 	fits_on_slot = mid3
 	entity = "xyston_frame_entity"
 	icon = "GFX_ship_part_core_mid"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
@@ -531,8 +506,6 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "large_gun_08"
 	}
-
-	
 	large_utility_slots = 8
 	resources = {
 		category = ship_sections
@@ -541,7 +514,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Stern
 ship_section_template = {
 	key = "xyston_STERN"
@@ -549,7 +522,6 @@ ship_section_template = {
 	fits_on_slot = stern
 	entity = "xyston_frame_entity"
 	icon = "GFX_ship_part_core_stern"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
@@ -590,8 +562,6 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "large_gun_08"
 	}
-
-	
 	large_utility_slots = 8
 	aux_utility_slots = 4
 	resources = {

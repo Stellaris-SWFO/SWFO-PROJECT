@@ -1,5 +1,4 @@
 @supremacy_section_cost = 1000
-
 #Bow
 ship_section_template = {
 	key = "supermacy_BOW_1"
@@ -7,8 +6,9 @@ ship_section_template = {
 	fits_on_slot = bow
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_bow"
-	prerequisites = { "tech_superclass" }
-
+	prerequisites = {
+		"tech_superclass"
+	}
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_strike_craft"
@@ -89,9 +89,7 @@ ship_section_template = {
 		template = "invisible_titanic_fixed"
 		locatorname = "L02"
 	}
-
 	large_utility_slots = 12
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -99,7 +97,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid1
 ship_section_template = {
 	key = "supermacy_MID1_1"
@@ -107,8 +105,9 @@ ship_section_template = {
 	fits_on_slot = mid1
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-	prerequisites = { "tech_superclass" }
-	
+	prerequisites = {
+		"tech_superclass"
+	}
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -191,7 +190,6 @@ ship_section_template = {
 	}
 	large_utility_slots = 12
 	aux_utility_slots = 0
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -199,7 +197,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid2
 ship_section_template = {
 	key = "supermacy_MID2_1"
@@ -207,8 +205,9 @@ ship_section_template = {
 	fits_on_slot = mid2
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-	prerequisites = { "tech_superclass" }
-
+	prerequisites = {
+		"tech_superclass"
+	}
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -290,7 +289,6 @@ ship_section_template = {
 		locatorname = "L024"
 	}
 	large_utility_slots = 12
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -306,8 +304,9 @@ ship_section_template = {
 	fits_on_slot = mid3
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-	prerequisites = { "tech_superclass" }
-	
+	prerequisites = {
+		"tech_superclass"
+	}
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -377,7 +376,7 @@ ship_section_template = {
 		name = "LARGE_GUN_14"
 		template = "large_turret"
 		locatorname = "L014"
-	}	
+	}
 	component_slot = {
 		name = "LARGE_GUN_15"
 		template = "large_turret"
@@ -387,10 +386,9 @@ ship_section_template = {
 		name = "LARGE_GUN_16"
 		template = "large_turret"
 		locatorname = "L015"
-	}	
+	}
 	large_utility_slots = 12
 	aux_utility_slots = 0
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -398,7 +396,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Stern
 ship_section_template = {
 	key = "supermacy_STERN_1"
@@ -406,8 +404,9 @@ ship_section_template = {
 	fits_on_slot = stern
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_stern"
-	prerequisites = { "tech_superclass" }
-
+	prerequisites = {
+		"tech_superclass"
+	}
 	component_slot = {
 		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
@@ -482,16 +481,14 @@ ship_section_template = {
 		name = "LARGE_GUN_15"
 		template = "medium_missile_turret"
 		locatorname = "L020"
-	}	
+	}
 	component_slot = {
 		name = "LARGE_GUN_16"
 		template = "medium_missile_turret"
 		locatorname = "L021"
-	}	
-	
+	}
 	aux_utility_slots = 4
 	large_utility_slots = 8
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -501,10 +498,6 @@ ship_section_template = {
 }
 
 #################################################
-
-
-
-
 ######################################################
 #Bow
 ship_section_template = {
@@ -513,7 +506,6 @@ ship_section_template = {
 	fits_on_slot = bow
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_bow"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_strike_craft"
@@ -594,9 +586,7 @@ ship_section_template = {
 		template = "medium_missile_turret"
 		locatorname = "L016"
 	}
-
 	large_utility_slots = 10
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -604,7 +594,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid1
 ship_section_template = {
 	key = "supermacy_MID1"
@@ -612,7 +602,6 @@ ship_section_template = {
 	fits_on_slot = mid1
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-	
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "invisible_extra_large_fixed"
@@ -694,7 +683,6 @@ ship_section_template = {
 		locatorname = "L011"
 	}
 	large_utility_slots = 10
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -702,7 +690,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Mid2
 ship_section_template = {
 	key = "supermacy_MID2"
@@ -710,7 +698,6 @@ ship_section_template = {
 	fits_on_slot = mid2
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "invisible_extra_large_fixed"
@@ -792,7 +779,6 @@ ship_section_template = {
 		locatorname = "L024"
 	}
 	large_utility_slots = 10
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -808,7 +794,6 @@ ship_section_template = {
 	fits_on_slot = mid3
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_mid"
-	
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_strike_craft"
@@ -878,7 +863,7 @@ ship_section_template = {
 		name = "LARGE_GUN_14"
 		template = "large_turret"
 		locatorname = "L014"
-	}	
+	}
 	component_slot = {
 		name = "LARGE_GUN_15"
 		template = "large_turret"
@@ -888,9 +873,8 @@ ship_section_template = {
 		name = "LARGE_GUN_16"
 		template = "large_turret"
 		locatorname = "L015"
-	}	
+	}
 	large_utility_slots = 10
-	
 	resources = {
 		category = ship_sections
 		cost = {
@@ -898,7 +882,7 @@ ship_section_template = {
 		}
 	}
 }
-	
+
 #Stern
 ship_section_template = {
 	key = "supermacy_STERN"
@@ -906,7 +890,6 @@ ship_section_template = {
 	fits_on_slot = stern
 	entity = "st_empire_02_supermacy_bow_entity"
 	icon = "GFX_ship_part_core_stern"
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
@@ -981,15 +964,13 @@ ship_section_template = {
 		name = "LARGE_GUN_15"
 		template = "large_turret"
 		locatorname = "L020"
-	}	
+	}
 	component_slot = {
 		name = "LARGE_GUN_16"
 		template = "large_turret"
 		locatorname = "L021"
-	}	
-	
+	}
 	aux_utility_slots = 8
-	
 	resources = {
 		category = ship_sections
 		cost = {

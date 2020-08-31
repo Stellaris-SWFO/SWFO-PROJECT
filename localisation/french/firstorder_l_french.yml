@@ -163,10 +163,10 @@
  ####################################
  
  ##############Combat computers##############
- ST_RESURGENT_01_COMBAT_COMPUTER_1:0 "Basic Combat Computer"
- ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer"
- ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "Advanced Combat Computer"
- ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "Sentient Combat Computer"
+ SWFO_COMBAT_COMPUTER_1:0 "Basic Combat Computer"
+ SWFO_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer"
+ SWFO_COMBAT_COMPUTER_3:0 "Advanced Combat Computer"
+ SWFO_COMBAT_COMPUTER_4:0 "Sentient Combat Computer"
  ECLIPSE_COMBAT_COMPUTER:0 "Precognitive Interface"
  
  ##############Hyper Space Tracker############## 

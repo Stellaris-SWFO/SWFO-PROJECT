@@ -1,10 +1,8 @@
 swfo_starkillerbase_0 = {
-
-entity = "construction_platform_entity"
-construction_entity = "construction_platform_entity"
-portrait = "GFX_megastructure_starkiller_background1"
-construction_blocks_others = yes
-
+	entity = "construction_platform_entity"
+	construction_entity = "construction_platform_entity"
+	portrait = "GFX_megastructure_starkiller_background1"
+	construction_blocks_others = yes
 	potential = {
 		always = no
 	}
@@ -15,22 +13,20 @@ construction_blocks_others = yes
 			has_any_megastructure_in_empire = yes
 		}
 	}
-
 	station_modifier = {
 		starbase_shipyard_capacity_add = 2
 	}
-	
 }
-swfo_starkillerbase_0_1 = {
 
-entity = "starkillerbase_megastructure_entity"
-construction_entity = "starkillerbase_megastructure_entity"
-portrait = "GFX_megastructure_starkiller_background2"
-construction_blocks_others = yes
+swfo_starkillerbase_0_1 = {
+	entity = "starkillerbase_megastructure_entity"
+	construction_entity = "starkillerbase_megastructure_entity"
+	portrait = "GFX_megastructure_starkiller_background2"
+	construction_blocks_others = yes
 	upgrade_from = {
 		swfo_starkillerbase_0
 	}
-build_time = 3600
+	build_time = 3600
 	resources = {
 		category = megastructures
 		cost = {
@@ -45,43 +41,38 @@ build_time = 3600
 	ai_weight = {
 		factor = 0
 	}
-
 	station_modifier = {
 		starbase_shipyard_capacity_add = 4
 	}
 }
-swfo_starkillerbase_0_2 = {
 
-entity = "starkillerbase_megastructure_entity"
-construction_entity = "starkillerbase_megastructure_entity"
-portrait = "GFX_megastructure_starkiller_background3"
-construction_blocks_others = yes
+swfo_starkillerbase_0_2 = {
+	entity = "starkillerbase_megastructure_entity"
+	construction_entity = "starkillerbase_megastructure_entity"
+	portrait = "GFX_megastructure_starkiller_background3"
+	construction_blocks_others = yes
 	upgrade_from = {
 		swfo_starkillerbase_0_1
 	}
 	build_time = 10800
-
 	resources = {
 		category = megastructures
 		cost = {
 			alloys = 30000
 		}
-		
 		upkeep = {
 			energy = 25
 		}
 	}
-
 	ai_weight = {
 		factor = 0
 	}
-
 	station_modifier = {
 		starbase_shipyard_capacity_add = 6
 	}
 }
-swfo_starkillerbase_1 = {
 
+swfo_starkillerbase_1 = {
 	entity = "starkillerbase_megastructure_entity"
 	construction_entity = "starkillerbase_megastructure_entity"
 	portrait = "GFX_megastructure_starkiller_background4"
@@ -90,39 +81,37 @@ swfo_starkillerbase_1 = {
 		swfo_starkillerbase_0_2
 	}
 	build_time = 5400
-	
 	resources = {
 		category = megastructures
 		cost = {
 			alloys = 35000
 		}
-		
 		upkeep = {
 			energy = 150
 		}
 	}
-
 	station_modifier = {
 		starbase_shipyard_capacity_add = 8
 	}
-	
-	on_build_start = {}
-	on_build_cancel = {}
+	on_build_start = {
+	}
+	on_build_cancel = {
+	}
 	on_build_complete = {
-		from = { 
-        	country_event = { id = starkiller.0 }
-        }	
-	}	
+		from = {
+			country_event = {
+				id = starkiller.0
+			}
+		}
+	}
 }
 
 swfo_starkillerbase_2 = {
-
 	entity = "starkillerbase_firing_entity"
 	construction_entity = "starkillerbase_megastructure_entity"
 	portrait = "GFX_megastructure_construction_background"
 	construction_blocks_others = no
 	upgrade_desc = hide
-	
 	upgrade_from = {
 		swfo_starkillerbase_1
 	}
@@ -131,32 +120,38 @@ swfo_starkillerbase_2 = {
 		category = megastructures
 		cost = {
 			energy = 50000
-		}	
+		}
 	}
 	potential = {
 	}
 	possible = {
 		custom_tooltip = {
 			fail_text = "Requires Planetary target"
-			owner = {	
-				any_megastructure = { is_megastructure_type = starkiller_planet_target_marker_0 }
+			owner = {
+				any_megastructure = {
+					is_megastructure_type = starkiller_planet_target_marker_0
+				}
 			}
 		}
-	}	
-	on_build_start = {}
-	on_build_cancel = {}
+	}
+	on_build_start = {
+	}
+	on_build_cancel = {
+	}
 	on_build_complete = {
 		set_star_flag = rebuild_soon
-		from = { 
-			country_event = { id = starkiller.1 }
+		from = {
+			country_event = {
+				id = starkiller.1
+			}
 		}
 		fromfrom.planet = {
 			set_planet_flag = buildingsoon
-		}	
+		}
 	}
 }
-swfo_starkillerbase_a = {
 
+swfo_starkillerbase_a = {
 	entity = "starkillerbase_megastructure_entity"
 	construction_entity = "starkillerbase_megastructure_entity"
 	portrait = "GFX_megastructure_construction_background"
@@ -167,18 +162,24 @@ swfo_starkillerbase_a = {
 	}
 	possible = {
 	}
-	on_build_start = {}
-	on_build_cancel = {}
-	on_build_complete = {	
-	}	
+	on_build_start = {
+	}
+	on_build_cancel = {
+	}
+	on_build_complete = {
+	}
 }
+
 ##############Target Marker - PLANET############
 starkiller_planet_target_marker_0 = {
 	entity = ""
 	construction_entity = ""
 	portrait = "GFX_megastructure_construction_background"
 	construction_blocks_others = no
-	entity_offset = { x = 0 y = 0 }
+	entity_offset = {
+		x = 0
+		y = 0
+	}
 	build_time = 0
 	resources = {
 		category = megastructures
@@ -187,34 +188,37 @@ starkiller_planet_target_marker_0 = {
 			influence = 200
 		}
 	}
-	
 	potential = {
-		owner = {	
-			any_owned_megastructure = { is_megastructure_type = swfo_starkillerbase_1 }
+		owner = {
+			any_owned_megastructure = {
+				is_megastructure_type = swfo_starkillerbase_1
+			}
 		}
 	}
-	
 	possible = {
 		custom_tooltip = {
 			fail_text = "Can´t have six Targets"
 			event_target:starkillerbase_location01 = {
-				check_variable = { 
+				check_variable = {
 					which = num_targets
 					value < 5
 				}
-			}	
+			}
 		}
 	}
-	
 	placement_rules = {
 		planet_possible = {
 			custom_tooltip = {
 				fail_text = "contingency_jams_target"
-				NOT = { is_planet_class = pc_ai }
+				NOT = {
+					is_planet_class = pc_ai
+				}
 			}
 			custom_tooltip = {
 				fail_text = "Can´t Target Arctic Planet"
-				NOT = { is_planet_class = pc_arctic }
+				NOT = {
+					is_planet_class = pc_arctic
+				}
 			}
 			custom_tooltip = {
 				fail_text = "Requires habitable Planet"
@@ -229,19 +233,19 @@ starkiller_planet_target_marker_0 = {
 			}
 		}
 	}
-	
 	ai_weight = {
 		factor = 0
 	}
-	
-	on_build_start = {}
-	on_build_cancel = {}
+	on_build_start = {
+	}
+	on_build_cancel = {
+	}
 	on_build_complete = {
 		event_target:starkillerbase_location01 = {
 			change_variable = {
 				which = num_targets
 				value = 1
-				}
+			}
 		}
 		fromfrom.planet = {
 			set_planet_flag = built_target
@@ -252,10 +256,13 @@ starkiller_planet_target_marker_0 = {
 #######################################Wormhole over planet
 starkiller_planet_target_marker_1 = {
 	entity = "starkillerbase_target_portal_entity"
-	construction_entity = " "					
+	construction_entity = ""
 	portrait = "GFX_megastructure_construction_background"
 	construction_blocks_others = no
-	entity_offset = { x = 0 y = 0 }
+	entity_offset = {
+		x = 0
+		y = 0
+	}
 	build_time = 0
 	upgrade_desc = hide
 	upgrade_from = {
@@ -269,22 +276,27 @@ starkiller_planet_target_marker_1 = {
 	ai_weight = {
 		weight = 0
 	}
-	on_build_start = {}
-	on_build_cancel = {}
+	on_build_start = {
+	}
+	on_build_cancel = {
+	}
 	on_build_complete = {
 	}
 }
+
 #######################################Starkiller fire in planet
 starkiller_planet_target_marker_2 = {
 	entity = "starkillerbsae_target_portal_beam_entity"
 	construction_entity = ""
 	portrait = "GFX_megastructure_construction_background"
-	entity_offset = { x = 0 y = 0 }
+	entity_offset = {
+		x = 0
+		y = 0
+	}
 	build_time = 0
 	upgrade_from = {
 		starkiller_planet_target_marker_1
 	}
-	
 	upgrade_desc = hide
 	potential = {
 		always = no

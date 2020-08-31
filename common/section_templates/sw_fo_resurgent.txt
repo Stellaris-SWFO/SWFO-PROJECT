@@ -1,6 +1,5 @@
 @resurgent_section_cost = 250
 #BOW Resurgent
-
 ship_section_template = {
 	key = "ST_RESURGENT_BOW"
 	ship_size = firstorder_ship_resurgent
@@ -8,8 +7,7 @@ ship_section_template = {
 	entity = "swfo_resurgent_allinone_entity"
 	icon = "GFX_ship_part_core_bow"
 	icon_frame = 1
-	
-###############links und rechts eins weiter außen hinten 2###############
+	###############links und rechts eins weiter außen hinten 2###############
 	component_slot = {
 		name = "GUN_01"
 		template = "large_turret"
@@ -30,8 +28,7 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "aft_medium_07"
 	}
-	
-###############Hangar###############
+	###############Hangar###############
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -79,16 +76,13 @@ ship_section_template = {
 }
 
 #MID1 Resurgent (PORT)
-
 ship_section_template = {
 	key = "ST_RESURGENT_MID1"
 	ship_size = firstorder_ship_resurgent
 	fits_on_slot = mid1
 	entity = "swfo_resurgent_allinone_entity"
 	icon = "GFX_ship_part_core_mid"
-	
-###############links und rechts ganz außen vorne###############
-
+	###############links und rechts ganz außen vorne###############
 	component_slot = {
 		name = "GUN_05"
 		template = "large_turret"
@@ -140,14 +134,12 @@ ship_section_template = {
 }
 
 #MID2 Resurgent hangar bay
-
 ship_section_template = {
 	key = "ST_RESURGENT_MID2"
 	ship_size = firstorder_ship_resurgent
 	fits_on_slot = mid2
 	entity = "swfo_resurgent_allinone_entity"
 	icon = "GFX_ship_part_core_mid"
-
 	###############rechts halb außen hinten###############
 	component_slot = {
 		name = "GUN_14"
@@ -169,7 +161,6 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "aft_large_08"
 	}
-	
 	###############links halb außen hinten###############
 	component_slot = {
 		name = "GUN_18"
@@ -192,7 +183,6 @@ ship_section_template = {
 		locatorname = "aft_large_04"
 	}
 	###############links und rechts ganz außen hinten###############
-	
 	component_slot = {
 		name = "GUN_22"
 		template = "medium_missile_turret"
@@ -224,16 +214,13 @@ ship_section_template = {
 }
 
 #STERN Resurgent
-
 ship_section_template = {
 	key = "ST_RESURGENT_STERN"
 	ship_size = firstorder_ship_resurgent
 	fits_on_slot = stern
 	entity = "swfo_resurgent_allinone_entity"
 	icon = "GFX_ship_part_core_mid"
-	
 	###############Unten###############
-	
 	component_slot = {
 		name = "GUN_26"
 		template = "large_turret"
@@ -264,9 +251,8 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "mid_torpedo_02"
 	}
-###############links und rechts eins weiter außen hinten 1###############
-
-component_slot = {
+	###############links und rechts eins weiter außen hinten 1###############
+	component_slot = {
 		name = "GUN_32"
 		template = "point_defence_turret"
 		locatorname = "aft_medium_01"
@@ -299,7 +285,6 @@ component_slot = {
 	aux_utility_slots = 2
 	large_utility_slots = 2
 	medium_utility_slots = 4
-
 	resources = {
 		category = ship_sections
 		cost = {

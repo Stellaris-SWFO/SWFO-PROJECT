@@ -164,10 +164,10 @@
  ####################################
  
  ##############Combat computers##############
- ST_RESURGENT_01_COMBAT_COMPUTER_1:0 "Базовый Боевой Компьютер"
- ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "Промежуточный Боевой Компьютер"
- ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "Продвинутый Боевой Компьютер"
- ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "Разумный Боевой Компьютер"
+ SWFO_COMBAT_COMPUTER_1:0 "Базовый Боевой Компьютер"
+ SWFO_COMBAT_COMPUTER_2:0 "Промежуточный Боевой Компьютер"
+ SWFO_COMBAT_COMPUTER_3:0 "Продвинутый Боевой Компьютер"
+ SWFO_COMBAT_COMPUTER_4:0 "Разумный Боевой Компьютер"
  ECLIPSE_COMBAT_COMPUTER:0 "Вещий Интерфейс"
  
  ##############Hyper Space Tracker############## 

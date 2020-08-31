@@ -1,411 +1,399 @@
 @tier5weight1_1 = 100
-
 #############################
 # Resurgent Class Destroyer #
 #############################
-
 tech_RESURGENTCLASS = {
 	cost = 40000
 	area = engineering
 	tier = 4
-	category = { voidcraft }
+	category = {
+		voidcraft
+	}
 	is_rare = no
 	is_reverse_engineerable = no
-	prerequisites = { "tech_RESURGENTTHRUSTER1" }
+	prerequisites = {
+		"tech_RESURGENTTHRUSTER1"
+	}
 	weight = 100
-	
 	#unlock Resurgent Class
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
+
 #############################
 # Eclipse class Dreadnought #
 #############################
-
 tech_ECLIPSECLASS = {
-
 	cost = 48000
 	area = engineering
 	tier = 4
-	category = { voidcraft }
+	category = {
+		voidcraft
+	}
 	is_rare = no
 	is_reverse_engineerable = no
-	prerequisites = { "tech_MANDATORCLASS" }
+	prerequisites = {
+		"tech_MANDATORCLASS"
+	}
 	weight = @tier5weight1_1
-	
 	#unlock Eclipse Class
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-	
 	modifier = {
 		country_resource_max_add = 200000
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
+
 ##############################
 # Mandator class Dreadnought #
 ##############################
-
 tech_MANDATORCLASS = {
-
 	cost = 48000
 	area = engineering
 	tier = 4
-	category = { voidcraft }
+	category = {
+		voidcraft
+	}
 	is_rare = no
 	is_reverse_engineerable = no
-	prerequisites = { "tech_SUPREMACYTHRUSTER1" }
+	prerequisites = {
+		"tech_SUPREMACYTHRUSTER1"
+	}
 	weight = @tier5weight1_1
-	
 	#unlock Mandator Class
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
+
 ##############################
 # Supremacy Class Dreadnought#
 ##############################
 tech_SUPREMACYCLASS = {
-
 	cost = 60000
 	area = engineering
 	tier = 4
-	category = { voidcraft }
+	category = {
+		voidcraft
+	}
 	is_rare = no
 	is_reverse_engineerable = no
-	prerequisites = { "tech_supremacyhyperspacetracker"  }
+	prerequisites = {
+		"tech_supremacyhyperspacetracker"
+	}
 	weight = @tier5weight1_1
-	
 	#unlock Supremacy Class
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
-
-
 
 #############
 # THRUSTERS #
 #############
-
 tech_RESURGENTTHRUSTER1 = {
-
 	cost = 36000
 	area = engineering
 	tier = 4
-	category = { propulsion }
+	category = {
+		propulsion
+	}
 	is_rare = no
 	is_reverse_engineerable = no
-	prerequisites = { "tech_RESURGENTREACTOR1" }	
+	prerequisites = {
+		"tech_RESURGENTREACTOR1"
+	}
 	weight = 100
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
 tech_SUPREMACYTHRUSTER1 = {
-
 	cost = 36000
 	area = engineering
 	tier = 4
-	category = { propulsion }
+	category = {
+		propulsion
+	}
 	is_rare = no
 	is_reverse_engineerable = no
-	prerequisites = { "tech_SUPREMACYREACTOR1" }	
+	prerequisites = {
+		"tech_SUPREMACYREACTOR1"
+	}
 	weight = @tier5weight1_1
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
 ############
 # REACTORS #
 ############
-
-
 tech_RESURGENTREACTOR1 = {
-
 	cost = 36000
 	area = physics
 	tier = 4
-	category = { particles }
+	category = {
+		particles
+	}
 	is_rare = no
 	is_reverse_engineerable = no
-	prerequisites = { "tech_starbasebuilding_stardestroyer" }
+	prerequisites = {
+		"tech_starbasebuilding_stardestroyer"
+	}
 	weight = 100
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
-
 tech_SUPREMACYREACTOR1 = {
-
 	cost = 40000
 	area = physics
 	tier = 4
-	category = { particles }
+	category = {
+		particles
+	}
 	is_rare = no
 	is_reverse_engineerable = no
-	prerequisites = { "tech_RESURGENTCLASS" }
+	prerequisites = {
+		"tech_RESURGENTCLASS"
+	}
 	weight = @tier5weight1_1
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
 #################
 # Starbase Yard #
 #################
-
 tech_starbasebuilding_stardestroyer = {
-
 	cost = 10000
 	area = engineering
 	tier = 2
-	category = { voidcraft }
+	category = {
+		voidcraft
+	}
 	weight = 100
 	is_rare = no
 	prerequisites = {
 		tech_cruisers
 	}
 	is_reverse_engineerable = no
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
 #################################
 # Supremacy Hyperspace Tracking #
 #################################
-
 tech_supremacyhyperspacetracker = {
-
 	cost = 26000
 	area = physics
 	tier = 4
-	category = { computing }
+	category = {
+		computing
+	}
 	is_rare = no
 	is_reverse_engineerable = no
 	weight = @tier5weight1_1
-
 	prerequisites = {
 		"tech_ECLIPSECLASS"
 	}
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
 ##############
 # Buildings  #
 ##############
-
 tech_building_swfo_training_facilities = {
 	cost = 4000
 	area = engineering
 	tier = 1
-	category = { military_theory }
+	category = {
+		military_theory
+	}
 	weight = @tier5weight1_1
 	is_rare = no
 	prerequisites = {
 		tech_destroyers
 	}
 	is_reverse_engineerable = no
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
-
 
 tech_building_swfo_atat_factory = {
 	cost = 10000
 	area = engineering
 	tier = 1
-	category = { military_theory }
+	category = {
+		military_theory
+	}
 	weight = @tier5weight1_1
 	is_rare = no
 	prerequisites = {
 		tech_building_swfo_training_facilities
 	}
 	is_reverse_engineerable = no
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
+
 ##############
 # Army Types #
 ##############
-
 tech_swfo_stormtrooper_legion = {
-
 	cost = 4000
 	area = society
 	tier = 1
-	category = { military_theory }
+	category = {
+		military_theory
+	}
 	weight = @tier5weight1_1
 	is_rare = no
 	is_reverse_engineerable = no
-	
-	prerequisites = { "tech_building_swfo_training_facilities" }
-	
+	prerequisites = {
+		"tech_building_swfo_training_facilities"
+	}
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
-
 tech_swfo_atatm6_walker = {
-
 	cost = 10000
 	area = society
 	tier = 1
-	category = { military_theory }
+	category = {
+		military_theory
+	}
 	weight = @tier5weight1_1
 	is_rare = no
 	is_reverse_engineerable = no
-	
-	prerequisites = { "tech_building_swfo_atat_factory" }
-	
+	prerequisites = {
+		"tech_building_swfo_atat_factory"
+	}
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
+
 ####################
 # TIE Strike Craft #
 ####################
-
 tech_strike_craft_tiefo = {
 	cost = @tier4cost1
 	area = engineering
 	tier = 4
 	ai_update_type = military
-	category = { voidcraft }	
+	category = {
+		voidcraft
+	}
 	prerequisites = {
 		tech_RESURGENTCLASS
 	}
 	weight = 100
-		
 	#unlock TIE/fo
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-	
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -415,9 +403,8 @@ tech_strike_craft_tiefo = {
 			}
 		}
 	}
-	
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
@@ -426,19 +413,20 @@ tech_strike_craft_tiesilencer = {
 	area = engineering
 	tier = 4
 	ai_update_type = military
-	category = { voidcraft }	
-	prerequisites = { "tech_strike_craft_tiefo" }
+	category = {
+		voidcraft
+	}
+	prerequisites = {
+		"tech_strike_craft_tiefo"
+	}
 	weight = 100
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-		
 	#unlock TIE Interceptor
-	
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -448,39 +436,36 @@ tech_strike_craft_tiesilencer = {
 			}
 		}
 	}
-	
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
 
-
 #########################imba tech just test########################
 tech_superclass = {
-
 	cost = 40000
 	area = engineering
 	tier = 4
-	category = { voidcraft }
+	category = {
+		voidcraft
+	}
 	is_rare = no
 	is_reverse_engineerable = no
 	weight = 0
-	
 	#unlock Resurgent Class
-	
 	potential = {
 		OR = {
 			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order			
+			has_valid_civic = civic_final_order
 		}
 	}
-
-	
 	weight_modifier = {
 		modifier = {
 			factor = 0.1
-			NOT = { years_passed > 100 }
-		}	
+			NOT = {
+				years_passed > 100
+			}
+		}
 		modifier = {
 			factor = 2
 			years_passed > 130
@@ -502,6 +487,6 @@ tech_superclass = {
 		}
 	}
 	ai_weight = {
-		weight = 0	#0 means AI won´t pick it
+		weight = 0		#0 means AI won´t pick it
 	}
 }
