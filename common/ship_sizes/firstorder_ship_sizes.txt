@@ -8,16 +8,13 @@ firstorder_ship_resurgent = {
 	modifier = {
 		ship_armor_add = 60000
 		ship_shield_add = 60000
-		ship_evasion_add = 2.5
-		ship_weapon_damage = 0.15
-		ship_piracy_suppression_add = 8
 	}
-	entity = "swfo_resurgent_01_entity"
+	entity = "swfo_resurgent_frame_entity"
 	max_hitpoints = 60000
 	size_multiplier = 12
 	fleet_slot_size = 18
 	section_slots = { "bow" = { locator = "part1" } "mid1" = { locator = "part2" } "mid2" = { locator = "part3" } "stern" = { locator = "part4" } }
-	num_target_locators = 4
+	num_target_locators = 6
 	is_space_station = no
 	icon_frame = 5
 	base_buildtime = 1000
@@ -416,7 +413,7 @@ firstorder_ship_supremacy = {
 	collision_radius = 100 #20
 	modifier = {
 		ship_evasion_add = 2.5
-		ship_weapon_damage = 0.5
+		ship_weapon_damage = 1
 		ship_piracy_suppression_add = 8
 		ship_armor_add = 300000
 		ship_shield_add = 300000

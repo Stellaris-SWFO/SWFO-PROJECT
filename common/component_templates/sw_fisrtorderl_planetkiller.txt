@@ -1,0 +1,27 @@
+weapon_component_template = {
+	key = "PLANET_KILLER_JUMP"
+	size = planet_killer
+	entity = "invisible_turret_entity"
+	type = planet_killer
+	static_rotation = yes
+	use_ship_kill_target = no
+	prerequisites = {
+		"tech_ECLIPSECLASS"
+	}
+	icon = GFX_ship_part_sw_superlaser
+	icon_frame = 1
+	power = -7500
+	windup = {
+		min = 30
+		max = 30
+	}
+	total_fire_time = 30
+	accuracy = 1
+	range = 0
+	damage = {
+		min = 0
+		max = 0
+	}
+	component_set = "EDY_PLANET_DESTROYER_WEAPON"
+	planet_destruction_gfx = "superlazer_planet_gfx"
+}

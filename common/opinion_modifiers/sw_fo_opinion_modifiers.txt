@@ -1,0 +1,28 @@
+opinion_in_starkillerbase_fire_control = {
+	opinion = {
+		base = -100
+		modifier = {
+			add = 75
+			is_country_type = fallen_empire
+		}
+	}
+}
+
+opinion_starkillerbase_broke_our_system_planet = {
+	opinion = {
+		base = -300
+		modifier = {
+			add = 275
+			OR = { is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+		modifier = {
+			add = 150
+			is_country_type = default
+		}
+	}
+	decay = {
+		base = 1
+	}
+}

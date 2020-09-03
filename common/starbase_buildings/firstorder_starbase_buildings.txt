@@ -1,0 +1,33 @@
+stardestroyer_yards = {
+	icon = "GFX_spaceport_module_stardestroyer_assembly"
+	construction_days = 720
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_starbasebuilding_stardestroyer
+		}
+	}
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_citadel"
+			has_starbase_size >= starbase_citadel
+		}
+		has_starbase_module = shipyard
+	}
+	resources = {
+		category = starbase_buildings
+		cost = {
+			alloys = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	show_in_tech = "tech_starbasebuilding_stardestroyer"
+	custom_tooltip = "stardestroyer_yards_desc_modifier"
+	ai_build_at_chokepoint = no
+	ai_build_outside_chokepoint = yes
+	ai_weight = {
+		weight = 0
+	}
+}

@@ -346,7 +346,9 @@
  sith_fortress_desc:0 "An ancient Sith temple located on the hidden Sith world of Exegol and headquarters of the Sith Eternal cult and the Throne of the Sith. The citadel itself was a massive underground fortress with a large, upside-down pyramid structure made of black stone located on the surface."
  opinion_starkillerbase_broke_our_system_planet:0 "They are crazy"
  opinion_in_starkillerbase_fire_control:0 "Shit, they have superweapon"
- ##########################################################################
+ ################
+ ## the other####
+ ################
  swfo_01: "First Oder"
  PLANET_KILLER_JUMP:"superlazer"
  PLANET_KILLER_JUMP_DESC:"The most deadly weapon carried by the DeathStar was an axial superlaser, similar to but significantly less powerful than one of the component beams used in the Death Star's superlaser. This superlaser was the pinnacle of Imperial destruction in their fleets."
@@ -357,7 +359,7 @@
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_JUMP:"ready to destroy planet $PLANET|Y$"
  MESSAGE_DESC_FOR_PLANET_KILLER_JUMP:"The planet is destroyed, the executor is "
 
- origin_tooltip_first_order_military_effects:"We must conquer the entire galaxy."
+ origin_tooltip_first_order_military_effects:"The first order §RStarkiller Base§! will be used to start the game, allowing the use of §RStarkiller Base§!"
  origin_first_order_military:0 "New Order"
  origin_first_order_military_desc:0 "§Y'Today is the end of the Republic! The end of a regime that acquiesces to disorder! At this very moment, in a system far from here the New Republic LIES to the GALAXY while secretly supporting the treachery of the loathsome Resistance. This fierce machine which you have built, upon which we stand, will bring an end to the Senate! To their cherished fleet! All remaining systems will bow to the First Order! And will remember this... as the last day of the Republic!'§! ― General Hux"
 

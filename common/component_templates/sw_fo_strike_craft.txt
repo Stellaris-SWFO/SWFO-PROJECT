@@ -1,0 +1,109 @@
+@attack_range = 12
+@engagement_range = 110
+@launch_time = 1.5
+@count = 8
+@regen = 1
+@cost1 = 100
+@cost2 = 130
+@power1 = -60
+@power2 = -80
+#TIE/fo
+strike_craft_component_template = {
+	key = "SWFO_TIE_FIGHTER"
+	size = LARGE
+	entity = "swfo_tiefighter_entity"
+	weapon_type = instant
+	projectile_gfx = "scout_laser_1"
+	power = @power1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost1
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+	damage = {
+		min = 8
+		max = 20
+	}
+	cooldown = 2
+	range = @attack_range
+	engagement_range = @engagement_range
+	accuracy = 0.9
+	tracking = 1
+	health = 50
+	shield = 35
+	evasion = 0.8
+	speed = 700
+	rotation_speed = 0.8
+	acceleration = 1.2
+	shield_penetration = 1
+	armor_damage = 1.5
+	ship_behavior = "fighters_behavior"
+	icon = "GFX_ship_part_tie_fighterfo"
+	icon_frame = 1
+	component_set = "SWFO_TIE_FIGHTER"
+	prerequisites = {
+		"tech_strike_craft_tiefo"
+	}
+	tags = {
+		weapon_type_strike_craft
+	}
+}
+
+#TIE silencer
+strike_craft_component_template = {
+	key = "SWFO_TIE_SILENCER"
+	size = LARGE
+	entity = "swfo_tieinterceptor_entity"
+	weapon_type = instant
+	projectile_gfx = "scout_laser_1"
+	power = @power2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost2
+		}
+		upkeep = {
+			energy = 1.2
+			alloys = 0.65
+		}
+	}
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+	damage = {
+		min = 10
+		max = 25
+	}
+	cooldown = 2
+	range = @attack_range
+	engagement_range = @engagement_range
+	accuracy = 0.9
+	tracking = 0.9
+	health = 55
+	shield = 40
+	evasion = 0.8
+	speed = 750
+	rotation_speed = 1.2
+	acceleration = 1.5
+	shield_penetration = 1
+	armor_damage = 1.5
+	hull_damage = 1.25
+	ship_behavior = "fighters_behavior"
+	icon = "GFX_ship_part_tie_interceptorfo"
+	icon_frame = 1
+	component_set = "SWFO_TIE_SILENCER"
+	prerequisites = {
+		"tech_strike_craft_tiesilencer"
+	}
+	tags = {
+		weapon_type_strike_craft
+	}
+}
