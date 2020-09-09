@@ -75,34 +75,3 @@ category = {
 
 
 ################## EFFECTS ########################
-
-category = {
-	name = "Effects"
-	soundeffects = {
-		####### EVENTS SFX
-		event_yuudaichi_meet
-		event_yuudaichi_contact
-		event_yuudaichi_talk1
-		event_yuudaichi_talk2
-		event_yuudaichi_talk3
-		event_yuudaichi_governor
-		event_yuudaichi_scientist
-		event_yuudaichi_admiral
-		event_yuudaichi_general
-		event_yuudaichi_marry
-		event_yuudaichi_marry_talk1
-		event_yuudaichi_marry_talk2
-		event_yuudaichi_marry_talk3
-		event_yuudaichi_marry_talk4
-	}
-	
-	compressor = {
-		enabled = yes
-		pregain = 4.0
-		postgain = -2.2
-		ratio = 3.0
-		threshold = -25
-		attacktime = 0.30
-		releasetime = 0.8
-	}
-}

@@ -1,0 +1,68 @@
+objectTypes = {
+	#################
+	# Eclipse
+	################
+	pdxparticle = {
+		name = "ship_light_green_smallgreen_effect"
+		type = "SG_green_effect"
+		scale = 36
+	}
+	pdxparticle = {
+		name = "ship_light_green_biggreen_effect"
+		type = "SW_green_effect"
+		scale = 115
+	}
+	pdxparticle = {
+		name = "muzzle_green_SW_effect"
+		type = "muzzle_sw_green_effect"
+		scale = 10
+	}
+	pdxparticle = {
+		name = "traveler_particle_cannon_muzzle_particle"
+		type = "traveler_particle_cannon_muzzle_file"
+		scale = 1
+	}
+	pdxparticle = {
+		name = "traveler_particle_cannon_idle_particle"
+		type = "traveler_particle_cannon_idle_file"
+		scale = 1
+	}
+	pdxparticle = {
+		name = "traveler_particle_cannon_idle2_particle"
+		type = "traveler_particle_cannon_idle2_file"
+		scale = 1
+	}
+	pdxparticle = {
+		name = "traveler_particle_cannon_hit_effect_particle"
+		type = "traveler_particle_cannon_hit_effect_file"
+		scale = 1
+	}
+	#################
+	# Battlestar
+	#################
+	pdxparticle = {
+		name = "battlestar_flak_cannon_muzzle_particle"
+		type = "battlestar_flak_cannon_muzzle_file"
+		scale = 1
+	}
+	pdxparticle = {
+		name = "battlestar_flak_cannon_idle_particle"
+		type = "battlestar_flak_cannon_idle_file"
+		scale = 1
+	}
+	pdxparticle = {
+		name = "battlestar_flak_cannon_hit_effect_particle"
+		type = "battlestar_flak_cannon_hit_effect_file"
+		scale = 1
+	}
+	pdxparticle = {
+		name = "battlestar_nuke_muzzle_flash_particle"
+		type = "battlestar_nuke_muzzle_flash_file"
+		scale = 1
+	}
+	pdxparticle = {
+		name = "battlestar_nuke_hit_effect_particle"
+		type = "battlestar_nuke_hit_effect_file"
+		scale = 1
+	}
+}
