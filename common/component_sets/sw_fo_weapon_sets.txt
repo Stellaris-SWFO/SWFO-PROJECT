@@ -21,3 +21,15 @@ component_set = {
 	icon = "GFX_ship_part_sw_superlaser"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "SWFO_XX-9_HEAVY_TURBO"
+	icon = "GFX_ship_part_xx_9_turbolaser"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "SWFO_Triple_TURBO"
+	icon = "GFX_ship_part_tir_turbolaser"
+	icon_frame = 1
+}

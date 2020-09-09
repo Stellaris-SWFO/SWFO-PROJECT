@@ -46,4 +46,19 @@ objectTypes = {
 		type = "mammalian_01_ship_exhaust_idle_file"
 		scale = 0.5
 	}
+	pdxparticle = {
+		name = "SG_01_8_1_ship_exhaust_moving_particle"
+		type = "SG_01_ship_exhaust_file"
+		scale = 7
+	}
+	pdxparticle = {
+		name = "SG_01_8_9_ship_exhaust_moving_particle"
+		type = "SG_01_ship_exhaust_file"
+		scale = 7
+	}
+	pdxparticle = {
+		name = "SW_shatter_planet_laser_hit_effect"
+		type = "SW_shatter_planet_laser_hit_effect"
+		scale = 1
+	}
 }

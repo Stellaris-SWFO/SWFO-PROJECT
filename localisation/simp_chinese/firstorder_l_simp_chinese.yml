@@ -301,6 +301,20 @@
  EDY_sithlaser:0 "委托者IV无畏舰火炮"
  EDY_sithlaser_DESC:0 "委托者IV级无畏舰装备了两个轨道自动发射炮，可以在需要补给前连续发射两轮齐射。"
  
+ SWFO_SMALL_XX-9_HEAVY_TURBO: "双联装小型涡轮激光炮"
+ SWFO_MEDIUM_XX-9_HEAVY_TURBO: "双联装中型涡轮激光炮"
+ SWFO_LARGE_XX-9_HEAVY_TURBO: "双联装大型涡轮激光炮"
+ SWFO_XX-9_HEAVY_TURBO: "双联装涡轮激光炮"
+ SWFO_XX-9_HEAVY_TURBO_DESC: "双联装涡轮激光炮拥有更高的炮塔转速和更好的射速与威力"
+
+ SWFO_MEDIUM_Triple_HEAVY_TURBO: "三联装中型涡轮激光炮"
+ SWFO_LARGE_Triple_HEAVY_TURBO: "三联装大型涡轮激光炮"
+ SWFO_Triple_TURBO: "三联装涡轮激光炮"
+ SWFO_Triple_TURBO_DESC: "三联装涡轮激光炮拥有更强的炮塔结构和更好的伤害"
+
+ tech_swfo_xx_9_turbolaser: "涡轮激光炮工程"
+ tech_swfo_xx_9_turbolaser_desc: "我们将对涡轮激光进行进一步研究与增强"
+
  #TIE/fo
  SWFO_TIE_FIGHTER:0 "TIE/FO 战斗机"
  SWFO_TIE_FIGHTER_DESC:0 "TIE/FO 战斗机 俗称第一秩序TIE战斗机，是第一秩序使用的星际战斗机。TIE/FO是西纳舰队系统的一个产品，它的前身TIE/LN太空优势星际战斗机的外观是TIE/FO，它的内部改进为它提供了更强大的防御能力。"
@@ -372,7 +386,7 @@
  origin_first_order_military:"重生"
  origin_first_order_military_desc:0 "§Y'今天将是共和国的末日！ 一个混乱的政权的终结！ 此时此刻，在一个远离这里的新共和国议会上，新共和国政府正欺骗了整个银河，同时暗中支持令人憎恨的抵抗运动的背叛行为。 他们赖以建立的这台强大战争机器将使议会终结并摧毁他们自以为珍贵的舰队！ 银河其余所有星系将臣服于第一秩序， 并将记住这……作为共和国的最后一天！'§! ― 赫克斯将军"
  need_stardestroyershipyard:"需要歼星舰建造基地"
- mandator_orbital_autocannon:"委托者大炮"
+ mandator_orbital_autocannon:"委托者IV歼灭炮"
  mod_shipsize_firstorder_ship_eclipse_build_speed_mult:"日蚀级超级歼星舰建造速度"
  mod_shipsize_firstorder_ship_supremacy_build_speed_mult:"宏大级旗舰建造速度"
  mod_shipsize_firstorder_ship_resurgent_build_speed_mult:"复兴级歼星舰建造速度"

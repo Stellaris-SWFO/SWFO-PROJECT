@@ -24,6 +24,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/ship_parts/resurgent_ship_part_thruster_1.dds"
 		noOfFrames = 1
 	}
+	spriteType = {
+		name = "GFX_ship_part_xx_9_turbolaser"
+		textureFile = "gfx/interface/icons/ship_parts/ship_part_xx_9_turbolaser.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_ship_part_tir_turbolaser"
+		textureFile = "gfx/interface/icons/ship_parts/ship_part_tri_turbo.dds"
+		noOfFrames = 1
+	}
 	
 }
 ############Supremacy Class###########

@@ -463,3 +463,48 @@ tech_superclass = {
 		weight = 0		#0 means AI won´t pick it
 	}
 }
+
+tech_swfo_xx_9_turbolaser = {
+	area = physics
+	cost = @tier2cost1
+	tier = 2
+	prerequisites = { "tech_lasers_2" }
+	category = { particles }
+	ai_update_type = military
+	weight = 70
+	
+	potential = {
+		has_civic = civic_first_order_military
+	}
+
+	is_rare = yes
+	is_reverse_engineerable = no
+	
+	gateway = energy_weapons
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 5
+			has_technology = tech_lasers_2
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 0		#weapons are good
+	}
+}

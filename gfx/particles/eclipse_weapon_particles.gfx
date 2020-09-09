@@ -5,12 +5,12 @@ objectTypes = {
 	pdxparticle = {
 		name = "ship_light_green_smallgreen_effect"
 		type = "smallgreen_green_effect"
-		scale = 65
+		scale = 36
 	}
 	pdxparticle = {
 		name = "ship_light_green_biggreen_effect"
 		type = "biggreen_green_effect"
-		scale = 230
+		scale = 115
 	}
 	pdxparticle = {
 		name = "muzzle_green_SW_effect"

@@ -290,6 +290,20 @@
  EDY_sithlaser:0 "Mandator IV Orbital Autocannon"
  EDY_sithlaser_DESC:0 "The Mandator IV-class was armed with two orbital autocannon that could fire a salvo of two rounds each in quick succession before a recharge was needed."
  
+ SWFO_SMALL_XX-9_HEAVY_TURBO: "Double Small Turbo Laser Cannon"
+ SWFO_MEDIUM_XX-9_HEAVY_TURBO: "Double Medium Turbo Laser Cannon"
+ SWFO_LARGE_XX-9_HEAVY_TURBO: "Double Large Turbo Laser Cannon"
+ SWFO_XX-9_HEAVY_TURBO: "Double Turbo Laser Cannon"
+ SWFO_XX-9_HEAVY_TURBO_DESC: "Double turbo laser Cannon has higher turret speed and better rate of fire and power"
+
+ SWFO_MEDIUM_Triple_HEAVY_TURBO: "Triple Medium Turbo Laser Cannon"
+ SWFO_LARGE_Triple_HEAVY_TURBO: "Triple Large Turbo Laser Cannon"
+ SWFO_Triple_TURBO: "Triple Turbo Laser Cannon"
+ SWFO_Triple_TURBO_DESC: "The triple Turbo laser Cannon has a stronger turret structure and better damage"
+
+ tech_swfo_xx_9_turbolaser: "Turbo laser cannon"
+ tech_swfo_xx_9_turbolaser_desc: "Further research and enhancement of turbo lasers will be carried out"
+
  #TIE/fo
  SWFO_TIE_FIGHTER:0 "TIE/fo"
  SWFO_TIE_FIGHTER_DESC:0 "The TIE/fo space superiority fighter, commonly known as the First Order TIE fighter, was a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carried the appearance of its predecessor, the TIE/ln space superiority starfighter, though it featured internal advancements that provided it with greater defensive capabilities."

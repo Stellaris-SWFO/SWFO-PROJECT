@@ -76,7 +76,7 @@ weapon_component_template = {
 	}
 	#prerequisites = { "" }
 	component_set = "EDY_sithlaser"
-	projectile_gfx = "Red_superlaser_titan"
+	projectile_gfx = "mandatorlaser"
 	tags = {
 		weapon_type_energy
 	}
@@ -121,7 +121,7 @@ weapon_component_template = {
 	}
 	#prerequisites = { "" }
 	component_set = "EDY_sithlaser_XYSTON"
-	projectile_gfx = "Red_superlaser_titan"
+	projectile_gfx = "swfo_sithlaser"
 	tags = {
 		weapon_type_energy
 	}
@@ -131,4 +131,219 @@ weapon_component_template = {
 	ai_tags = {
 		weapon_role_anti_armor
 	}
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "SWFO_SMALL_XX-9_HEAVY_TURBO"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_xx_9_turbolaser"
+	icon_frame = 1
+	
+	damage = { min = 15.0 max = 20.0 }
+	windup = { min = 3.0 max = 4.0 }
+	total_fire_time = 10
+	range = 60.0
+	accuracy = 0.9
+	tracking = 0.1
+	
+	shield_damage = 1.75
+	shield_penetration = 0.75
+	armor_damage = 1.5
+	armor_penetration = 0.75
+	hull_damage = 1.25
+	
+	power = -5.00
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+		upkeep = {
+			energy = 0.001
+			alloys = 0.001
+		}
+	}
+	
+	prerequisites = { "tech_swfo_xx_9_turbolaser" }
+	component_set = "SWFO_XX-9_HEAVY_TURBO"
+	projectile_gfx = "swfo_heavy_turbo_s_g"
+	tags = { weapon_type_energy weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor weapon_role_anti_shield }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "SWFO_MEDIUM_XX-9_HEAVY_TURBO"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_xx_9_turbolaser"
+	icon_frame = 1
+	
+	damage = { min = 50.0 max = 70.0 }
+	windup = { min = 3.0 max = 4.0 }
+	total_fire_time = 10
+	range = 90.0
+	accuracy = 0.9
+	tracking = 0.1
+	
+	shield_damage = 1
+	shield_penetration = 0.60
+	armor_damage = 1.25
+	armor_penetration = 0.50
+	hull_damage = 2
+	
+	power = -30.00
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60
+		}
+		upkeep = {
+			energy = 0.02
+			alloys = 0.001
+		}
+	}
+	
+	prerequisites = { "tech_swfo_xx_9_turbolaser" }
+	component_set = "SWFO_XX-9_HEAVY_TURBO"
+	projectile_gfx = "swfo_heavy_turbo_m_g"
+	tags = { weapon_type_energy weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor weapon_role_anti_shield }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "SWFO_LARGE_XX-9_HEAVY_TURBO"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_xx_9_turbolaser"
+	icon_frame = 1
+	
+	damage = { min = 100.0 max = 120.0 }
+	windup = { min = 3.0 max = 4.0 }
+	total_fire_time = 10
+	range = 160.0
+	accuracy = 0.9
+	tracking = 0.1
+	
+	shield_damage = 1
+	shield_penetration = 0.60
+	armor_damage = 1.25
+	armor_penetration = 0.50
+	hull_damage = 2
+	
+	power = -30.00
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60
+		}
+		upkeep = {
+			energy = 0.03
+			alloys = 0.002
+		}
+	}
+	
+	prerequisites = { "tech_swfo_xx_9_turbolaser" }
+	component_set = "SWFO_XX-9_HEAVY_TURBO"
+	projectile_gfx = "swfo_heavy_turbo_l_g"
+	tags = { weapon_type_energy weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor weapon_role_anti_shield }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "SWFO_MEDIUM_Triple_HEAVY_TURBO"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_tir_turbolaser"
+	icon_frame = 1
+	
+	damage = { min = 50.0 max = 70.0 }
+	windup = { min = 3.0 max = 4.0 }
+	total_fire_time = 10
+	range = 90.0
+	accuracy = 0.9
+	tracking = 0.1
+	
+	shield_damage = 1
+	shield_penetration = 0.60
+	armor_damage = 1.25
+	armor_penetration = 0.50
+	hull_damage = 2
+	
+	power = -30.00
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60
+		}
+		upkeep = {
+			energy = 0.02
+			alloys = 0.001
+		}
+	}
+	
+	prerequisites = { "tech_swfo_xx_9_turbolaser" }
+	component_set = "SWFO_XX-9_HEAVY_TURBO"
+	projectile_gfx = "swfo_heavy_turbo_m_g"
+	tags = { weapon_type_energy weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor weapon_role_anti_shield }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "SWFO_LARGE_Triple_HEAVY_TURBO"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_tir_turbolaser"
+	icon_frame = 1
+	
+	damage = { min = 100.0 max = 120.0 }
+	windup = { min = 3.0 max = 4.0 }
+	total_fire_time = 10
+	range = 160.0
+	accuracy = 0.9
+	tracking = 0.1
+	
+	shield_damage = 1
+	shield_penetration = 0.60
+	armor_damage = 1.25
+	armor_penetration = 0.50
+	hull_damage = 2
+	
+	power = -30.00
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60
+		}
+		upkeep = {
+			energy = 0.03
+			alloys = 0.002
+		}
+	}
+	
+	prerequisites = { "tech_swfo_xx_9_turbolaser" }
+	component_set = "SWFO_XX-9_HEAVY_TURBO"
+	projectile_gfx = "swfo_heavy_turbo_l_g"
+	tags = { weapon_type_energy weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor weapon_role_anti_shield }
 }

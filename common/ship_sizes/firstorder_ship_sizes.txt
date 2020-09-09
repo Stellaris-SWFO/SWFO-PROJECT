@@ -318,7 +318,7 @@ firstorder_ship_eclipse = {
 		"data" = { locator = "part4" }
 		"stern" = { locator = "part5" }
 	}
-	entity = X309_LOCATOR_entity
+	entity = eclipse_frame_entity
 	num_target_locators = 8
 	is_space_station = no
 	icon_frame = 6
