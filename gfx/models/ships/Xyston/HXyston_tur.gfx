@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "hxyston_turrets_mesh"
+		file = "gfx/models/ships/Xyston/hxyston_turrets.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TurretShape"
+			index = 0
+			texture_diffuse = "Hull_Kitbash_Pieces_ISD.dds"
+			texture_normal = "red_control_B.dds"
+			texture_specular = "Hull_2_SD_SPEC.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

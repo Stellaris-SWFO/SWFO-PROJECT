@@ -1,0 +1,10 @@
+entity = {
+	name = "hxyston_turrets_entity"
+	pdxmesh = "hxyston_turrets_mesh"
+	
+	default_state = idle
+	state = { name = "idle"	}
+	state = { name = "attack" looping = no next_state = "idle" }
+	
+	scale = 2.35
+}

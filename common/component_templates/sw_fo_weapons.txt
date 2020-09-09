@@ -224,7 +224,7 @@ weapon_component_template = {
 	
 	key = "SWFO_LARGE_XX-9_HEAVY_TURBO"
 	size = large
-	entity = "large_kinetic_gun_entity"
+	#entity = "large_kinetic_gun_entity"
 	
 	icon = "GFX_ship_part_xx_9_turbolaser"
 	icon_frame = 1
@@ -299,7 +299,7 @@ weapon_component_template = {
 	}
 	
 	prerequisites = { "tech_swfo_xx_9_turbolaser" }
-	component_set = "SWFO_XX-9_HEAVY_TURBO"
+	component_set = "SWFO_Triple_TURBO"
 	projectile_gfx = "swfo_heavy_turbo_m_g"
 	tags = { weapon_type_energy weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor weapon_role_anti_shield }
@@ -310,7 +310,7 @@ weapon_component_template = {
 	
 	key = "SWFO_LARGE_Triple_HEAVY_TURBO"
 	size = large
-	entity = "large_kinetic_gun_entity"
+	#entity = "large_kinetic_gun_entity"
 	
 	icon = "GFX_ship_part_tir_turbolaser"
 	icon_frame = 1
@@ -342,7 +342,7 @@ weapon_component_template = {
 	}
 	
 	prerequisites = { "tech_swfo_xx_9_turbolaser" }
-	component_set = "SWFO_XX-9_HEAVY_TURBO"
+	component_set = "SWFO_Triple_TURBO"
 	projectile_gfx = "swfo_heavy_turbo_l_g"
 	tags = { weapon_type_energy weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor weapon_role_anti_shield }
