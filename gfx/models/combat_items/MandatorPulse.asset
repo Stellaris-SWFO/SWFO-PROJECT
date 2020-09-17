@@ -4,6 +4,7 @@ entity = {
 
 	default_state = idle
 	state = { name = "idle" }
+	scale = 4.0
 }
 
 entity = {

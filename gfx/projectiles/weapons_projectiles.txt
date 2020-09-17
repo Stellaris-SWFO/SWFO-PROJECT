@@ -1,21 +1,3 @@
-projectile_gfx_beam = {
-	#common for all types of projectiles
-	name = "mandatorlaser"
-	color = { 1.0 	 0.3 	0.3 	0.5 }
-	hit_entity = "swfo_Superlaser_hit_entity"
-	shield_hit_entity = "swfo_Superlaser_shield_hit_entity"
-	muzzle_flash_entity = "swfo_Superlaser_muzzle_entity"
-	
-	entity = "MandatorPulse_entity"
-	speed = 400.0		#preferred speed of the projectile
-	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
-	shield_impact = {
-		size = large
-		delay = 1.0
-	}
-}
-
 projectile_gfx_ballistic = {
 	#common for all types of projectiles
 	name = "swfo_heavy_turbo_s_g"

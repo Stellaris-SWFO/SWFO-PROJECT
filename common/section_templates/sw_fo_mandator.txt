@@ -16,44 +16,24 @@ ship_section_template = {
 		locatorname = "T02"
 	}
 	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "large_turret"
-		locatorname = "L01"
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "T01"
 	}
 	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "large_turret"
-		locatorname = "L02"
+		name = "TITANIC_04"
+		template = "invisible_titanic_fixed"
+		locatorname = "T02"
 	}
 	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "large_turret"
-		locatorname = "L03"
+		name = "TITANIC_05"
+		template = "invisible_titanic_fixed"
+		locatorname = "T01"
 	}
 	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "large_turret"
-		locatorname = "L04"
-	}
-	component_slot = {
-		name = "LARGE_GUN_05"
-		template = "large_turret"
-		locatorname = "L05"
-	}
-	component_slot = {
-		name = "LARGE_GUN_06"
-		template = "large_turret"
-		locatorname = "L06"
-	}
-	component_slot = {
-		name = "LARGE_GUN_07"
-		template = "large_turret"
-		locatorname = "L07"
-	}
-	component_slot = {
-		name = "LARGE_GUN_08"
-		template = "large_turret"
-		locatorname = "L08"
+		name = "TITANIC_06"
+		template = "invisible_titanic_fixed"
+		locatorname = "T02"
 	}
 	component_slot = {
 		name = "HANGAR_01"
@@ -102,62 +82,62 @@ ship_section_template = {
 	entity = "first_01_Manator_bow_entity"
 	icon = "GFX_ship_part_core_mid"
 	component_slot = {
-		name = "LARGE_GUN_01"
+		name = "POINT_DEFIND_1"
 		template = "point_defence_turret"
 		locatorname = "L011"
 	}
 	component_slot = {
-		name = "LARGE_GUN_02"
+		name = "POINT_DEFIND_02"
 		template = "point_defence_turret"
 		locatorname = "L08"
 	}
 	component_slot = {
-		name = "LARGE_GUN_03"
+		name = "POINT_DEFIND_03"
 		template = "point_defence_turret"
 		locatorname = "L09"
 	}
 	component_slot = {
-		name = "LARGE_GUN_04"
+		name = "POINT_DEFIND_04"
 		template = "point_defence_turret"
 		locatorname = "L010"
 	}
 	component_slot = {
-		name = "LARGE_GUN_05"
+		name = "POINT_DEFIND_05"
 		template = "point_defence_turret"
 		locatorname = "L011"
 	}
 	component_slot = {
-		name = "LARGE_GUN_06"
+		name = "POINT_DEFIND_06"
 		template = "point_defence_turret"
 		locatorname = "L012"
 	}
 	component_slot = {
-		name = "LARGE_GUN_07"
+		name = "POINT_DEFIND_07"
 		template = "point_defence_turret"
 		locatorname = "L013"
 	}
 	component_slot = {
-		name = "LARGE_GUN_08"
+		name = "POINT_DEFIND_08"
 		template = "point_defence_turret"
 		locatorname = "L014"
 	}
 	component_slot = {
-		name = "LARGE_GUN_09"
+		name = "POINT_DEFIND_09"
 		template = "point_defence_turret"
 		locatorname = "L015"
 	}
 	component_slot = {
-		name = "LARGE_GUN_10"
+		name = "POINT_DEFIND_10"
 		template = "point_defence_turret"
 		locatorname = "L016"
 	}
 	component_slot = {
-		name = "LARGE_GUN_11"
+		name = "POINT_DEFIND_11"
 		template = "point_defence_turret"
 		locatorname = "L017"
 	}
 	component_slot = {
-		name = "LARGE_GUN_12"
+		name = "POINT_DEFIND_12"
 		template = "point_defence_turret"
 		locatorname = "L018"
 	}
@@ -178,62 +158,62 @@ ship_section_template = {
 	entity = "first_01_Manator_bow_entity"
 	icon = "GFX_ship_part_core_mid"
 	component_slot = {
-		name = "LARGE_GUN_01"
+		name = "POINT_DEFIND_1"
 		template = "point_defence_turret"
 		locatorname = "L023"
 	}
 	component_slot = {
-		name = "LARGE_GUN_02"
+		name = "POINT_DEFIND_02"
 		template = "point_defence_turret"
 		locatorname = "L024"
 	}
 	component_slot = {
-		name = "LARGE_GUN_03"
+		name = "POINT_DEFIND_03"
 		template = "point_defence_turret"
 		locatorname = "L025"
 	}
 	component_slot = {
-		name = "LARGE_GUN_04"
+		name = "POINT_DEFIND_04"
 		template = "point_defence_turret"
 		locatorname = "L026"
 	}
 	component_slot = {
-		name = "LARGE_GUN_05"
+		name = "POINT_DEFIND_05"
 		template = "point_defence_turret"
 		locatorname = "L020"
 	}
 	component_slot = {
-		name = "LARGE_GUN_06"
+		name = "POINT_DEFIND_06"
 		template = "point_defence_turret"
 		locatorname = "L020"
 	}
 	component_slot = {
-		name = "LARGE_GUN_07"
+		name = "POINT_DEFIND_07"
 		template = "point_defence_turret"
 		locatorname = "L019"
 	}
 	component_slot = {
-		name = "LARGE_GUN_08"
+		name = "POINT_DEFIND_08"
 		template = "point_defence_turret"
 		locatorname = "L01"
 	}
 	component_slot = {
-		name = "LARGE_GUN_09"
+		name = "POINT_DEFIND_09"
 		template = "point_defence_turret"
 		locatorname = "L02"
 	}
 	component_slot = {
-		name = "LARGE_GUN_10"
+		name = "POINT_DEFIND_10"
 		template = "point_defence_turret"
 		locatorname = "L05"
 	}
 	component_slot = {
-		name = "LARGE_GUN_11"
+		name = "POINT_DEFIND_11"
 		template = "point_defence_turret"
 		locatorname = "L06"
 	}
 	component_slot = {
-		name = "LARGE_GUN_12"
+		name = "POINT_DEFIND_12"
 		template = "point_defence_turret"
 		locatorname = "L07"
 	}
@@ -254,62 +234,62 @@ ship_section_template = {
 	entity = "first_01_Manator_bow_entity"
 	icon = "GFX_ship_part_core_mid"
 	component_slot = {
-		name = "LARGE_GUN_01"
+		name = "POINT_DEFIND_1"
 		template = "point_defence_turret"
 		locatorname = "L01"
 	}
 	component_slot = {
-		name = "LARGE_GUN_02"
+		name = "POINT_DEFIND_02"
 		template = "point_defence_turret"
 		locatorname = "L09"
 	}
 	component_slot = {
-		name = "LARGE_GUN_03"
+		name = "POINT_DEFIND_03"
 		template = "point_defence_turret"
 		locatorname = "L01"
 	}
 	component_slot = {
-		name = "LARGE_GUN_04"
+		name = "POINT_DEFIND_04"
 		template = "point_defence_turret"
 		locatorname = "L02"
 	}
 	component_slot = {
-		name = "LARGE_GUN_05"
+		name = "POINT_DEFIND_05"
 		template = "point_defence_turret"
 		locatorname = "L03"
 	}
 	component_slot = {
-		name = "LARGE_GUN_06"
+		name = "POINT_DEFIND_06"
 		template = "point_defence_turret"
 		locatorname = "L04"
 	}
 	component_slot = {
-		name = "LARGE_GUN_07"
+		name = "POINT_DEFIND_07"
 		template = "point_defence_turret"
 		locatorname = "L05"
 	}
 	component_slot = {
-		name = "LARGE_GUN_08"
+		name = "POINT_DEFIND_08"
 		template = "point_defence_turret"
 		locatorname = "L06"
 	}
 	component_slot = {
-		name = "LARGE_GUN_09"
+		name = "POINT_DEFIND_09"
 		template = "point_defence_turret"
 		locatorname = "L07"
 	}
 	component_slot = {
-		name = "LARGE_GUN_10"
+		name = "POINT_DEFIND_10"
 		template = "point_defence_turret"
 		locatorname = "L08"
 	}
 	component_slot = {
-		name = "LARGE_GUN_11"
+		name = "POINT_DEFIND_11"
 		template = "point_defence_turret"
 		locatorname = "L09"
 	}
 	component_slot = {
-		name = "LARGE_GUN_12"
+		name = "POINT_DEFIND_12"
 		template = "point_defence_turret"
 		locatorname = "L010"
 	}
