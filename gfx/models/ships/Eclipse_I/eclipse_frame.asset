@@ -1,7 +1,7 @@
 entity = {
 	name = "eclipse_frame_entity"
 	pdxmesh = "eclipse_frame_mesh"
-
+	scale = 2.0
 	default_state = "idle"
 	state = { name = "idle" state_time = 1 }
 	state = { name = "moving" state_time = 1

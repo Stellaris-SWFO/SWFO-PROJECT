@@ -3,16 +3,6 @@ objectTypes = {
 	# Eclipse
 	################
 	pdxparticle = {
-		name = "ship_light_green_smallgreen_effect"
-		type = "SG_green_effect"
-		scale = 36
-	}
-	pdxparticle = {
-		name = "ship_light_green_biggreen_effect"
-		type = "SW_green_effect"
-		scale = 115
-	}
-	pdxparticle = {
 		name = "muzzle_green_SW_effect"
 		type = "muzzle_sw_green_effect"
 		scale = 10

@@ -15,5 +15,5 @@ tags={
 	"Leaders"
 }
 name="Rise of the First Order"
-supported_version="2.7.*"
+supported_version="2.7.2"
 remote_file_id="1968639708"
