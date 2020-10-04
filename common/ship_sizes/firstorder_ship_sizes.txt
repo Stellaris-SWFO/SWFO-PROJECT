@@ -515,3 +515,108 @@ firstorder_ship_supremacy = {
 		alloys = 50
 	}
 }
+
+firstorder_ship_supremacy_fixable = {
+	formation_priority = 5
+	max_speed = 100
+	acceleration = 0.15
+	rotation_speed = 0.15
+	collision_radius = 100 #20
+	modifier = {
+		ship_evasion_add = 2.5
+		ship_armor_add = 300000
+		ship_shield_add = 300000
+		starbase_shipyard_capacity_add = 10
+	}
+	entity = "supermacy_fixable_frame_entity"
+	max_hitpoints = 300000
+	size_multiplier = 100
+	fleet_slot_size = 50
+	section_slots = { "bow" = { locator = "part1" } "mid1" = { locator = "part2" } "mid2" = { locator = "part3" } "mid3" = { locator = "part4" } "stern" = { locator = "part5" } }
+	num_target_locators = 8
+	is_space_station = no
+	icon_frame = 7
+	base_buildtime = 2800
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	
+	prerequisites = { tech_superclass }
+	
+	combat_disengage_chance = 1.25
+	class = shipclass_starbase
+	construction_type = starbase_shipyard
+	default_behavior = artillery
+	
+	#Komponenten_rechts
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"	
+	required_component_set = "supremacy_hyperspacetracker_component"	
+
+	potential_construction = {
+		OR = {
+			AND = {
+				is_scope_type = starbase
+			}
+			AND = {
+				is_scope_type = megastructure
+				OR = {
+					is_megastructure_type = mega_shipyard_3
+					is_megastructure_type = mega_shipyard_restored
+				}
+			}
+		}
+	}
+
+	possible_construction = {
+		custom_tooltip = {
+			fail_text = starbase_citadel_trigger
+			OR = {
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+				AND = {
+					is_scope_type = starbase
+					has_starbase_size >= starbase_citadel
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = need_stardestroyershipyard
+			OR = {
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+				AND = {
+					is_scope_type = starbase
+					has_starbase_building = stardestroyer_yards
+				}
+			}
+		}
+	}
+	
+	empire_limit = {
+		base = 1
+	}
+	
+	resources = {
+		category = ships
+		cost = {
+			alloys = 20000
+		}
+		upkeep = {
+			energy = 2000
+			alloys = 20
+		}
+	}
+}

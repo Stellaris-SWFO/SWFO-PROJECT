@@ -22,6 +22,7 @@ utility_component_template = {
 	size_restriction = {
 		"firstorder_ship_resurgent"
 		"firstorder_ship_supremacy"
+		"firstorder_ship_supremacy_fixable"
 	}
 	component_set = "combat_computers"
 	ship_behavior = "artillery"
@@ -56,6 +57,7 @@ utility_component_template = {
 	size_restriction = {
 		"firstorder_ship_resurgent"
 		"firstorder_ship_supremacy"
+		"firstorder_ship_supremacy_fixable"
 	}
 	component_set = "combat_computers"
 	ship_behavior = "artillery"
@@ -91,6 +93,7 @@ utility_component_template = {
 	size_restriction = {
 		"firstorder_ship_resurgent"
 		"firstorder_ship_supremacy"
+		"firstorder_ship_supremacy_fixable"
 	}
 	component_set = "combat_computers"
 	ship_behavior = "artillery"
@@ -126,6 +129,7 @@ utility_component_template = {
 	size_restriction = {
 		"firstorder_ship_resurgent"
 		"firstorder_ship_supremacy"
+		"firstorder_ship_supremacy_fixable"
 	}
 	component_set = "combat_computers"
 	ship_behavior = "artillery"

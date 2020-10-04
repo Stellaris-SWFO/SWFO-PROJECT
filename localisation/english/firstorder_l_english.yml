@@ -178,6 +178,8 @@
  supermacy_MID2_1:0 "Supremacy Starboard I"
  supermacy_MID3_1:0 "Supremacy Starboard II"
  supermacy_STERN_1:0 "Supremacy Stern"
+ firstorder_ship_supremacy_fixable:0 "$firstorder_ship_supremacy$"
+ firstorder_ship_supremacy_fixable_plural:0 "$firstorder_ship_supremacy$"
  
  ####################################
  # Ship Components

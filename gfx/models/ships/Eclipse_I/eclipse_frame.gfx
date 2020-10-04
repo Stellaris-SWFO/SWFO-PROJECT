@@ -333,5 +333,14 @@ objectTypes = {
 		name = "eclipse_locator_mesh"
 		file = "gfx/models/ships/Eclipse_I/eclipse_locator.mesh"
 		scale = 1.0
+
+		meshsettings = {
+			name = "Hangar_ComplexShape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Norm.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
 	}
 }

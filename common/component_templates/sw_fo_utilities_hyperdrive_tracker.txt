@@ -9,6 +9,7 @@ utility_component_template = {
 	}
 	size_restriction = {
 		firstorder_ship_supremacy
+		firstorder_ship_supremacy_fixable
 	}
 	component_set = "supremacy_hyperspacetracker_component"
 	ship_modifier = {

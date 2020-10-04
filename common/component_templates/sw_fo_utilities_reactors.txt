@@ -69,6 +69,7 @@ utility_component_template = {
 	component_set = "power_core"
 	size_restriction = {
 		"firstorder_ship_supremacy"
+		"firstorder_ship_supremacy_fixable"
 		"firstorder_ship_eclipse"
 		"firstorder_ship_mandator"
 		"xyston"
