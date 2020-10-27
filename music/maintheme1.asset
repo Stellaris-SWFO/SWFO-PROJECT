@@ -1,0 +1,5 @@
+music = {
+	name = "maintheme1"
+	file = "swfo_maintain.ogg"
+	volume = 0.70
+}
