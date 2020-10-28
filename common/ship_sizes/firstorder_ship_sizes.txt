@@ -430,7 +430,7 @@ firstorder_ship_supremacy = {
 	base_buildtime = 2800
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	
+	can_disable = no
 	prerequisites = { tech_SUPREMACYCLASS }
 	
 	combat_disengage_chance = 1.25
@@ -450,6 +450,10 @@ firstorder_ship_supremacy = {
 		OR = {
 			AND = {
 				is_scope_type = starbase
+				NOR = {
+					has_starbase_size = firstorder_ship_supremacy
+					has_starbase_size = firstorder_ship_supremacy_fixable
+				}
 			}
 			AND = {
 				is_scope_type = megastructure
@@ -539,10 +543,9 @@ firstorder_ship_supremacy_fixable = {
 	base_buildtime = 2800
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	
 	prerequisites = { tech_superclass }
-	
 	combat_disengage_chance = 1.25
+	can_disable = no
 	class = shipclass_starbase
 	construction_type = starbase_shipyard
 	default_behavior = artillery
@@ -559,6 +562,10 @@ firstorder_ship_supremacy_fixable = {
 		OR = {
 			AND = {
 				is_scope_type = starbase
+				NOR = {
+					has_starbase_size = firstorder_ship_supremacy
+					has_starbase_size = firstorder_ship_supremacy_fixable
+				}
 			}
 			AND = {
 				is_scope_type = megastructure
