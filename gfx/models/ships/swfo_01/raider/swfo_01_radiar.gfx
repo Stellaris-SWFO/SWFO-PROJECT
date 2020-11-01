@@ -1,0 +1,23 @@
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_01_radiar_mesh"
+		file = "gfx/models/ships/swfo_01/raider/swfo_01_radiar.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "LightShape"
+			index = 0
+			texture_diffuse = "EV_Raider_Corvette_L.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "EV_Raider_Corvette_Diff.dds"
+			texture_normal = "EV_Raider_Corvette_Norm.dds"
+			texture_specular = "EV_Raider_Corvette_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

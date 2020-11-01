@@ -1,6 +1,6 @@
 entity = {
 	name = "swfo_01_science_entity"	
-	pdxmesh = "swfo_01_escortcarrier_mesh"
+	pdxmesh = "swfo_01_corvette_mesh"
 	
 	default_state = "idle"
 	state = { name = "idle"	  }
@@ -13,7 +13,7 @@ entity = {
 
 entity = {
  name = "swfo_01_science_ship_entity"
-	pdxmesh = "swfo_01_escortcarrier_mesh"
+	pdxmesh = "swfo_01_corvette_mesh"
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
