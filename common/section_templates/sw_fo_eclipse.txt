@@ -338,11 +338,10 @@ ship_section_template = {
 		template = "invisible_titanic_fixed"
 		locatorname = "xl_gun_01"
 	}
-	large_utility_slots = 8
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 200
+			alloys = 0
 		}
 	}
 }
@@ -394,11 +393,10 @@ ship_section_template = {
 		template = "xyston_large_turret"
 		locatorname = "large_gun_08"
 	}
-	large_utility_slots = 8
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 200
+			alloys = 0
 		}
 	}
 }
@@ -450,11 +448,10 @@ ship_section_template = {
 		template = "xyston_large_turret"
 		locatorname = "large_gun_08"
 	}
-	large_utility_slots = 8
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 200
+			alloys = 0
 		}
 	}
 }
@@ -506,11 +503,10 @@ ship_section_template = {
 		template = "xyston_large_turret"
 		locatorname = "large_gun_08"
 	}
-	large_utility_slots = 8
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 200
+			alloys = 0
 		}
 	}
 }
@@ -562,12 +558,11 @@ ship_section_template = {
 		template = "xyston_large_turret"
 		locatorname = "large_gun_08"
 	}
-	large_utility_slots = 8
 	aux_utility_slots = 4
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 200
+			alloys = 0
 		}
 	}
 }

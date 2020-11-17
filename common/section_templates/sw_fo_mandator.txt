@@ -1,4 +1,4 @@
-@mandator_section_cost = 4000
+@mandator_section_cost = 0
 ship_section_template = {
 	key = "Manator_ship_BOW"
 	ship_size = firstorder_ship_mandator
@@ -65,7 +65,7 @@ ship_section_template = {
 		template = "large_strike_craft"
 		locatorname = "mid_strike_craft_02"
 	}
-	large_utility_slots = 8
+	aux_utility_slots = 1
 	resources = {
 		category = ship_sections
 		cost = {
@@ -141,7 +141,7 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "L018"
 	}
-	large_utility_slots = 8
+	aux_utility_slots = 1
 	resources = {
 		category = ship_sections
 		cost = {
@@ -217,7 +217,7 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "L07"
 	}
-	large_utility_slots = 8
+	aux_utility_slots = 1
 	resources = {
 		category = ship_sections
 		cost = {
@@ -293,8 +293,7 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "L010"
 	}
-	aux_utility_slots = 4
-	large_utility_slots = 4
+	aux_utility_slots = 1
 	resources = {
 		category = ship_sections
 		cost = {

@@ -6,13 +6,13 @@ firstorder_ship_resurgent = {
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
 	modifier = {
-		ship_armor_add = 60000
-		ship_shield_add = 60000
+		ship_armor_add = 8000
+		ship_shield_add = 8000
 	}
 	entity = "swfo_resurgent_frame_entity"
-	max_hitpoints = 60000
-	size_multiplier = 12
-	fleet_slot_size = 18
+	max_hitpoints = 8000
+	size_multiplier = 10
+	fleet_slot_size = 10
 	section_slots = { "bow" = { locator = "part1" } "mid1" = { locator = "part2" } "mid2" = { locator = "part3" } "stern" = { locator = "part4" } }
 	num_target_locators = 6
 	is_space_station = no
@@ -86,14 +86,12 @@ firstorder_ship_resurgent = {
 	
 	resources = {
 		category = ships
+		cost = {
+			alloys = 3000
+		}
 		upkeep = {
 			energy = 2
-			alloys = 2
 		}
-	}
-
-	min_upgrade_cost = {
-		alloys = 10
 	}
 }
 ##################################################Mandator IV##################################################
@@ -103,11 +101,11 @@ firstorder_ship_mandator = {
 	acceleration = 0.2
 	rotation_speed = 0.15
 	modifier = {
-		ship_shield_add = 150000
-		ship_armor_add = 150000
+		ship_shield_add = 100000
+		ship_armor_add = 100000
 	}
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 150000
+	max_hitpoints = 100000
 	size_multiplier = 25
 	fleet_slot_size = 25
 	section_slots = { "main" = { locator = "part1" } "bow" = { locator = "part2" } "mid" = { locator = "part3" } "stern" = { locator = "part4" } } 
@@ -186,14 +184,12 @@ firstorder_ship_mandator = {
 
 	resources = {
 		category = ships
+		cost = {
+			alloys = 20000
+		}
 		upkeep = {
 			energy = 20
-			alloys = 20
 		}
-	}
-
-	min_upgrade_cost = {
-		alloys = 20
 	}
 }
 ######################################Xyston##################################################
@@ -203,13 +199,13 @@ xyston = {
 	acceleration = 0.2
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 60000
+	max_hitpoints = 10000
 	modifier = {
-		ship_armor_add = 60000
-		ship_shield_add = 60000
+		ship_armor_add = 10000
+		ship_shield_add = 10000
 	}
-	size_multiplier = 25
-	fleet_slot_size = 25
+	size_multiplier = 10
+	fleet_slot_size = 10
 	section_slots = {
 		"bow" = { locator = "part1" }
 		"mid" = { locator = "part2" }
@@ -289,11 +285,10 @@ xyston = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 500
+			alloys = 10000
 		}
 		upkeep = {
-			energy = 200
-			alloys = 10
+			energy = 10
 		}
 	}
 }
@@ -399,8 +394,8 @@ firstorder_ship_eclipse = {
 			alloys = 20000
 		}
 		upkeep = {
-			energy = 2000
-			alloys = 20
+			energy = 1000
+			alloys = 10
 		}
 	}
 }

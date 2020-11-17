@@ -1,4 +1,4 @@
-@resurgent_section_cost = 250
+@resurgent_section_cost = 0
 #BOW Resurgent
 ship_section_template = {
 	key = "ST_RESURGENT_BOW"
@@ -65,8 +65,6 @@ ship_section_template = {
 		locatorname = "large_gun_05"
 		#rotation = 90
 	}
-	medium_utility_slots = 4
-	large_utility_slots = 4
 	resources = {
 		category = ship_sections
 		cost = {
@@ -123,8 +121,6 @@ ship_section_template = {
 		template = "resurant_large_turret"
 		locatorname = "large_gun_12"
 	}
-	medium_utility_slots = 4
-	large_utility_slots = 4
 	resources = {
 		category = ship_sections
 		cost = {
@@ -203,8 +199,6 @@ ship_section_template = {
 		template = "medium_missile_turret"
 		locatorname = "large_gun_14"
 	}
-	medium_utility_slots = 4
-	large_utility_slots = 4
 	resources = {
 		category = ship_sections
 		cost = {
@@ -278,8 +272,6 @@ ship_section_template = {
 		locatorname = "large_gun_06"
 	}
 	aux_utility_slots = 2
-	large_utility_slots = 2
-	medium_utility_slots = 4
 	resources = {
 		category = ship_sections
 		cost = {

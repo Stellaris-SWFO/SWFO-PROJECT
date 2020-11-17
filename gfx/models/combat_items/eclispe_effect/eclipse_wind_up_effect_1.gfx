@@ -8,7 +8,9 @@ objectTypes = {
 			name = "pCylinder4_Shape1"
 			index = 0
 			texture_diffuse = "eclipse_effect_diifuse.dds"
-			shader = "PdxMeshAlphaAdditive"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshAlphaAdditiveAnimateUVErosion"
 		}
 	}
 	pdxmesh = {
@@ -20,7 +22,9 @@ objectTypes = {
 			name = "pCylinder2_Shape3"
 			index = 0
 			texture_diffuse = "eclipse_effect_diifuse.dds"
-			shader = "PdxMeshAlphaAdditive"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshAlphaAdditiveAnimateUVErosion"
 		}
 	}
 	pdxmesh = {
@@ -32,7 +36,9 @@ objectTypes = {
 			name = "pCylinder3_Shape2"
 			index = 0
 			texture_diffuse = "eclipse_effect_diifuse.dds"
-			shader = "PdxMeshAlphaAdditive"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshAlphaAdditiveAnimateUVErosion"
 		}
 	}
 	pdxmesh = {
@@ -44,8 +50,9 @@ objectTypes = {
 			name = "pCylinder1_Shape4"
 			index = 0
 			texture_diffuse = "eclipse_effect_diifuse.dds"
-			shader = "PdxMeshAlphaAdditive"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshAlphaAdditiveAnimateUVErosion"
 		}
 	}
-
 }
