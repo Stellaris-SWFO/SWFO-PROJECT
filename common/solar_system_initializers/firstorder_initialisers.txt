@@ -59,7 +59,7 @@ starkiller_base = {
 	#Starkiller Base
 	planet = {
 		count = 1
-		name = "Starkiller Base"
+		name = "Ilum"
 		class = pc_arctic
 		orbit_distance = 26
 		orbit_angle = 88

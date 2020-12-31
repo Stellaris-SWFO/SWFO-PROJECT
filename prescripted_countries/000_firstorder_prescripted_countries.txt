@@ -40,9 +40,9 @@
 	ethic = "ethic_fanatic_militarist"
 	
 	#System
-	planet_name = "Starkiller Base"
+	planet_name = "Ilum"
 	planet_class = "pc_arctic"
-	system_name = "Starkiller Base"
+	system_name = "Unknown Regions"
 	
 	#Designs
 	graphical_culture = "swfo_01"				#Ship Design	
