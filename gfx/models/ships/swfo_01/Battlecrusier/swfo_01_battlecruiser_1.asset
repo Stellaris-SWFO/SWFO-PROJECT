@@ -43,7 +43,7 @@ entity = {
 		event = { time = 6.5 node = "explosion_locator9" particle = "avian_01_large_ship_explosion_particle" }
 		event = { time = 6.5 node = "explosion_locator9" particle = "ship_burn_particle" }
 
-		event = { time = 0.0 particle = "nsc_superdread_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		#event = { time = 0.0 particle = "nsc_superdread_explosion_particle" sound = { soundeffect = ship_destroyed } }
 	}
 	
 	scale = .9
@@ -505,11 +505,11 @@ entity = {
 		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
 	}
 	state = { name = "moving" state_time = 5
-		event = { time = 0 node = "engine_small_01" particle = "swfo_01_1_45_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
-		event = { time = 0 node = "engine_small_02" particle = "swfo_01_1_45_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
-		event = { time = 0 node = "engine_small_03" particle = "swfo_01_1_45_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
-		event = { time = 0 node = "engine_small_04" particle = "swfo_01_1_45_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
-		event = { time = 0 node = "engine_medium_01" particle = "swfo_01_2_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_01" particle = "swfo_s_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_02" particle = "swfo_s_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_03" particle = "swfo_s_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_04" particle = "swfo_s_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_01" particle = "swfo_s_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
 	
 		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
 		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
