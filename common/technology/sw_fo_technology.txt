@@ -17,10 +17,7 @@ tech_RESURGENTCLASS = {
 	weight = 100
 	#unlock Resurgent Class
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -45,10 +42,7 @@ tech_ECLIPSECLASS = {
 	weight = @tier5weight1_1
 	#unlock Eclipse Class
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	modifier = {
 		country_resource_max_add = 200000
@@ -76,10 +70,7 @@ tech_MANDATORCLASS = {
 	weight = @tier5weight1_1
 	#unlock Mandator Class
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -104,10 +95,7 @@ tech_SUPREMACYCLASS = {
 	weight = @tier5weight1_1
 	#unlock Supremacy Class
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -131,10 +119,7 @@ tech_RESURGENTTHRUSTER1 = {
 	}
 	weight = 100
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -155,10 +140,7 @@ tech_SUPREMACYTHRUSTER1 = {
 	}
 	weight = @tier5weight1_1
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -182,10 +164,7 @@ tech_RESURGENTREACTOR1 = {
 	}
 	weight = 100
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -206,10 +185,7 @@ tech_SUPREMACYREACTOR1 = {
 	}
 	weight = @tier5weight1_1
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -233,10 +209,7 @@ tech_starbasebuilding_stardestroyer = {
 	}
 	is_reverse_engineerable = no
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -260,10 +233,7 @@ tech_supremacyhyperspacetracker = {
 		"tech_ECLIPSECLASS"
 	}
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -287,10 +257,7 @@ tech_building_swfo_training_facilities = {
 	}
 	is_reverse_engineerable = no
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -311,10 +278,7 @@ tech_building_swfo_atat_factory = {
 	}
 	is_reverse_engineerable = no
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -338,10 +302,7 @@ tech_swfo_stormtrooper_legion = {
 		"tech_building_swfo_training_facilities"
 	}
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -362,10 +323,7 @@ tech_swfo_atatm6_walker = {
 		"tech_building_swfo_atat_factory"
 	}
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -389,10 +347,7 @@ tech_strike_craft_tiefo = {
 	weight = 100
 	#unlock TIE/fo
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	weight_modifier = {
 		modifier = {
@@ -421,10 +376,7 @@ tech_strike_craft_tiesilencer = {
 	}
 	weight = 100
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	#unlock TIE Interceptor
 	weight_modifier = {
@@ -456,10 +408,7 @@ tech_superclass = {
 	weight = 0
 	#unlock Resurgent Class
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 	ai_weight = {
 		weight = 0		#0 means AI won´t pick it
@@ -476,10 +425,7 @@ tech_swfo_xx_9_turbolaser = {
 	weight = 100
 	
 	potential = {
-		OR = {
-			has_valid_civic = civic_first_order_military
-			has_valid_civic = civic_final_order
-		}
+		has_origin = origin_first_order_military
 	}
 
 	is_rare = yes
